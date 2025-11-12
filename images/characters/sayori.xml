@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="sayori.png" width="4915" height="1650" spritePadding="3" borderPadding="1">
+	<SubTexture name="Sayo Idle nrw test0000" x="1" y="1" width="359" height="660" frameX="-14" frameY="-19" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0001" x="1" y="1" width="359" height="660" frameX="-14" frameY="-19" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0002" x="363" y="1" width="358" height="670" frameX="-10" frameY="-9" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0003" x="363" y="1" width="358" height="670" frameX="-10" frameY="-9" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0004" x="724" y="1" width="340" height="677" frameX="-24" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0005" x="724" y="1" width="340" height="677" frameX="-24" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0006" x="1067" y="1" width="337" height="677" frameX="-23" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0007" x="1067" y="1" width="337" height="677" frameX="-23" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0008" x="1407" y="1" width="310" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0009" x="1407" y="1" width="310" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0010" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0011" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0012" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0013" x="2034" y="1" width="252" height="661" frameX="-97" frameY="-18" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0014" x="2034" y="1" width="252" height="661" frameX="-97" frameY="-18" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0015" x="2289" y="1" width="255" height="670" frameX="-84" frameY="-9" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0016" x="2289" y="1" width="255" height="670" frameX="-84" frameY="-9" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0017" x="2547" y="1" width="269" height="671" frameX="-74" frameY="-8" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0018" x="2547" y="1" width="269" height="671" frameX="-74" frameY="-8" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0019" x="2819" y="1" width="282" height="672" frameX="-64" frameY="-7" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0020" x="2819" y="1" width="282" height="672" frameX="-64" frameY="-7" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0021" x="3104" y="1" width="298" height="677" frameX="-50" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0022" x="3104" y="1" width="298" height="677" frameX="-50" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0023" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0024" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Idle nrw test0025" x="1720" y="1" width="311" height="677" frameX="-46" frameY="-2" frameWidth="378" frameHeight="679"/>
+	<SubTexture name="Sayo Nara animated0000" x="3405" y="1" width="308" height="666" frameX="-5" frameY="-16" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0001" x="3716" y="1" width="276" height="666" frameX="-37" frameY="-16" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0002" x="3995" y="1" width="273" height="662" frameX="-41" frameY="-20" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0003" x="4271" y="1" width="242" height="649" frameX="-72" frameY="-33" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0004" x="4516" y="1" width="267" height="641" frameX="-70" frameY="-41" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0005" x="1" y="681" width="320" height="624" frameX="-52" frameY="-58" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0006" x="324" y="681" width="312" height="624" frameX="-60" frameY="-58" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0007" x="639" y="681" width="295" height="626" frameX="-70" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0008" x="937" y="681" width="288" height="626" frameX="-77" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0009" x="937" y="681" width="288" height="626" frameX="-77" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0010" x="1228" y="681" width="290" height="626" frameX="-75" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0011" x="1228" y="681" width="290" height="626" frameX="-75" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0012" x="1521" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0013" x="1521" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0014" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0015" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0016" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0017" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0018" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0019" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0020" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0021" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0022" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0023" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0024" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0025" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0026" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0027" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0028" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0029" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0030" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0031" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0032" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0033" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0034" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Nara animated0035" x="1815" y="681" width="291" height="626" frameX="-74" frameY="-56" frameWidth="399" frameHeight="682"/>
+	<SubTexture name="Sayo Sing Note Down0000" x="2109" y="681" width="253" height="607" frameX="-10" frameY="-18" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0001" x="2109" y="681" width="253" height="607" frameX="-10" frameY="-18" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0002" x="2109" y="681" width="253" height="607" frameX="-10" frameY="-18" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0003" x="2365" y="681" width="248" height="612" frameX="-11" frameY="-13" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0004" x="2365" y="681" width="248" height="612" frameX="-11" frameY="-13" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0005" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0006" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0007" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0008" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0009" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0010" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0011" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0012" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0013" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Down0014" x="2616" y="681" width="249" height="620" frameX="-6" frameY="-5" frameWidth="269" frameHeight="627"/>
+	<SubTexture name="Sayo Sing Note Left0000" x="2868" y="681" width="250" height="670" frameX="-12" frameY="-4" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0001" x="2868" y="681" width="250" height="670" frameX="-12" frameY="-4" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0002" x="2868" y="681" width="250" height="670" frameX="-12" frameY="-4" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0003" x="3121" y="681" width="242" height="656" frameX="-28" frameY="-18" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0004" x="3366" y="681" width="248" height="652" frameX="-42" frameY="-22" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0005" x="3617" y="681" width="246" height="653" frameX="-40" frameY="-21" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0006" x="3866" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0007" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0008" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0009" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0010" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0011" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0012" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0013" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0014" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Left0015" x="4114" y="681" width="245" height="654" frameX="-39" frameY="-20" frameWidth="294" frameHeight="675"/>
+	<SubTexture name="Sayo Sing Note Right0000" x="4362" y="681" width="278" height="662" frameX="-3" frameY="-9" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0001" x="4362" y="681" width="278" height="662" frameX="-3" frameY="-9" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0002" x="4362" y="681" width="278" height="662" frameX="-3" frameY="-9" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0003" x="4643" y="681" width="271" height="650" frameX="-3" frameY="-21" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0004" x="1" y="1354" width="634" height="295" rotated="true" frameX="-3" frameY="-37" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0005" x="1" y="1354" width="634" height="295" rotated="true" frameX="-3" frameY="-37" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0006" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0007" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0008" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0009" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0010" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0011" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0012" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0013" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0014" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Right0015" x="638" y="1354" width="637" height="288" rotated="true" frameX="-3" frameY="-34" frameWidth="310" frameHeight="671"/>
+	<SubTexture name="Sayo Sing Note Up0000" x="1278" y="1354" width="745" height="288" rotated="true" frameX="-30" frameY="-1" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0001" x="1278" y="1354" width="745" height="288" rotated="true" frameX="-30" frameY="-1" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0002" x="2026" y="1354" width="709" height="294" rotated="true" frameX="-12" frameY="-37" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0003" x="2738" y="1354" width="689" height="295" rotated="true" frameX="-9" frameY="-57" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0004" x="2738" y="1354" width="689" height="295" rotated="true" frameX="-9" frameY="-57" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0005" x="3430" y="1354" width="703" height="295" rotated="true" frameX="-9" frameY="-43" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0006" x="3430" y="1354" width="703" height="295" rotated="true" frameX="-9" frameY="-43" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0007" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0008" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0009" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0010" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0011" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0012" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0013" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+	<SubTexture name="Sayo Sing Note Up0014" x="4136" y="1354" width="712" height="294" rotated="true" frameX="-9" frameY="-34" frameWidth="324" frameHeight="747"/>
+</TextureAtlas>

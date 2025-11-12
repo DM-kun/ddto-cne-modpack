@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="sayomongus.png" width="6203" height="679" spritePadding="3" borderPadding="1">
+	<SubTexture name="Sayo Impostor Menu0000" x="3097" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0001" x="3607" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0002" x="4117" y="1" width="531" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0003" x="4651" y="1" width="531" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0004" x="1" y="1" width="523" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0005" x="527" y="1" width="523" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0006" x="1053" y="1" width="512" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0007" x="1568" y="1" width="512" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0008" x="5185" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0009" x="5695" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0010" x="3607" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0011" x="3097" y="1" width="507" height="677" frameX="-3" frameY="-2" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0012" x="2083" y="1" width="504" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0013" x="2590" y="1" width="504" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0014" x="2590" y="1" width="504" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+	<SubTexture name="Sayo Impostor Menu0015" x="2083" y="1" width="504" height="675" frameX="-6" frameY="-4" frameWidth="553" frameHeight="680"/>
+</TextureAtlas>

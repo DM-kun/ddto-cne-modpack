@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="protag.png" width="765" height="4629" spritePadding="3" borderPadding="1">
+	<SubTexture name="protag0000" x="377" y="2955" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0001" x="377" y="2955" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0002" x="377" y="2955" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0003" x="1" y="3517" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0004" x="1" y="3517" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0005" x="377" y="1826" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0006" x="1" y="2393" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0007" x="1" y="2393" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0008" x="380" y="1229" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0009" x="1" y="1826" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0010" x="1" y="1826" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0011" x="1" y="1826" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0012" x="380" y="1229" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0013" x="380" y="1229" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0014" x="380" y="1229" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0015" x="1" y="1826" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0016" x="1" y="1826" width="373" height="564" frameX="-14" frameY="-57" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0017" x="377" y="2393" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0018" x="1" y="2955" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0019" x="1" y="2955" width="373" height="559" frameX="-14" frameY="-62" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0020" x="377" y="3517" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0021" x="1" y="4074" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0022" x="1" y="4074" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0023" x="1" y="4074" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0024" x="377" y="3517" width="373" height="554" frameX="-14" frameY="-67" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0025" x="377" y="4074" width="387" height="508" frameX="0" frameY="-113" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0026" x="377" y="4074" width="387" height="508" frameX="0" frameY="-113" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0027" x="1" y="1" width="373" height="620" frameX="-14" frameY="0" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0028" x="1" y="1" width="373" height="620" frameX="-14" frameY="0" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0029" x="379" y="624" width="376" height="594" frameX="-17" frameY="-26" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0030" x="1" y="1229" width="376" height="594" frameX="-17" frameY="-26" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0031" x="1" y="624" width="375" height="602" frameX="-17" frameY="-18" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0032" x="1" y="624" width="375" height="602" frameX="-17" frameY="-18" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0033" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0034" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0035" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0036" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0037" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0038" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0039" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0040" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0041" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0042" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0043" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0044" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0045" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0046" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0047" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0048" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+	<SubTexture name="protag0049" x="377" y="1" width="375" height="604" frameX="-17" frameY="-16" frameWidth="387" frameHeight="620"/>
+</TextureAtlas>

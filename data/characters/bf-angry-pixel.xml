@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="566" camx="-100" camy="-12" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="bf-pixel" color="#7BD5F6" gameOverChar="bf-pixel-dead">
+	<anim name="idle" anim="BFPISSEDIdle"/>
+	<anim name="singLEFT" anim="BFPISSEDLeft"/>
+	<anim name="singDOWN" anim="BFPISSEDDown"/>
+	<anim name="singUP" anim="BFPISSEDUp"/>
+	<anim name="singRIGHT" anim="BFPISSEDRight"/>
+	<anim name="singUPmiss" anim="BFPISSED Up Miss"/>
+	<anim name="singLEFTmiss" anim="BFPISSED Left Miss"/>
+	<anim name="singRIGHTmiss" anim="BFPISSED Right Miss"/>
+	<anim name="singDOWNmiss" anim="BFPISSED Down Miss"/>
+</character>

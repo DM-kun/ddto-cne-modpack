@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" folder="stages/musicroom/" startCamPosY="550" startCamPosX="600">
+	<sprite name="clubroom" x="-250" y="-100" sprite="bg" scale="1.5" scroll="1" updateHitbox="true"/>
+
+	<sprite name="board" x="-250" y="-100" sprite="board-default" scale="1.5" scroll="1" updateHitbox="true"/>
+
+	<girlfriend spacingx="0" scroll="1"/>
+	<dad spacingx="0"/>
+	<boyfriend spacingx="0"/>
+
+	<sprite name="fg" x="-250" y="-100" sprite="fg" scale="1.5" scrollx="1.2" updateHitbox="true"/>
+
+	<sprite name="light" x="-250" y="-100" sprite="light" scale="1.5" scrollx="1.1" scrolly="0.9" updateHitbox="true"/>
+</stage>

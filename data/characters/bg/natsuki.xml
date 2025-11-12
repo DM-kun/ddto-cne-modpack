@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="1247" y="303" scale="0.7" updateHitbox="true">
+	<anim name="idle" anim="Natsu BG" loop="false" force="true"/>
+</character>

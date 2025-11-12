@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-week>
+<week name="Prologue: Just Monika" chars="" sprite="">
+	<song displayName="High School Conflict">high-school-conflict</song>
+	<song displayName="Bara no Yume">bara-no-yume</song>
+	<song displayName="Your Demise">your-demise</song>
+	<song displayName="Your Reality" hide="true">your-reality</song>
+</week>

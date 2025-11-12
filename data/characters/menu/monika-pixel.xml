@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="5" x="500" y="20" antialiasing="false">
+	<anim name="idle" anim="MkaIdle" fps="24" loop="false" forced="true"/>
+</char>

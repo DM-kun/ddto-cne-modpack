@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75" folder="stages/clubroom/" startCamPosY="500" startCamPosX="600">
+	<use-extension script="bgDokis"/>
+
+	<sprite name="closetFar" x="-700" y="-520" sprite="closetFar" scale="1.6" scrollx="0.9" updateHitbox="true"/>
+
+	<sprite name="clubroom" x="-700" y="-520" sprite="clubroom" scale="1.6" scroll="1" updateHitbox="true"/>
+
+	<solid name="tmp" x="-5000" y="-5000" width="1" height="1" color="#000000" antialiasing="false" updateHitbox="true"/>
+
+	<girlfriend scroll="1" spacingx="0"/>
+	<dad spacingx="0"/>
+	<boyfriend spacingx="0"/>
+
+	<sprite name="desksFG" x="-700" y="-520" sprite="desksFG" scale="1.6" scrollx="1.3" updateHitbox="true"/>
+
+	<sprite name="lights" x="-700" y="-520" sprite="lights" scale="1.6" scroll="1" updateHitbox="true"/>
+</stage>

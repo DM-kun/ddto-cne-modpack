@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.7" x="470" y="40">
+	<anim name="idle" anim="Doki together club" fps="21" loop="false" forced="true"/>
+</char>

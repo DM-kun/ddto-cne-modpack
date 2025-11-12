@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#000000",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "monika-big-pixel",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Your Demise",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180
+}

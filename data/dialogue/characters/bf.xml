@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character scale="0.9" textSound="dialogue/bf">
+	<anim name="neutral" anim="neutral" fps="24" />
+	<anim name="hmph" anim="hmph" fps="24" />
+	<anim name="scared" anim="scared" fps="24" />
+	<anim name="think" anim="think" fps="24" />
+	<anim name="yeah" anim="yeah" fps="24" />
+	<anim name="beep" anim="beep" fps="24" />
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.7" x="640" y="220">
+	<anim name="idle" anim="Natsu BG" fps="24" loop="false" forced="true"/>
+</char>

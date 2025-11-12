@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character scale="0.9" textSound="dialogue/sayori">
+	<anim name="neutral" anim="neutral" fps="24" />
+	<anim name="concern" anim="concern" fps="24" />
+	<anim name="grumpy" anim="grumpy" fps="24" />
+	<anim name="happy" anim="happy" fps="24" />
+	<anim name="ehh" anim="ehh" fps="24" />
+	<anim name="ooh" anim="ooh" fps="24" />
+	<anim name="wah" anim="wag" fps="24" />
+	<anim name="yeah" anim="yeah" fps="24" />
+</character>

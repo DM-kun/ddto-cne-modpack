@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "duet-sm",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Poems n Thorns",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 135
+}

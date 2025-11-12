@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "monika-pixel",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "High School Conflict",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 151
+}

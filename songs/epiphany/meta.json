@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "monika-big",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Epiphany",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 263
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="sayori.png" width="4962" height="534" spritePadding="3" borderPadding="1">
+	<SubTexture name="sayori0000" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0001" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0002" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0003" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0004" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0005" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0006" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0007" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0008" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0009" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0010" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0011" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0012" x="1564" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0013" x="4599" y="1" width="362" height="532" frameX="-1" frameY="0" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0014" x="4599" y="1" width="362" height="532" frameX="-1" frameY="0" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0015" x="3849" y="1" width="369" height="530" frameX="-6" frameY="-2" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0016" x="3849" y="1" width="369" height="530" frameX="-6" frameY="-2" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0017" x="1946" y="1" width="376" height="526" frameX="-18" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0018" x="1946" y="1" width="376" height="526" frameX="-18" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0019" x="2325" y="1" width="377" height="526" frameX="-22" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0020" x="2325" y="1" width="377" height="526" frameX="-22" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0021" x="2705" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0022" x="2705" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0023" x="3087" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0024" x="3087" y="1" width="379" height="526" frameX="-27" frameY="-6" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0025" x="1" y="1" width="392" height="502" frameX="-56" frameY="-30" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0026" x="1" y="1" width="392" height="502" frameX="-56" frameY="-30" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0027" x="396" y="1" width="391" height="505" frameX="-51" frameY="-27" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0028" x="396" y="1" width="391" height="505" frameX="-51" frameY="-27" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0029" x="790" y="1" width="387" height="513" frameX="-37" frameY="-19" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0030" x="790" y="1" width="387" height="513" frameX="-37" frameY="-19" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0031" x="1180" y="1" width="381" height="520" frameX="-29" frameY="-12" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0032" x="1180" y="1" width="381" height="520" frameX="-29" frameY="-12" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0033" x="3469" y="1" width="377" height="528" frameX="-25" frameY="-4" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0034" x="3469" y="1" width="377" height="528" frameX="-25" frameY="-4" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0035" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0036" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0037" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0038" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0039" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0040" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0041" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0042" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0043" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0044" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0045" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0046" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0047" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0048" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+	<SubTexture name="sayori0049" x="4221" y="1" width="375" height="531" frameX="-22" frameY="-1" frameWidth="392" frameHeight="532"/>
+</TextureAtlas>

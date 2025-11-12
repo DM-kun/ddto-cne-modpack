@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="180" flipX="true" isPlayer="true" icon="spooky" color="#C5995A">
+	<anim name="danceLeft" anim="SkidPumpIdle" indices="0..11"/>
+	<anim name="danceRight" anim="SkidPumpIdle" indices="12..23"/>
+	<anim name="danceLeft-alt" anim="SPOOKY DANCE" x="36" y="9" indices="0..7"/>
+	<anim name="danceRight-alt" anim="SPOOKY DANCE" x="38" y="9" indices="8..15"/>
+	<anim name="singLEFT" anim="SkidPumpLeft0" x="200" y="-38"/>
+	<anim name="singDOWN" anim="SkidPumpDown0" x="4" y="-29"/>
+	<anim name="singUP" anim="SkidPumpUp0" x="9" y="45"/>
+	<anim name="singRIGHT" anim="SkidPumpRight0" x="-70"/>
+	<anim name="singLEFTmiss" anim="SkidPumpLeft MIZZ" x="203" y="36"/>
+	<anim name="singDOWNmiss" anim="SkidPumpDown MIZZ" x="6" y="31"/>
+	<anim name="singUPmiss" anim="SkidPumpUp MIZZ" x="30" y="78"/>
+	<anim name="singRIGHTmiss" anim="SkidPumpRight MIZZ" x="-56" y="67"/>
+</character>

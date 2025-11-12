@@ -1,0 +1,17 @@
+{
+	"color": "#9271FD",
+	"customValues": {},
+	"instSuffix": "-tankman",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "natsuki",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Baka (Tankman Mix)",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"vocalsSuffix": "-tankman",
+	"bpm": 110
+}

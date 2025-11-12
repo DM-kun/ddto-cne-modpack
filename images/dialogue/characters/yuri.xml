@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="yuri.png" width="2637" height="486" spritePadding="3" borderPadding="1">
+	<SubTexture name="ahaha0000" x="1366" y="1" width="316" height="484" frameX="-87" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="ahh0000" x="1" y="1" width="346" height="484" frameX="-75" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="blush0000" x="2323" y="1" width="313" height="483" frameX="-97" frameY="-17" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="crazy0000" x="1030" y="1" width="333" height="484" frameX="-72" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="ehh0000" x="350" y="1" width="337" height="484" frameX="-87" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="happy0000" x="690" y="1" width="337" height="484" frameX="-87" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="neutral0000" x="1685" y="1" width="316" height="484" frameX="-87" frameY="-16" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="smile0000" x="2004" y="1" width="316" height="484" frameX="-87" frameY="-16" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

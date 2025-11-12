@@ -1,0 +1,46 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="monika-pixel" position="left" defaultAnim="neutral"/>
+	<char name="bf-pixel" position="right" defaultAnim="neutral"/>
+
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked" changeMusic="dialogue/senpai">
+		...huh?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		I thought... they deleted me.
+		After what I did to my friends.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		But- Where am I now?
+	</line>
+	<line char="bf-pixel" bubble="week6" changeDefAnim="neutral">
+		Beep!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Oh-! Hello?
+	</line>
+	<line char="bf-pixel" bubble="week6" changeDefAnim="neutral">
+		Skee dep boop!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		You want to sing?
+	</line>
+	<line char="bf-pixel" bubble="week6" changeDefAnim="neutral">
+		Beep dai!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="think">
+		...Things are happening really fast.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		But- You know what?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
+		I'd love to!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		Usually I'd play the piano while I sing,
+		but this isn't a bad change of pace.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
+		So... yeah!
+	</line>
+</dialogue>

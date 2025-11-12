@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="libitina-intro.png" width="3364" height="3114" spritePadding="3" borderPadding="1">
+	<SubTexture name="GhostIntroDown0000" x="1" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0001" x="1" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0002" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0003" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0004" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0005" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0006" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0007" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0008" x="687" y="1600" width="663" height="808" rotated="true" frameX="-110" frameY="-83" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0009" x="687" y="1600" width="663" height="808" rotated="true" frameX="-110" frameY="-83" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0010" x="687" y="1600" width="663" height="808" rotated="true" frameX="-110" frameY="-83" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0011" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0012" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0013" x="2687" y="1600" width="654" height="825" rotated="true" frameX="-106" frameY="-91" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0014" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0015" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroDown0016" x="829" y="2428" width="825" height="658" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroIdle0000" x="2014" y="796" width="670" height="791" rotated="true" frameX="-12" frameY="-14" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0001" x="2014" y="796" width="670" height="791" rotated="true" frameX="-12" frameY="-14" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0002" x="2014" y="796" width="670" height="791" rotated="true" frameX="-12" frameY="-14" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0003" x="2014" y="796" width="670" height="791" rotated="true" frameX="-12" frameY="-14" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0004" x="1" y="796" width="666" height="794" rotated="true" frameX="-9" frameY="-18" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0005" x="1" y="796" width="666" height="794" rotated="true" frameX="-9" frameY="-18" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0006" x="1" y="796" width="666" height="794" rotated="true" frameX="-9" frameY="-18" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0007" x="1" y="796" width="666" height="794" rotated="true" frameX="-9" frameY="-18" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0008" x="1342" y="796" width="669" height="792" rotated="true" frameX="-11" frameY="-15" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0009" x="1342" y="796" width="669" height="792" rotated="true" frameX="-11" frameY="-15" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0010" x="1342" y="796" width="669" height="792" rotated="true" frameX="-11" frameY="-15" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroIdle0011" x="1342" y="796" width="669" height="792" rotated="true" frameX="-11" frameY="-15" frameWidth="803" frameHeight="684"/>
+	<SubTexture name="GhostIntroLeft0000" x="1348" y="1" width="664" height="792" rotated="true" frameX="-111" frameY="-85" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0001" x="1348" y="1" width="664" height="792" rotated="true" frameX="-111" frameY="-85" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0002" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0003" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0004" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0005" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0006" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0007" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0008" x="2015" y="1" width="665" height="792" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0009" x="2015" y="1" width="665" height="792" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0010" x="2015" y="1" width="665" height="792" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0011" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0012" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0013" x="679" y="1" width="666" height="787" rotated="true" frameX="-111" frameY="-84" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0014" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0015" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroLeft0016" x="670" y="796" width="669" height="791" rotated="true" frameX="-108" frameY="-88" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0000" x="1353" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0001" x="1353" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0002" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0003" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0004" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0005" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0006" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0007" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0008" x="2454" y="2428" width="828" height="668" frameX="-109" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0009" x="2454" y="2428" width="828" height="668" frameX="-109" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0010" x="2454" y="2428" width="828" height="668" frameX="-109" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0011" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0012" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0013" x="2687" y="796" width="665" height="801" rotated="true" frameX="-111" frameY="-81" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0014" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0015" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroRight0016" x="2020" y="1600" width="664" height="809" rotated="true" frameX="-108" frameY="-80" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0000" x="2683" y="1" width="680" height="775" rotated="true" frameX="-108" frameY="-61" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0001" x="2683" y="1" width="680" height="775" rotated="true" frameX="-108" frameY="-61" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0002" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0003" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0004" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0005" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0006" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0007" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0008" x="1657" y="2428" width="794" height="685" frameX="-105" frameY="-57" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0009" x="1657" y="2428" width="794" height="685" frameX="-105" frameY="-57" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0010" x="1657" y="2428" width="794" height="685" frameX="-105" frameY="-57" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0011" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0012" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0013" x="1" y="1600" width="683" height="784" rotated="true" frameX="-107" frameY="-59" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0014" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0015" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+	<SubTexture name="GhostIntroUp0016" x="1" y="1" width="675" height="775" rotated="true" frameX="-108" frameY="-65" frameWidth="1000" frameHeight="800"/>
+</TextureAtlas>

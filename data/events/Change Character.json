@@ -1,0 +1,15 @@
+{
+	"params":
+	[
+		{
+			"name": "StrumLine",
+			"type": "StrumLine",
+			"defaultValue": 0
+		},
+		{
+			"name": "Character ID (ex.: 0 = 1st Char, 1 = 2nd Char, etc.)",
+			"type": "Int(0, 99, 1)",
+			"defaultValue": 0
+		}
+	]
+}

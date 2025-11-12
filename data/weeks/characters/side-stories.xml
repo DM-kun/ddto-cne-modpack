@@ -1,0 +1,6 @@
+<!DOCTYPE ddto-week-portrait>
+<char sprite="prologue" scale="1">
+	<anim name="idle" anim="idle" fps="24" loop="false" forced="true"/>
+	<anim name="confirm" anim="confirm" fps="24" loop="false" type="none" forced="true"/>
+	<anim name="selected" anim="selected" fps="24" loop="false" forced="true"/>
+</char>

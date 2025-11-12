@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="nathaachama.png" width="1163" height="6314" spritePadding="3" borderPadding="1">
+	<SubTexture name="Nat Haachama0000" x="1" y="1" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0001" x="580" y="1" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0002" x="1" y="692" width="565" height="699" rotated="true" frameX="-2" frameY="-17" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0003" x="569" y="692" width="565" height="706" rotated="true" frameX="-2" frameY="-17" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0004" x="1" y="1401" width="563" height="708" rotated="true" frameX="0" frameY="-19" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0005" x="567" y="1401" width="563" height="707" rotated="true" frameX="0" frameY="-19" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0006" x="1" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0007" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0008" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0009" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0010" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0011" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0012" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0013" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0014" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0015" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0016" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0017" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0018" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0019" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0020" x="1" y="2822" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0021" x="570" y="2112" width="566" height="707" rotated="true" frameX="0" frameY="-16" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0022" x="570" y="2822" width="582" height="701" rotated="true" frameX="-6" frameY="0" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0023" x="1" y="3532" width="582" height="701" rotated="true" frameX="-6" frameY="0" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0024" x="586" y="3532" width="576" height="696" rotated="true" frameX="-11" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0025" x="1" y="4236" width="576" height="695" rotated="true" frameX="-11" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0026" x="580" y="4236" width="576" height="693" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0027" x="1" y="4934" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0028" x="580" y="4934" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0029" x="1" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0030" x="580" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0031" x="1" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0032" x="580" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0033" x="1" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0034" x="580" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+	<SubTexture name="Nat Haachama0035" x="1" y="5625" width="576" height="688" rotated="true" frameX="-13" frameY="-6" frameWidth="722" frameHeight="583"/>
+</TextureAtlas>

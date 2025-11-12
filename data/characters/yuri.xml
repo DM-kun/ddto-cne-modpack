@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character color="#9D72D2">
+	<anim name="idle" anim="Yuri Idle0"/>
+	<anim name="idle-alt" anim="Yuri Idle-alt"/>
+	<anim name="singLEFT" anim="Yuri Sing Note Left" x="-4" y="-22"/>
+	<anim name="singDOWN" anim="Yuri Sing Note Down" x="-8" y="-21"/>
+	<anim name="singUP" anim="Yuri Sing Note Up" x="23" y="24"/>
+	<anim name="singRIGHT" anim="Yuri Sing Note Right" x="16" y="1"/>
+	<anim name="breath" anim="Yuri Breath" x="11" y="25"/>
+</character>

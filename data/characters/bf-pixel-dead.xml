@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" y="570" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="bf-pixel" color="#7BD5F6">
+	<anim name="firstDeath" anim="BF Dies pixel"/>
+	<anim name="deathLoop" anim="Retry Loop" x="-5" y="-2" loop="true"/>
+	<anim name="deathConfirm" anim="RETRY CONFIRM" x="-5" y="-2"/>
+</character>

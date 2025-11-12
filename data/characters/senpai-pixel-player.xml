@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="200.5" y="334" scale="6" camx="-80" camy="60" antialiasing="false" flipX="true" isPlayer="true" icon="senpai-pixel" color="#FFAA6F" gameOverChar="senpai-pixel-dead" interval="2">
+	<anim name="danceLeft" anim="Senpai Idle1 instance 1"/>
+	<anim name="danceRight" anim="Senpai Idle2 instance 1"/>
+	<anim name="singLEFT" anim="SENPAI LEFT NOTE instance 1" x="5"/>
+	<anim name="singDOWN" anim="SENPAI DOWN NOTE instance 1" x="2"/>
+	<anim name="singUP" anim="SENPAI UP NOTE instance 1" x="2" y="6"/>
+	<anim name="singRIGHT" anim="SENPAI RIGHT NOTE instance 1" x="1"/>
+	<anim name="singLEFTmiss" anim="miss Senpai LEFT NOTE instance 1" x="5" y="1"/>
+	<anim name="singDOWNmiss" anim="miss Senpai DOWN NOTE instance 1" x="2" y="1"/>
+	<anim name="singUPmiss" anim="miss Senpai UP NOTE instance 1" x="2" y="6"/>
+	<anim name="singRIGHTmiss" anim="miss Senpai RIGHT NOTE instance 1" x="1"/>
+</character>

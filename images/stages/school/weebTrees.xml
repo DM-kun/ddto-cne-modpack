@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="petals.png">
+	<SubTexture name="treeLoop0000" x="0" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0001" x="513" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0002" x="1539" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0003" x="2052" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0004" x="2565" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0005" x="3078" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0006" x="2565" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0007" x="2052" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0008" x="2565" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0009" x="3078" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0010" x="1026" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0011" x="0" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0012" x="513" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0013" x="0" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0014" x="513" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0015" x="1026" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0016" x="1026" y="1026" width="512" height="512" />
+	<SubTexture name="treeLoop0017" x="1539" y="0" width="512" height="512" />
+	<SubTexture name="treeLoop0018" x="1539" y="513" width="512" height="512" />
+	<SubTexture name="treeLoop0019" x="2052" y="0" width="512" height="512" />
+</TextureAtlas>

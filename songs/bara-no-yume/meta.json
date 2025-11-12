@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#D471FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "duet-sm",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Bara no Yume",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 160
+}

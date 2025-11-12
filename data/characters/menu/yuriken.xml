@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="1" x="560" y="100">
+	<anim name="idle" anim="Yuri and Ken" fps="24" loop="true" animType="loop" forced="false"/>
+</char>

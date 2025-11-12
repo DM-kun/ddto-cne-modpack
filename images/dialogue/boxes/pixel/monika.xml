@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="monika.png" width="197" height="284" spritePadding="3" borderPadding="1">
+	<SubTexture name="monika open0000" x="1" y="271" width="195" height="12" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0001" x="1" y="244" width="195" height="24" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0002" x="1" y="205" width="195" height="36" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0003" x="1" y="154" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika normal0000" x="1" y="154" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika end0000" x="1" y="103" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika end0001" x="1" y="52" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika wait0000" x="1" y="52" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika click0000" x="1" y="1" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika click0001" x="1" y="52" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+</TextureAtlas>

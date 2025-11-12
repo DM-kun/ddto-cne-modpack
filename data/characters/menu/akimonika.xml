@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.77" x="570" y="90">
+	<anim name="idle" anim="Moni Akiha Menu" fps="21" loop="false" forced="true"/>
+</char>

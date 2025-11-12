@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.7" x="660" y="180">
+	<anim name="idle" anim="Sayori BG" fps="24" loop="false" forced="true"/>
+</char>

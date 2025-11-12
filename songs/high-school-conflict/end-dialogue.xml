@@ -1,0 +1,31 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="monika-pixel" position="left" defaultAnim="neutral"/>
+	<char name="bf-pixel" position="right" defaultAnim="neutral"/>
+	<char name="senpai-pixel" position="left" defaultAnim="neutral"/>
+
+	<line char="bf-pixel" bubble="week6" changeDefAnim="neutral">
+		Skdee bep!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
+		You kept up really well with my song!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		Ah, I haven't felt this happy in a while!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		Ah, I haven't felt this happy in a while!
+		Could we sing again?
+	</line>
+	<line char="bf-pixel" bubble="week6" changeDefAnim="neutral">
+		Beep!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
+		Alright! Here we go-
+	</line>
+	<line char="senpai-pixel" bubble="monika" changeDefAnim="dark">
+		Who the hell are you?!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Huh-?
+	</line>
+</dialogue>

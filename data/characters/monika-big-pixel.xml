@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="396" y="348" scale="6" antialiasing="false" camx="-180" camy="130" color="#C9CEFF">
+	<anim name="idle" anim="Monika_Idle"/>
+	<anim name="singLEFT" anim="Monika_singLEFT0" y="1"/>
+	<anim name="singDOWN" anim="Monika_singDOWN0" y="2"/>
+	<anim name="singUP" anim="Monika_singUP0" y="2"/>
+	<anim name="singRIGHT" anim="Monika_singRIGHT0" y="1"/>
+	<anim name="singLEFT-alt" anim="Monika_singLEFTALT" y="1"/>
+	<anim name="singDOWN-alt" anim="Monika_singDOWNALT" y="2"/>
+	<anim name="singUP-alt" anim="Monika_singUPALT" y="2"/>
+	<anim name="singRIGHT-alt" anim="Monika_singRIGHTALT" y="1"/>
+	<anim name="singLEFTmiss" anim="Monika_singLEFTALT" y="1"/>
+	<anim name="singDOWNmiss" anim="Monika_singDOWNALT" y="2"/>
+	<anim name="singUPmiss" anim="Monika_singUPALT" y="2"/>
+	<anim name="singRIGHTmiss" anim="Monika_singRIGHTALT" y="1"/>
+</character>

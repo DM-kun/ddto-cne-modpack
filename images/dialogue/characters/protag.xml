@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="protag.png" width="1765" height="495" spritePadding="3" borderPadding="1">
+	<SubTexture name="camera0000" x="1" y="1" width="301" height="493" frameX="-93" frameY="-7" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="chill0000" x="903" y="1" width="285" height="493" frameX="-109" frameY="-7" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="happy0000" x="1191" y="1" width="285" height="493" frameX="-109" frameY="-7" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="hrk0000" x="609" y="1" width="291" height="493" frameX="-109" frameY="-7" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="neutral0000" x="305" y="1" width="301" height="493" frameX="-93" frameY="-7" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="sigh0000" x="1479" y="1" width="285" height="493" frameX="-109" frameY="-7" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

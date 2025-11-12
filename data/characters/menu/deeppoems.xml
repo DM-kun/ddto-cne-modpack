@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.9" x="410" y="70">
+	<anim name="idle" anim="Deep Poems" fps="24" loop="false" forced="true"/>
+</char>

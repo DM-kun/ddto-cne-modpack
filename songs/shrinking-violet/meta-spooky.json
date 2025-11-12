@@ -1,0 +1,17 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"instSuffix": "-spooky",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "yuri",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Shrinking Violet (Spooky Mix)",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"vocalsSuffix": "-spooky",
+	"bpm": 140
+}

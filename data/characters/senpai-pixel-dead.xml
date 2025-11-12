@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="224.5" y="334" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="senpai-pixel" color="#FFAA6F">
+	<anim name="firstDeath" anim="senpai dead"/>
+	<anim name="deathLoop" anim="senpai retry"/>
+	<anim name="deathConfirm" anim="RETRY CONFIRM"/>
+</character>

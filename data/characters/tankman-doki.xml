@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character y="190" flipX="true" isPlayer="true" icon="tankman" color="#E1E1E1">
+	<anim name="idle" anim="Tankman Idle Dance"/>
+	<anim name="singDOWN" anim="Tankman DOWN note" x="66" y="-107"/>
+	<anim name="singRIGHT" anim="Tankman Right Note" x="-25" y="-12"/>
+	<anim name="singLEFT" anim="Tankman Note Left" x="143" y="-31"/>
+	<anim name="singUP" anim="Tankman UP note" x="28" y="54"/>
+	<anim name="singUP-alt" anim="TANKMAN UGH" x="-12" y="-8"/>
+	<anim name="hey" anim="Tankman Taunt" x="169" y="-24"/>
+	<anim name="singUPmiss" anim="Tankman MISS UP note" x="28" y="54"/>
+	<anim name="singDOWNmiss" anim="Tankman MISS DOWN note" x="66" y="-120"/>
+	<anim name="singLEFTmiss" anim="Tankman MISS Note Left" x="157" y="-30"/>
+	<anim name="singRIGHTmiss" anim="Tankman MISS Right Note" x="-35" y="-18"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="137.5" y="382" camx="130" camy="30" scale="6" antialiasing="false" icon="monika-pixel" color="#FFB8E2">
+	<anim name="idle" anim="Mka Alt Idle"/>
+	<anim name="singLEFT" anim="Mka Alt Left"/>
+	<anim name="singDOWN" anim="Mka Alt Down"/>
+	<anim name="singUP" anim="Mka Alt Up"/>
+	<anim name="singRIGHT" anim="Mka Alt Right"/>
+	<anim name="singUPmiss" anim="Mka Miss Up"/>
+	<anim name="singLEFTmiss" anim="Mka Miss Left"/>
+	<anim name="singRIGHTmiss" anim="Mka Miss Right"/>
+	<anim name="singDOWNmiss" anim="Mka Miss Down"/>
+</character>

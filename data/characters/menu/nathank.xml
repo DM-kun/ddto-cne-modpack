@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.85" x="430" y="168">
+	<anim name="idle" anim="NatHankMenu" fps="24" loop="false" forced="true"/>
+</char>

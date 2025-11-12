@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="natsuki.png" width="1098" height="3721" spritePadding="3" borderPadding="1">
+	<SubTexture name="natsuki0000" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0001" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0002" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0003" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0004" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0005" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0006" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0007" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0008" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0009" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0010" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0011" x="1" y="1" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0012" x="550" y="1" width="546" height="469" frameX="-13" frameY="-4" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0013" x="1" y="473" width="540" height="465" frameX="-16" frameY="-8" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0014" x="544" y="473" width="551" height="459" frameX="-11" frameY="-12" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0015" x="1" y="941" width="541" height="455" frameX="-16" frameY="-16" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0016" x="545" y="941" width="543" height="455" frameX="-15" frameY="-17" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0017" x="545" y="941" width="543" height="455" frameX="-15" frameY="-17" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0018" x="1" y="1399" width="546" height="455" frameX="-13" frameY="-18" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0019" x="1" y="1399" width="546" height="455" frameX="-13" frameY="-18" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0020" x="550" y="1399" width="546" height="455" frameX="-13" frameY="-18" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0021" x="1" y="1857" width="541" height="460" frameX="-16" frameY="-12" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0022" x="545" y="1857" width="543" height="465" frameX="-15" frameY="-8" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0023" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0024" x="550" y="2325" width="545" height="466" frameX="-14" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0025" x="550" y="2325" width="545" height="466" frameX="-14" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0026" x="1" y="2794" width="547" height="465" frameX="-13" frameY="-8" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0027" x="544" y="473" width="551" height="459" frameX="-11" frameY="-12" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0028" x="1" y="941" width="541" height="455" frameX="-16" frameY="-16" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0029" x="545" y="941" width="543" height="455" frameX="-15" frameY="-17" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0030" x="545" y="941" width="543" height="455" frameX="-15" frameY="-17" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0031" x="551" y="2794" width="546" height="457" frameX="-13" frameY="-16" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0032" x="551" y="2794" width="546" height="457" frameX="-13" frameY="-16" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0033" x="1" y="3262" width="546" height="457" frameX="-13" frameY="-16" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0034" x="550" y="3262" width="541" height="458" frameX="-16" frameY="-14" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0035" x="545" y="1857" width="543" height="465" frameX="-15" frameY="-8" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0036" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0037" x="550" y="2325" width="545" height="466" frameX="-14" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0038" x="550" y="2325" width="545" height="466" frameX="-14" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0039" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0040" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0041" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0042" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0043" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0044" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0045" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0046" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0047" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0048" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+	<SubTexture name="natsuki0049" x="1" y="2325" width="546" height="466" frameX="-13" frameY="-7" frameWidth="574" frameHeight="473"/>
+</TextureAtlas>

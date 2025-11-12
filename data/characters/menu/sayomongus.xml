@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.8" x="600" y="142">
+	<anim name="idle" anim="Sayo Impostor Menu" fps="24" loop="true" animType="loop" forced="false"/>
+</char>

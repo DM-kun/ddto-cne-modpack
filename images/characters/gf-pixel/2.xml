@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfPixel.png">
+	<SubTexture name="GF SAD0000" x="0" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0001" x="0" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0002" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0003" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0004" x="360" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0005" x="360" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0006" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0007" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0008" x="120" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0009" x="120" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0010" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0011" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0012" x="360" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0013" x="360" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0014" x="240" y="0" width="120" height="106" />
+	<SubTexture name="GF SAD0015" x="240" y="0" width="120" height="106" />
+</TextureAtlas>

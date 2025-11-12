@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="pixel/monika" x="0" y="0" scale="5.4" antialiasing="false" textSound="dialogue/monika">
+	<anim name="neutral" anim="neutral" fps="12" />
+	<anim name="happy" anim="happy" fps="12" />
+	<anim name="sad" anim="sad" fps="12" />
+	<anim name="shocked" anim="shocked" fps="12" />
+	<anim name="think" anim="think" fps="12" />
+	<anim name="sinister" anim="sinister" fps="12" />
+</character>

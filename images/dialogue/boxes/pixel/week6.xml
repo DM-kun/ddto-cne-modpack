@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="week6.png" width="207" height="463" spritePadding="3" borderPadding="1">
+	<SubTexture name="week6 open normal0000" x="1" y="448" width="202" height="14" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0001" x="1" y="416" width="204" height="29" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0002" x="1" y="367" width="204" height="46" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0003" x="1" y="123" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 click0000" x="1" y="1" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 click0001" x="1" y="62" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 click0002" x="1" y="123" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0000" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0001" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0002" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0003" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0004" x="1" y="245" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0005" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0006" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0000" x="1" y="184" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0001" x="1" y="245" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0002" x="1" y="306" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 normal0000" x="1" y="123" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+</TextureAtlas>

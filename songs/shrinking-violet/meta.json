@@ -1,0 +1,19 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "yuri",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Shrinking Violet",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"variants": [
+		"spooky",
+		"shrinking violet-alt"
+	],
+	"bpm": 140
+}

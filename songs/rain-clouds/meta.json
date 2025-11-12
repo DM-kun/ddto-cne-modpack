@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "sayori",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Rain Clouds",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 115
+}

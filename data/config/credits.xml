@@ -1,0 +1,139 @@
+<menu name="Doki Doki Takeover Plus" desc="The FNF and DDLC worlds have entangled!">
+	<credit name="SirDusterBuster" icon="Duster" desc="Director\nTeam TBD Lead" url="https://twitter.com/SirDusterBuster" role="0"/>
+	<credit name="Jorge - SunSpirit" icon="Jorge" desc="Co-Director\nTeam TBD Lead" url="https://twitter.com/Jorge_SunSpirit" role="0"/>
+	<credit name="HighPoweredKeyz" icon="HPK" desc="Team TBD Lead" url="https://twitter.com/HighPoweredArt" role="0"/>
+	<credit name="SirDusterBuster" icon="Duster" desc="Lead Artist\nAnimator\nCostume Artist\nCG Artist\nBackground Artist" url="https://twitter.com/SirDusterBuster" role="1"/>
+	<credit name="GrandHammer6" icon="GrandHammer" desc="Artist\nAnimator\nCostume Artist" url="https://twitter.com/GrandHammer6" role="1"/>
+	<credit name="Little_Geecko" icon="Geecko" desc="Artist\nAnimator\nCostume Artist" url="https://twitter.com/Little_Geecko" role="1"/>
+	<credit name="IGJH" icon="IGJH" desc="Artist\nAnimator" url="https://twitter.com/IGJHSpritin" role="1"/>
+	<credit name="Quickalas" icon="Quickalas" desc="Artist\nAnimator" url="https://twitter.com/quickalas" role="1"/>
+	<credit name="Ito" icon="Ito" desc="Background Artist\nCostume Artist" url="https://twitter.com/ItoSaihara_" role="1"/>
+	<credit name="Lezanikat" icon="Leza" desc="Background Artist\nCG Artist" url="https://twitter.com/lezanikat" role="1"/>
+	<credit name="Sayphonic" icon="Sayphonic" desc="Background Artist" url="https://twitter.com/sayphonic" role="1"/>
+	<credit name="HighPoweredKeyz" icon="HPK" desc="VFX Artist\nAnimator" url="https://twitter.com/HighPoweredArt" role="1"/>
+	<credit name="Juno Songs" icon="Juno" desc="CG Artist\nCostume Artist" url="https://twitter.com/JunoSongsYT" role="1"/>
+	<credit name="Miss Beepy" icon="Beepy" desc="CG Artist\nPause Screen Artist" url="" role="1"/>
+	<credit name="Pikons" icon="PK" desc="CG Artist\nPause Screen Artist" url="https://twitter.com/vivalapk" role="1"/>
+	<credit name="AshyTown" icon="Ashy" desc="Pause Screen Artist" url="https://twitter.com/AshyTown_" role="1"/>
+	<credit name="Novasaur" icon="Nova" desc="Pause Screen Artist" url="https://twitter.com/NNovasaur" role="1"/>
+	<credit name="Phillia Esaya" icon="Phillia" desc="Pause Screen Artist" url="https://twitter.com/PhilliaEsaya" role="1"/>
+	<credit name="STS-Puelle" icon="Puelle" desc="Pause Screen Artist" url="https://twitter.com/STS_PiaEsaya" role="1"/>
+	<credit name="AnInternetsEcho" icon="Cammy" desc="Costume Artist\nPause Screen Artist" url="" role="2"/>
+	<credit name="Augux168" icon="Augux" desc="Costume Artist" url="https://twitter.com/Augux168" role="2"/>
+	<credit name="BruunoSCP" icon="Bruuno" desc="Costume Artist" url="https://twitter.com/BruunoSCP" role="2"/>
+	<credit name="Crim" icon="Crim" desc="Costume Artist" url="https://twitter.com/scrimblocrimbo" role="2"/>
+	<credit name="Jorge - SunSpirit" icon="Jorge" desc="Artist\nAnimator" url="https://twitter.com/Jorge_SunSpirit" role="2"/>
+	<credit name="MaxOKE" icon="Max" desc="Costume Artist" url="https://twitter.com/MaxOKE_" role="2"/>
+	<credit name="Moxxie" icon="Moxxie" desc="Artist\nAnimator" url="https://twitter.com/hasnomoxxie" role="2"/>
+	<credit name="Raze" icon="Raze" desc="Pause Screen Artist" url="https://twitter.com/TheOGFazFilms" role="2"/>
+	<credit name="TokyoGalaxy" icon="TokyoGalaxy" desc="Freeplay Chibi Artist" url="https://twitter.com/TokyoGalaxyOG" role="2"/>
+	<credit name="Weeg" icon="Weeg" desc="Costume Artist" url="https://twitter.com/ItIsIWeeg" role="2"/>
+	<credit name="Jorge - SunSpirit" icon="Jorge" desc="Programmer" url="https://twitter.com/Jorge_SunSpirit" role="3"/>
+	<credit name="M&amp;M" icon="MAndM" desc="Programmer" url="https://linktr.ee/ActualMandM" role="3"/>
+	<credit name="Codexes" icon="Codexes" desc="Programmer" url="https://twitter.com/Codexes1" role="3"/>
+	<credit name="Flootena" icon="Flootena" desc="Lead Charter" url="https://twitter.com/FlootenaDX" role="4"/>
+	<credit name="Cerbera" icon="Cerbera" desc="Charter" url="https://twitter.com/Cerberaa" role="4"/>
+	<credit name="Chompo" icon="Chompo" desc="Charter" url="https://twitter.com/chompoWRLD" role="4"/>
+	<credit name="Clover" icon="Clover" desc="Charter" url="https://twitter.com/Cloverderus" role="4"/>
+	<credit name="DatDavi" icon="Davi" desc="Charter" url="https://twitter.com/dat_davi" role="4"/>
+	<credit name="Jorge - SunSpirit" icon="Jorge" desc="Charter" url="https://twitter.com/Jorge_SunSpirit" role="4"/>
+	<credit name="Kodapopin" icon="Koda" desc="Charter" url="https://twitter.com/Kodapopin" role="4"/>
+	<credit name="Matt$" icon="Matt" desc="Charter" url="https://twitter.com/matt_currency" role="4"/>
+	<credit name="SirDusterBuster" icon="Duster" desc="Charter" url="https://twitter.com/SirDusterBuster" role="4"/>
+	<credit name="Cocopuffs" icon="Coco" desc="Musician" url="https://twitter.com/file_corruption" role="5"/>
+	<credit name="DatDavi" icon="Davi" desc="Musician" url="https://twitter.com/dat_davi" role="5"/>
+	<credit name="DPZ" icon="DPZ" desc="Musician" url="https://twitter.com/dpzmusic" role="5"/>
+	<credit name="DrazicallyDTM" icon="Draz" desc="Musician" url="https://twitter.com/DrazicallyDTM" role="5"/>
+	<credit name="GGalactigal" icon="Haruka" desc="Musician" url="https://twitter.com/GGalactigal" role="5"/>
+	<credit name="HighPoweredKeyz" icon="HPK" desc="Musician\n Chromatic Creator" url="https://twitter.com/HighPoweredArt" role="5"/>
+	<credit name="JACKALRUIN" icon="JACKALRUIN" desc="Musician" url="https://www.youtube.com/@JACKALRUIN" role="5"/>
+	<credit name="Matt$" icon="Matt" desc="Musician" url="https://twitter.com/matt_currency" role="5"/>
+	<credit name="Noichi" icon="Noichi" desc="Musician" url="https://twitter.com/Noichi_yt" role="5"/>
+	<credit name="Saruky" icon="Saruky" desc="Musician" url="https://twitter.com/Saruky__" role="5"/>
+	<credit name="Sprunkle" icon="Sprunkle" desc="Musician" url="https://twitter.com/Sprunkle2" role="5"/>
+	<credit name="Stardust Tunes" icon="Stardust" desc="Musician" url="https://twitter.com/StardustTunes" role="5"/>
+	<credit name="Starrie_blu" icon="Starrieblu" desc="Musician" url="https://twitter.com/starrie_blu" role="5"/>
+	<credit name="Tony Astro" icon="Tony" desc="Musician" url="https://twitter.com/TonyAstroVEVO" role="5"/>
+	<credit name="UnStorm" icon="Unstorm" desc="Musician" url="https://twitter.com/UnStormDDLC" role="5"/>
+	<credit name="High School Conflict (Plus)" icon="MonikaPixel" desc="Composed by GGalactigal" url="" role="6" funnyName="High School\nConflict (Plus)"/>
+	<credit name="Bara no Yume (Plus)" icon="SenpaiMonika" desc="Composed by JACKALRUIN" url="" role="6" funnyName="Bara no Yume\n(Plus)"/>
+	<credit name="Your Demise (Plus)" icon="MonikaPixelBig" desc="Composed by DPZ" url="" role="6"/>
+	<credit name="Your Reality (Takeover Mix)" icon="SenpaiMonika" desc="Composed by UnStorm" url="" role="6" funnyName="Your Reality\n(Takeover Mix)"/>
+	<credit name="Rain Clouds" icon="Sayori" desc="Composed by Stardust Tunes" url="" role="6"/>
+	<credit name="My Confession" icon="Sayori" desc="Composed by Sprunkle" url="" role="6"/>
+	<credit name="My Sweets" icon="Natsuki" desc="Composed by Sprunkle" url="" role="6"/>
+	<credit name="Baka" icon="Natsuki" desc="Composed by Starrie_blu" url="" role="6"/>
+	<credit name="Baka (Tankman Mix)" icon="Tankman" desc="Remix Composed by Cocopuffs\nOriginal Song by Starrie_blu" url="" role="6" funnyName="Baka\n(Tankman Mix)"/>
+	<credit name="Deep Breaths" icon="Yuri" desc="Composed by Saruky" url="" role="6"/>
+	<credit name="Obsession" icon="YuriCrazy" desc="Composed by Matt$" url="" role="6"/>
+	<credit name="Reconciliation" icon="Monika" desc="Composed by HighPoweredKeyz" url="" role="6"/>
+	<credit name="Crucify (Yuri Mix)" icon="Crucify" desc="Remix Composed by Sprunkle\nAdditional Help by Stardust Tunes\nOriginal Song by Foodieti" url="" role="6" funnyName="Crucify\n(Yuri Mix)"/>
+	<credit name="Beathoven (Natsuki Mix)" icon="Beathoven" desc="Remix Composed by JACKALRUIN\nOriginal Song by PaperKitty" url="" role="6" funnyName="Beathoven\n(Natsuki Mix)"/>
+	<credit name="It's Complicated (Sayori Mix)" icon="Complicated" desc="Remix Composed by Stardust Tunes\nOriginal Song by Starrie_blu" url="" role="6" funnyName="It's Complicated\n(Sayori Mix)"/>
+	<credit name="Glitcher (Monika Mix)" icon="Glitcher" desc="Remix Composed by HighPoweredKeyz\nAdditional Mixing Help by Matt$\nOriginal Song by YingYang48" url="" role="6" funnyName="Glitcher\n(Monika Mix)"/>
+	<credit name="Poems n' Thorns" icon="SenpaiMonika" desc="Composed by Saruky" url="" role="6"/>
+	<credit name="Dual Demise" icon="MonikaPixelBig" desc="Composed by Stardust Tunes" url="" role="6"/>
+	<credit name="Epiphany" icon="MonikaBig" desc="Composed by Matt$" url="" role="6"/>
+	<credit name="Epiphany (Lyrics)" icon="MonikaBig" desc="Composed by Matt$\nMonika Singing Voice by Carimelle\nLyrics by Juno Songs" url="" role="6"/>
+	<credit name="Hot Air Balloon" icon="Natsuki" desc="Composed by DatDavi\nAdditional Voices by Carimelle" url="" role="6"/>
+	<credit name="Shrinking Violet" icon="Yuri" desc="Composed by HighPoweredKeyz\n&amp; DatDavi" url="" role="6"/>
+	<credit name="Shrinking Violet (Spooky Mix)" icon="SpookyKids" desc="Remix Composed by DrazicallyDTM\nOriginal Song by\nHighPoweredKeyz &amp; DatDavi" url="" role="6" funnyName="Shrinking Violet\n(Spooky Mix)"/>
+	<credit name="Joyride" icon="Sayori" desc="Composed by DatDavi" url="" role="6"/>
+	<credit name="Our Harmony" icon="Monika" desc="Composed by DatDavi\nAdditional Vocals by Carimelle" url="" role="6"/>
+	<credit name="NEET" icon="Protag" desc="Composed by HighPoweredKeyz\n&amp; Sprunkle" url="" role="6"/>
+	<credit name="You and Me" icon="Protag" desc="Composed by GGalactigal\n&amp; HighPoweredKeyz" url="" role="6"/>
+	<credit name="Takeover Medley" icon="Monika" desc="Composed by HighPoweredKeyz,\nStardust Tunes, JACKALRUIN,\nMiss Beepy, GGalactigal, &amp; DatDavi" url="" role="6"/>
+	<credit name="Love n' Funkin'" icon="GF" desc="Composed by DatDavi\n&amp; Stardust Tunes" url="" role="6"/>
+	<credit name="Love n' Funkin' (Pico Mix)" icon="Pico" desc="Remix Composed by Noichi\nOriginal Song by DatDavi\n&amp; Stardust Tunes" url="" role="6" funnyName="Love n' Funkin'\n(Pico Mix)"/>
+	<credit name="Catfight" icon="Natsuki" desc="Composed by Matt$" url="" role="6"/>
+	<credit name="Constricted" icon="Sayori" desc="Composed by Stardust Tunes" url="" role="6"/>
+	<credit name="Wilted" icon="SenpaiReal" desc="Composed by GGalactigal\nAdditional Voices by\nCarimelle &amp; GrandHammer6" url="" role="6"/>
+	<credit name="Titular (MC Mix)" icon="Titular" desc="Remix Composed by HighPoweredKeyz\nOriginal Song by Ethan the Doodler\nAdditional Voices by AfroZer0" url="" role="6"/>
+	<credit name="Drinks on Me" icon="Jill" desc="Composed by DPZ" url="" role="6" hiddenType="drinksonme"/>
+	<credit name="Libitina" icon="Libitina" desc="Composed by JACKALRUIN" url="" role="6" hiddenType="libitina"/>
+	<credit name="Menu Music" icon="Monika" desc="Composed by DPZ" url="" role="6"/>
+	<credit name="Pause Music" icon="MonikaPixel" desc="Composed by Tony Astro" url="" role="6"/>
+	<credit name="Cutscene Music" icon="Monika" desc="Composed by HighPoweredKeyz" url="" role="6"/>
+	<credit name="SirDusterBuster" icon="Duster" desc="Writing / Dialogue" url="https://twitter.com/SirDusterBuster" role="7"/>
+	<credit name="Aizakku" icon="Aizakku" desc="Brazilian Portuguese Translation" url="https://twitter.com/ItsAizakku" role="7"/>
+	<credit name="SouLegal" icon="SouLegal" desc="Brazilian Portuguese Translation" url="https://twitter.com/nickstwt" role="7"/>
+	<credit name="Crim" icon="Crim" desc="Dutch Translation" url="https://twitter.com/scrimblocrimbo" role="7"/>
+	<credit name="Sprunkle" icon="Sprunkle" desc="Russian Translation" url="https://twitter.com/Sprunkle2" role="7"/>
+	<credit name="Sulayre" icon="Sulayre" desc="Spanish Translation" url="https://twitter.com/Sulayre" role="7"/>
+	<credit name="AfroZer0" icon="Zer0" desc="Protagonist Speaking/Singing Voice" url="https://twitter.com/AfroZer0" role="8"/>
+	<credit name="Carimelle" icon="Carimelle" desc="Monika Speaking/Singing Voice" url="https://twitter.com/carimellevo" role="8"/>
+	<credit name="flyplague" icon="Flyplague" desc="Girlfriend Singing Voice" url="https://twitter.com/flyplague" role="8"/>
+	<credit name="Loganne Digma" icon="Loganne" desc="Yuri Speaking/Singing Voice" url="https://twitter.com/Loganne_Digma" role="8" hiddenType="libitinabefore"/>
+	<credit name="Loganne Digma" icon="Loganne" desc="Yuri &amp; Libitina Speaking/Singing Voice" url="https://twitter.com/Loganne_Digma" role="8" hiddenType="libitina"/>
+	<credit name="Miss Beepy" icon="Beepy" desc="Natsuki Speaking/Singing Voice" url="" role="8"/>
+	<credit name="Phebe Fabacher" icon="Harudori" desc="Sayori Speaking Voice\n[Video Dub Exclusive]" url="https://twitter.com/pheberryfab" role="8"/>
+	<credit name="Redpandaa98" icon="RedPanda" desc="Jill Stingray\nSpeaking/Singing Voice" url="https://twitter.com/redpandaa98" role="8" hiddenType="drinksonme"/>
+	<credit name="Akiha Tohno" icon="Akiha" desc="Tsukihime / Melty Blood\n(Type-Moon)" url="https://play.meltyblood.club/" role="9"/>
+	<credit name="Aloe &amp; Nene" icon="AloeNene" desc="Hololive / Holofunk\n(Codexes, GrandHammer6, GGalactigal,\n Awoofle, &amp; Team Hologram / Cover Corp.)" url="https://gamebanana.com/mods/41250" role="9"/>
+	<credit name="Antipathy Hank" icon="Antipathy" desc="FNF Antipathy\n(ItoSaihara_ &amp; Studio Duality)" url="https://gamebanana.com/mods/404314" role="9"/>
+	<credit name="Bendy" icon="Bendy" desc="Bendy &amp; The Ink Machine\n/ Indie Cross \n(Joey Drew Studios, Penkaru,\n &amp; The Indie Cross Team)" url="https://gamejolt.com/games/indiecross/643540" role="9"/>
+	<credit name="Cyrix" icon="Matt" desc="FNF Vs. Cyrix\n(Matt$ &amp; The Vs. Cyrix Team)" url="https://gamebanana.com/mods/287411" role="9"/>
+	<credit name="Grey Crewmate" icon="Imposter" desc="Vs. Impostor\n(Clowfoe, Impostorm,\n &amp; Innersloth)" url="https://gamejolt.com/games/vsimpostor/643430" role="9"/>
+	<credit name="Haachama" icon="Haachama" desc="Hololive / Holofunk\n(Codexes, GrandHammer6, GGalactigal,\n Awoofle, &amp; Team Hologram / Cover Corp.)" url="https://gamebanana.com/mods/41250" role="9"/>
+	<credit name="Jill Stingray" icon="Jill" desc="Cyberpunk Bartender Action\nVA-11HALL-A\n(SUKEBAN GAMES)" url="https://store.steampowered.com/app/447530/VA11_HallA_Cyberpunk_Bartender_Action/" role="9" hiddenType="drinksonme"/>
+	<credit name="Ken" icon="Shinobi" desc="Shinobi Scramble\n(Juno Songs &amp; Jorge_SunSpirit)" url="https://gamebanana.com/mods/310161" role="9"/>
+	<credit name="Minus BF &amp; Minus GF" icon="Minus" desc="FNF Minus\n(IagoAnims &amp; The FNF Minus Team)" url="https://gamebanana.com/mods/186942" role="9" funnyName="Minus BF &amp;\nMinus GF"/>
+	<credit name="Nikku" icon="Hotline" desc="Hotline 024\n(Saruky &amp;\nThe Potions n' Spices Team)" url="https://gamebanana.com/mods/373298" role="9"/>
+	<credit name="Soft BF &amp; Soft Pico" icon="Softies" desc="FNF Soft\n(DatDavi &amp; The FNF Soft Team)" url="https://gamebanana.com/mods/312803" role="9" funnyName="Soft BF &amp;\nSoft Pico"/>
+	<credit name="Static" icon="Static" desc="FNF Vs. Static\n(Summus &amp; The Vs. Static Team)" url="https://gamebanana.com/mods/43259" role="9"/>
+	<credit name="Sunday" icon="Sunday" desc="FNF Vs. Sunday\n(bbpanzu &amp; The Vs. Sunday Team)" url="https://gamebanana.com/mods/300849" role="9"/>
+	<credit name="Tabi" icon="Tabi" desc="FNF Vs. EX\n(Homskiy &amp; The Tabi Team)" url="https://gamebanana.com/mods/286388" role="9"/>
+	<credit name="William Afton" icon="Afton" desc="Five Nights at Freddy's\n/ Funkin' at Freddy's\n(ScottGames, JcJack,\n&amp; The Funkin' at Freddy's Team)" url="https://gamebanana.com/mods/360682" role="9"/>
+	<credit name="Zipper" icon="Restraint" desc="FNF RESTRAINT\n(Max0KE, SirDusterBuster,\n&amp; The RESTRAINT Team)" url="https://gamebanana.com/mods/333433" role="9"/>
+	<credit name="Dan Salvato" icon="DanSalvato" desc="Creator of\nDoki Doki Literature Club!" url="https://twitter.com/dansalvato" role="10"/>
+	<credit name="The Funkin' Crew" icon="BF" desc="ninjamuffin99, PhantomArcade,\nKawaiSprite, Evilsk8r" url="" role="10"/>
+	<credit name="Crashpunk" icon="Crashpunk" desc="Doki Doki Blue Skies Collab\n&amp; Blue Skies Costume Text" url="" role="10"/>
+	<credit name="DuskieWhy" icon="Jackie" desc="Shader Coding Help" url="https://www.youtube.com/channel/UCVv8S6fT_4TyaJOwk5YxBFA" role="10"/>
+	<credit name="KaosKurve" icon="KaosKurve" desc="Love n' Funkin' Logo Design" url="" role="10"/>
+	<credit name="Lumitic" icon="Lumitic" desc="Coding Help" url="https://twitter.com/PeacefulLuma" role="10"/>
+	<credit name="3Monika4" icon="3Monika4" desc="Doki Doki Vigilante Collab" url="https://twitter.com/3Monika4" role="10"/>
+	<credit name="Rozebud" icon="Rozebud" desc="FPS+ Charting State" url="https://twitter.com/helpme_thebigt" role="10"/>
+	<credit name="Shadow Mario" icon="ShadowMario" desc="Psych Engine Code" url="https://twitter.com/Shadow_Mario_" role="10"/>
+	<credit name="Playtesters" icon="Monika" desc="DatDavi, ItoSaihara_, Jorge_SunSpirit,\nJACKALRUIN, M&amp;M, SirDusterBuster, Weeg" url="" role="10"/>
+	<credit name="Special Thanks!" icon="BF" desc="AfroDanceMan, Awoofle, Bijuu Mike,\nBlantados, Butterflan, Danish.exe, DesireDelta,\nemeruga, EnigmaticQube, firubii, Iamjace,\nItsSoraval, JakeNeutron, NooBZiiTo1, Penkaru,\nshiroeyoru, SantiOkuu, Shouko-kun, Starbitz,\nStariiFish, SuperStamps, Tiniest Turtles,\nUniqueGeese, vivwikls, Zee, and you!" url="" role="10"/>
+</menu>

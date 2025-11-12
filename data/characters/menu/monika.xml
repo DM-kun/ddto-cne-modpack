@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.7" x="570" y="110">
+	<anim name="idle" anim="Moni BG" fps="24" loop="false" forced="true"/>
+</char>

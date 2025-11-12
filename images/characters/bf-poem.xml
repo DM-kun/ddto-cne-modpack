@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bf-poem.png" width="2089" height="1894" spritePadding="3" borderPadding="1">
+	<SubTexture name="BFPoemDown0000" x="839" y="1446" width="427" height="428" rotated="true" frameX="-74" frameY="-106" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0001" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0002" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0003" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0004" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0005" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0006" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0007" x="420" y="1446" width="416" height="440" rotated="true" frameX="-68" frameY="-117" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0008" x="420" y="1446" width="416" height="440" rotated="true" frameX="-68" frameY="-117" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0009" x="420" y="1446" width="416" height="440" rotated="true" frameX="-68" frameY="-117" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0010" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0011" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0012" x="1610" y="946" width="423" height="436" rotated="true" frameX="-72" frameY="-109" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0013" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0014" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemDown0015" x="401" y="946" width="418" height="461" rotated="true" frameX="-65" frameY="-114" frameWidth="526" frameHeight="534"/>
+	<SubTexture name="BFPoemIdle0000" x="1269" y="1446" width="406" height="447" frameX="-98" frameY="-62" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0001" x="1269" y="1446" width="406" height="447" frameX="-98" frameY="-62" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0002" x="1269" y="1446" width="406" height="447" frameX="-98" frameY="-62" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0003" x="1269" y="1446" width="406" height="447" frameX="-98" frameY="-62" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0004" x="1" y="1446" width="416" height="443" frameX="-83" frameY="-68" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0005" x="1" y="1446" width="416" height="443" frameX="-83" frameY="-68" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0006" x="1" y="1446" width="416" height="443" frameX="-83" frameY="-68" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0007" x="1" y="1446" width="416" height="443" frameX="-83" frameY="-68" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0008" x="1678" y="1446" width="410" height="442" frameX="-91" frameY="-66" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0009" x="1678" y="1446" width="410" height="442" frameX="-91" frameY="-66" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0010" x="1678" y="1446" width="410" height="442" frameX="-91" frameY="-66" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemIdle0011" x="1678" y="1446" width="410" height="442" frameX="-91" frameY="-66" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0000" x="1515" y="1" width="485" height="439" frameX="-18" frameY="-72" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0001" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0002" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0003" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0004" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0005" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0006" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0007" x="1014" y="1" width="498" height="439" frameX="-3" frameY="-72" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0008" x="1014" y="1" width="498" height="439" frameX="-3" frameY="-72" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0009" x="1014" y="1" width="498" height="439" frameX="-3" frameY="-72" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0010" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0011" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0012" x="509" y="1" width="502" height="436" frameX="0" frameY="-78" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0013" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0014" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemLeft0015" x="1" y="1" width="505" height="439" frameX="-2" frameY="-74" frameWidth="535" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0000" x="1266" y="443" width="416" height="486" frameX="-98" frameY="-27" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0001" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0002" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0003" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0004" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0005" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0006" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0007" x="847" y="443" width="416" height="492" frameX="-100" frameY="-21" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0008" x="847" y="443" width="416" height="492" frameX="-100" frameY="-21" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0009" x="847" y="443" width="416" height="492" frameX="-100" frameY="-21" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0010" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0011" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0012" x="1" y="443" width="422" height="498" frameX="-96" frameY="-12" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0013" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0014" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemRight0015" x="1217" y="946" width="390" height="487" frameX="-107" frameY="-22" frameWidth="539" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0000" x="822" y="946" width="392" height="489" frameX="-93" frameY="-20" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0001" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0002" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0003" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0004" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0005" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0006" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0007" x="1" y="946" width="397" height="497" frameX="-91" frameY="-11" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0008" x="1" y="946" width="397" height="497" frameX="-91" frameY="-11" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0009" x="1" y="946" width="397" height="497" frameX="-91" frameY="-11" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0010" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0011" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0012" x="426" y="443" width="418" height="498" frameX="-64" frameY="-7" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0013" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0014" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="BFPoemUp0015" x="1685" y="443" width="399" height="500" frameX="-81" frameY="-6" frameWidth="526" frameHeight="521"/>
+</TextureAtlas>

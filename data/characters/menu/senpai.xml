@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.9" x="540" y="110">
+	<anim name="idle" anim="senpai_microphone" fps="24" loop="true" animType="loop" forced="false"/>
+</char>

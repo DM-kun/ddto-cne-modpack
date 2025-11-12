@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="320" y="173" scale="0.7" updateHitbox="true">
+	<anim name="idle" anim="Moni BG" loop="false" force="true"/>
+</character>

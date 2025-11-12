@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				66,
+				74
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "ded",
+			"loop": false,
+			"name": "YuriFirstPersonDie"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "idle",
+			"loop": true,
+			"name": "YuriIdle"
+		},
+		{
+			"offsets": [
+				-4,
+				0
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "singUP",
+			"loop": false,
+			"name": "YuriUp"
+		},
+		{
+			"offsets": [
+				46,
+				0
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "YuriDown"
+		},
+		{
+			"offsets": [
+				86,
+				0
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "YuriLeft"
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "YuriRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/badending/Yuri_BLOODS",
+	"position": [
+		-200,
+		-70
+	],
+	"healthicon": "yuri-crazy",
+	"flip_x": false,
+	"healthbar_colors": [
+		158,
+		114,
+		230
+	],
+	"camera_position": [
+		-190,
+		109
+	],
+	"sing_duration": 9,
+	"scale": 1
+}

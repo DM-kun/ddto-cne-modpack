@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="104" y="382" scale="6" antialiasing="false" camx="100" camy="50" color="#FFB8E2">
+	<anim name="idle" anim="FightIdle"/>
+	<anim name="singLEFT" anim="MkaLeft"/>
+	<anim name="singDOWN" anim="MkaDown"/>
+	<anim name="singUP" anim="MkaUp"/>
+	<anim name="singRIGHT" anim="MkaRight"/>
+	<anim name="singLEFT-alt" anim="SenLeft"/>
+	<anim name="singDOWN-alt" anim="SenDown"/>
+	<anim name="singUP-alt" anim="SenUp"/>
+	<anim name="singRIGHT-alt" anim="SenRight"/>
+</character>

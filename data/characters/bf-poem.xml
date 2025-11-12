@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-60" y="260" flipX="true" camy="-40" isPlayer="true" icon="bf-poem" color="#FFFFFF">
+	<anim name="idle" anim="BFPoemIdle" loop="true"/>
+	<anim name="singLEFT" anim="BFPoemLeft" x="8"/>
+	<anim name="singDOWN" anim="BFPoemDown"/>
+	<anim name="singUP" anim="BFPoemUp" y="-4"/>
+	<anim name="singRIGHT" anim="BFPoemRight"/>
+	<anim name="singLEFT-loop" anim="BFPoemLeft" x="8" loop="true" indices="1..9"/>
+	<anim name="singDOWN-loop" anim="BFPoemDown" loop="true" indices="1..9"/>
+	<anim name="singUP-loop" anim="BFPoemUp" y="-4" loop="true" indices="1..9"/>
+	<anim name="singRIGHT-loop" anim="BFPoemRight" loop="true" indices="1..9"/>
+</character>

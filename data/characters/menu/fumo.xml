@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="1" x="640" y="160">
+	<anim name="idle" anim="cirno_fumo" fps="24" loop="false" forced="true"/>
+</char>

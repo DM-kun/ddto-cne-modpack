@@ -1,0 +1,52 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" folder="stages/school/" startCamPosY="550" startCamPosX="600">
+	<use-extension script="pixel"/>
+
+	<!-- Evil School -->
+	<solid name="evilSky" x="-500" y="-1000" width="2400" height="2000" color="#000000" antialiasing="false" updateHitbox="true"/>
+
+	<sprite name="evilBackTrees" x="-842" y="-80" sprite="evil/weebBackTrees"
+		antialiasing="false" scale="6" scroll="0.5" updateHitbox="true"/>
+
+	<sprite name="evilSchool" x="-816" y="-38" sprite="evil/weebSchool"
+		antialiasing="false" scale="6" scroll="0.75" updateHitbox="true"/>
+
+	<sprite name="evilStreet" x="-662" y="6" sprite="evil/weebStreet"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<sprite name="evilTrees" x="-662" y="6" sprite="evil/weebTrees"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<!-- Normal School -->
+	<sprite name="sky" x="-626" y="-78" sprite="weebSky"
+		antialiasing="false" scale="6" scroll="0.2" updateHitbox="true"/>
+
+	<sprite name="backTrees" x="-842" y="-80" sprite="weebBackTrees"
+		antialiasing="false" scale="6" scroll="0.5" updateHitbox="true"/>
+
+	<sprite name="school" x="-816" y="-38" sprite="weebSchool"
+		antialiasing="false" scale="6" scroll="0.75" updateHitbox="true"/>
+
+	<sprite name="street" x="-662" y="6" sprite="weebStreet"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<sprite name="treesFG" x="-500" y="6" sprite="weebTreesBack"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<sprite name="treesBG" x="-806" y="-1050" sprite="weebTrees" antialiasing="false" scale="6" scroll="1" updateHitbox="true" type="loop">
+		<anim name="treeLoop" anim="treeLoop" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" fps="12" loop="true"/>
+	</sprite>
+
+	<sprite name="petals" x="-20" y="-40" sprite="petals" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop">
+		<anim name="petals" anim="petals" fps="24" loop="true"/>
+	</sprite>
+
+	<sprite name="bgGirls" x="-646" y="222" sprite="bgFreaks" scroll="1" scale="6" antialiasing="false" updateHitbox="true" type="onbeat" beatInterval="2">
+		<anim name="idle" anim="BG fangirls dissuaded" fps="12" loop="false" force="true"/>
+	</sprite>
+
+	<girlfriend spacingx="0" scroll="1"/>
+	<dad spacingx="0"/>
+	<ratings x="760" y="540"/>
+	<boyfriend spacingx="0"/>
+</stage>

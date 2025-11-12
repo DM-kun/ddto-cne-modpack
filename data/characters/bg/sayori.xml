@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-49" y="247" scale="0.7" updateHitbox="true">
+	<anim name="idle" anim="Sayori BG" loop="false" force="true"/>
+</character>

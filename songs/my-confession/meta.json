@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "sayori",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "My Confession",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 170
+}

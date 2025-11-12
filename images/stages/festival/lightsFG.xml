@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="lightsFG.png" width="7411" height="1654" spritePadding="3" borderPadding="1">
+	<SubTexture name="Lights front0000" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0001" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0002" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0003" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0004" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0005" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0006" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0007" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0008" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0009" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0010" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0011" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0012" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0013" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0014" x="1" y="904" width="2341" height="749" frameX="-118" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0015" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0016" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0017" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0018" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0019" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0020" x="2345" y="904" width="2340" height="749" frameX="-127" frameY="-128" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0021" x="4993" y="828" width="2416" height="824" frameX="-85" frameY="-91" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0022" x="4993" y="828" width="2416" height="824" frameX="-85" frameY="-91" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0023" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0024" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0025" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0026" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0027" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0028" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0029" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0030" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0031" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0032" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0033" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0034" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0035" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0036" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0037" x="1" y="1" width="2493" height="900" frameX="-42" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0038" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0039" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0040" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0041" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0042" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0043" x="2497" y="1" width="2493" height="900" frameX="-50" frameY="-53" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0044" x="4993" y="1" width="2417" height="824" frameX="-80" frameY="-91" frameWidth="2596" frameHeight="1001"/>
+	<SubTexture name="Lights front0045" x="4993" y="1" width="2417" height="824" frameX="-80" frameY="-91" frameWidth="2596" frameHeight="1001"/>
+</TextureAtlas>

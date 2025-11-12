@@ -1,0 +1,25 @@
+{
+	"params":
+	[
+		{
+			"name": "Reversed?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "Color",
+			"type": "ColorWheel",
+			"defaultValue": "#000000"
+		},
+		{
+			"name": "Time (Steps)",
+			"type": "Float(0.25, 9999, 1, 2)",
+			"defaultValue": 4
+		},
+		{
+			"name": "Camera",
+			"type": "DropDown('camGame', 'camHUD')",
+			"defaultValue": "camHUD"
+		}
+	]
+}

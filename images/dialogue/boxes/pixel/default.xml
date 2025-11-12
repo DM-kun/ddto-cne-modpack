@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="default.png" width="207" height="973" spritePadding="3" borderPadding="1">
+	<SubTexture name="evil open0000" x="1" y="1" width="14" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil open0001" x="18" y="1" width="47" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil open0002" x="1" y="78" width="78" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil open0003" x="1" y="266" width="190" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil open0003" x="1" y="266" width="190" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil normal0000" x="1" y="266" width="190" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil click0000" x="1" y="221" width="190" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="evil wait0000" x="1" y="311" width="190" height="42" frameX="0" frameY="0" frameWidth="190" frameHeight="42"/>
+	<SubTexture name="monika click0000" x="1" y="356" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika click0001" x="1" y="407" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika end0000" x="1" y="458" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika end0001" x="1" y="407" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika normal0000" x="1" y="509" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0000" x="1" y="46" width="195" height="12" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0001" x="1" y="123" width="195" height="24" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0002" x="1" y="182" width="195" height="36" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika open0003" x="1" y="509" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="monika wait0000" x="1" y="407" width="195" height="48" frameX="0" frameY="0" frameWidth="195" frameHeight="48"/>
+	<SubTexture name="week6 click0000" x="1" y="609" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 click0001" x="1" y="670" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 click0002" x="1" y="731" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0000" x="1" y="792" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0001" x="1" y="853" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 end0002" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 normal0000" x="1" y="731" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0000" x="1" y="61" width="202" height="14" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0001" x="1" y="150" width="204" height="29" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0002" x="1" y="560" width="204" height="46" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 open normal0003" x="1" y="731" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0000" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0001" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0002" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0003" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0004" x="1" y="853" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0005" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+	<SubTexture name="week6 wait0006" x="1" y="914" width="205" height="58" frameX="0" frameY="0" frameWidth="205" frameHeight="58"/>
+</TextureAtlas>

@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="1" x="500" y="130">
+	<anim name="idle" anim="Cyrix-Static Menu" fps="21" loop="true" animType="loop" forced="false"/>
+</char>

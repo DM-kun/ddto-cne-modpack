@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="natsuki-home.png" width="3329" height="2717" spritePadding="3" borderPadding="1">
+	<SubTexture name="Nat Idle0000" x="2648" y="528" width="328" height="555" frameX="-22" frameY="-6" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0001" x="2979" y="528" width="330" height="552" frameX="-16" frameY="-9" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0002" x="995" y="528" width="325" height="552" frameX="-37" frameY="-9" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0003" x="1654" y="528" width="327" height="550" frameX="-29" frameY="-11" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0004" x="1323" y="528" width="328" height="547" frameX="-34" frameY="-14" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0005" x="331" y="528" width="329" height="544" frameX="-27" frameY="-17" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0006" x="663" y="528" width="329" height="545" frameX="-34" frameY="-16" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0007" x="1" y="528" width="327" height="547" frameX="-39" frameY="-14" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0008" x="2315" y="528" width="330" height="550" frameX="-22" frameY="-11" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0009" x="1984" y="528" width="328" height="551" frameX="-26" frameY="-10" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0010" x="333" y="1086" width="329" height="557" frameX="-17" frameY="-4" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0011" x="1" y="1086" width="329" height="555" frameX="-12" frameY="-6" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Idle0012" x="665" y="1086" width="329" height="557" frameX="-17" frameY="-4" frameWidth="344" frameHeight="562"/>
+	<SubTexture name="Nat Sing Note DOWN0000" x="2973" y="1" width="338" height="517" frameX="-38" frameY="-12" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0001" x="1" y="1" width="339" height="500" frameX="-10" frameY="-28" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0002" x="672" y="1" width="327" height="520" frameX="-35" frameY="-9" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0003" x="343" y="1" width="326" height="520" frameX="-37" frameY="-9" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0004" x="1002" y="1" width="325" height="524" frameX="-28" frameY="-5" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0005" x="1986" y="1" width="326" height="523" frameX="-22" frameY="-6" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0006" x="1330" y="1" width="325" height="524" frameX="-28" frameY="-5" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0007" x="2315" y="1" width="326" height="523" frameX="-22" frameY="-6" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0008" x="1658" y="1" width="325" height="524" frameX="-28" frameY="-5" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0009" x="2644" y="1" width="326" height="523" frameX="-22" frameY="-6" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0010" x="1002" y="1" width="325" height="524" frameX="-28" frameY="-5" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0011" x="1986" y="1" width="326" height="523" frameX="-22" frameY="-6" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0012" x="1330" y="1" width="325" height="524" frameX="-28" frameY="-5" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note DOWN0013" x="2315" y="1" width="326" height="523" frameX="-22" frameY="-6" frameWidth="354" frameHeight="529"/>
+	<SubTexture name="Nat Sing Note Left0000" x="1080" y="2286" width="555" height="397" rotated="true" frameX="-36" frameY="-29" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0001" x="2689" y="2286" width="557" height="406" rotated="true" frameX="-28" frameY="-27" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0002" x="2504" y="1682" width="379" height="556" frameX="-55" frameY="-28" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0003" x="1" y="2286" width="563" height="388" rotated="true" frameX="-47" frameY="-21" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0004" x="1715" y="1682" width="366" height="551" frameX="-69" frameY="-33" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0005" x="665" y="1682" width="354" height="544" frameX="-81" frameY="-40" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0006" x="1348" y="1682" width="364" height="551" frameX="-71" frameY="-33" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0007" x="665" y="1682" width="354" height="544" frameX="-81" frameY="-40" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0008" x="1348" y="1682" width="364" height="551" frameX="-71" frameY="-33" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0009" x="665" y="1682" width="354" height="544" frameX="-81" frameY="-40" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0010" x="1348" y="1682" width="364" height="551" frameX="-71" frameY="-33" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0011" x="665" y="1682" width="354" height="544" frameX="-81" frameY="-40" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0012" x="1348" y="1682" width="364" height="551" frameX="-71" frameY="-33" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Left0013" x="665" y="1682" width="354" height="544" frameX="-81" frameY="-40" frameWidth="435" frameHeight="584"/>
+	<SubTexture name="Nat Sing Note Right0000" x="2084" y="1682" width="417" height="489" frameX="-41" frameY="-51" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0001" x="567" y="2286" width="510" height="430" rotated="true" frameX="-30" frameY="-30" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0002" x="2886" y="1682" width="426" height="509" frameX="-31" frameY="-31" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0003" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0004" x="2161" y="2286" width="525" height="430" rotated="true" frameX="-11" frameY="-15" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0005" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0006" x="2161" y="2286" width="525" height="430" rotated="true" frameX="-11" frameY="-15" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0007" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0008" x="2161" y="2286" width="525" height="430" rotated="true" frameX="-11" frameY="-15" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0009" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0010" x="2161" y="2286" width="525" height="430" rotated="true" frameX="-11" frameY="-15" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0011" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0012" x="2161" y="2286" width="525" height="430" rotated="true" frameX="-11" frameY="-15" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Right0013" x="1638" y="2286" width="520" height="429" rotated="true" frameX="-12" frameY="-20" frameWidth="444" frameHeight="540"/>
+	<SubTexture name="Nat Sing Note Up0000" x="997" y="1086" width="318" height="593" frameX="-33" frameY="-29" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0001" x="1022" y="1682" width="323" height="601" frameX="-24" frameY="-21" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0002" x="1" y="1682" width="330" height="583" frameX="-38" frameY="-39" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0003" x="334" y="1682" width="328" height="587" frameX="-33" frameY="-35" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0004" x="2326" y="1086" width="332" height="577" frameX="-42" frameY="-45" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0005" x="1318" y="1086" width="333" height="574" frameX="-46" frameY="-48" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0006" x="2661" y="1086" width="332" height="577" frameX="-42" frameY="-45" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0007" x="1654" y="1086" width="333" height="574" frameX="-46" frameY="-48" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0008" x="2996" y="1086" width="332" height="577" frameX="-42" frameY="-45" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0009" x="1990" y="1086" width="333" height="574" frameX="-46" frameY="-48" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0010" x="2326" y="1086" width="332" height="577" frameX="-42" frameY="-45" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0011" x="1318" y="1086" width="333" height="574" frameX="-46" frameY="-48" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0012" x="2661" y="1086" width="332" height="577" frameX="-42" frameY="-45" frameWidth="381" frameHeight="623"/>
+	<SubTexture name="Nat Sing Note Up0013" x="1654" y="1086" width="333" height="574" frameX="-46" frameY="-48" frameWidth="381" frameHeight="623"/>
+</TextureAtlas>

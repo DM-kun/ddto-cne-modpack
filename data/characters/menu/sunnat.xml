@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.8" x="340" y="260">
+	<anim name="idle" anim="sunday right" fps="24" loop="true" animType="loop" forced="false"/>
+</char>

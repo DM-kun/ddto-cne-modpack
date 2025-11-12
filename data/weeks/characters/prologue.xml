@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-week-portrait>
+<char sprite="prologue" scale="0.5">
+	<anim name="idle" anim="idle" fps="24" loop="false" forced="true"/>
+</char>

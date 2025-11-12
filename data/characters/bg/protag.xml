@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="152" scale="0.7" updateHitbox="true">
+	<anim name="idle" anim="Protag-kun BG" loop="false" force="true"/>
+</character>

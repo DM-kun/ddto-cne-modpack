@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.77" x="490" y="90">
+	<anim name="idle" anim="Tabi Yuri together hueh" fps="21" loop="true" animType="loop" forced="false"/>
+</char>

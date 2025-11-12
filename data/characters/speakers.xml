@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-10" y="296" icon="speakers" color="#434253">
+	<anim name="danceLeft" anim="GF Dancing Beat" indices="0..14"/>
+	<anim name="danceRight" anim="GF Dancing Beat" indices="15..29"/>
+</character>

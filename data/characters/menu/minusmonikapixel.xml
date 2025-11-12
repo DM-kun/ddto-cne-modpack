@@ -1,0 +1,4 @@
+<!DOCTYPE ddto-menu-character>
+<char scale="0.7" x="600" y="80">
+	<anim name="idle" anim="MinusMonika_gif" fps="24" loop="false" forced="true"/>
+</char>

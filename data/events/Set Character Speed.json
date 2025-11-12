@@ -1,0 +1,15 @@
+{
+	"params":
+	[
+		{
+			"name": "StrumLine",
+			"type": "StrumLine",
+			"defaultValue": 0
+		},
+		{
+			"name": "New Interval",
+			"type": "Int(0, 99, 1)",
+			"defaultValue": 1
+		}
+	]
+}

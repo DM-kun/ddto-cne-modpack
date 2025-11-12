@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="protag.png" width="934" height="1674" spritePadding="3" borderPadding="1">
+	<SubTexture name="Protag-kun BG0000" x="1" y="1" width="311" height="822" frameX="-26" frameY="-21" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0001" x="1" y="1" width="311" height="822" frameX="-26" frameY="-21" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0002" x="315" y="1" width="311" height="822" frameX="-25" frameY="-21" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0003" x="315" y="1" width="311" height="822" frameX="-25" frameY="-21" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0004" x="629" y="1" width="304" height="828" frameX="-30" frameY="-15" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0005" x="629" y="1" width="304" height="828" frameX="-30" frameY="-15" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0006" x="1" y="832" width="313" height="834" frameX="-32" frameY="-9" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0007" x="1" y="832" width="313" height="834" frameX="-32" frameY="-9" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0008" x="317" y="832" width="302" height="841" frameX="-32" frameY="-2" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0009" x="317" y="832" width="302" height="841" frameX="-32" frameY="-2" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0010" x="622" y="832" width="305" height="841" frameX="-30" frameY="-2" frameWidth="347" frameHeight="843"/>
+	<SubTexture name="Protag-kun BG0011" x="622" y="832" width="305" height="841" frameX="-30" frameY="-2" frameWidth="347" frameHeight="843"/>
+</TextureAtlas>

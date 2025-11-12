@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character scale="0.9" textSound="dialogue/natsuki">
+	<anim name="neutral" anim="neutral" fps="24" />
+	<anim name="spook" anim="spook" fps="24" />
+	<anim name="angry" anim="angry" fps="24" />
+	<anim name="happy" anim="happy" fps="24" />
+	<anim name="hmmph" anim="hmmph" fps="24" />
+	<anim name="sick" anim="sick" fps="24" />
+	<anim name="wah" anim="wah" fps="24" />
+	<anim name="what" anim="what" fps="24" />
+</character>

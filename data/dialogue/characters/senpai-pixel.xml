@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="pixel/senpai" x="0" y="0" scale="5.4" antialiasing="false" textSound="dialogue/pixel">
+	<anim name="neutral" anim="neutral" fps="12" />
+	<anim name="angry" anim="angry" fps="12" />
+	<anim name="shocked" anim="shocked" fps="12" />
+	<anim name="dark" anim="dark" fps="12" />
+	<anim name="confused" anim="confused" fps="12" />
+</character>

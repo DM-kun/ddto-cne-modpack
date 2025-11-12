@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-dialogue-box>
+<dialoguebox x="0" y="-50" scale="1.2" updateHitbox="true" textSound="dialogue/pixel" nextSound="dialogue/next">
+	<text font="Aller_Rg.ttf" x="200" y="200" width="900" color="#FFFFFF" size="28" borderSize="1" borderStyle="outline" borderColor="#000000" shadowOffsetX="1" shadowOffsetY="1"/>
+
+	<charpos name="left" x="-550" y="250" />
+	<charpos name="middle" x="-250" y="250" />
+	<charpos name="right" x="50" y="250" />
+
+	<anim name="normal" anim="empty" fps="24"/>
+	<anim name="normal-firstOpen" anim="blank" fps="24" />
+	<anim name="blank" anim="empty" fps="24"/>
+	<anim name="bf" anim="bf" fps="24"/>
+	<anim name="gf" anim="gf" fps="24"/>
+	<anim name="monika" anim="monika" fps="24"/>
+	<anim name="sayori" anim="sayori" fps="24"/>
+	<anim name="natsuki" anim="natsuki" fps="24"/>
+	<anim name="yuri" anim="yuri" fps="24"/>
+	<anim name="yuri-crazy" anim="crazy yuri" fps="24" x="-55" y="-12"/>
+	<anim name="protag" anim="protag" fps="24"/>
+	<anim name="zipper" anim="zipper" fps="24"/>
+</dialoguebox>
