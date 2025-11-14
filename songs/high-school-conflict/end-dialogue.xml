@@ -22,7 +22,7 @@
 	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
 		Alright! Here we go-
 	</line>
-	<line char="senpai-pixel" bubble="monika" changeDefAnim="dark">
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="dark">
 		Who the hell are you?!
 	</line>
 	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">

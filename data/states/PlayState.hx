@@ -10,9 +10,10 @@ function postCreate()
 	var playerColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (PlayState.opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 	var opponentColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (PlayState.opponentMode ? 0xFF66FF33 : 0xFFFF0000);
 
-	healthBar.setPosition(healthBarBG.x + 3, healthBarBG.y + 3);
-	healthBar.barWidth = Std.int(healthBarBG.width - 6);
-	healthBar.barHeight = Std.int(healthBarBG.height - 6);
+	var offset:FlxPoint = FlxPoint.get(3, 3);
+	healthBar.setPosition(healthBarBG.x + offset.x, healthBarBG.y + offset.y);
+	healthBar.barWidth = Std.int(healthBarBG.width - offset.x * 2);
+	healthBar.barHeight = Std.int(healthBarBG.height - offset.y * 2);
 	healthBar.createFilledBar(opponentColor, playerColor);
 	healthBar.numDivisions = 1000;
 	healthBar.updateBar();

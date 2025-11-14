@@ -29,7 +29,8 @@ function postCreate()
 	var playerColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (PlayState.opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 	var opponentColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (PlayState.opponentMode ? 0xFF66FF33 : 0xFFFF0000);
 
-	timeBar = new FlxBar(timeBarBG.x + 3, timeBarBG.y + 3, FlxBarFillDirection.LEFT_TO_RIGHT, Std.int(timeBarBG.width - 6), Std.int(timeBarBG.height - 6), null, null, 0, songLength);
+	var offset:FlxPoint = FlxPoint.get(3, 3);
+	timeBar = new FlxBar(timeBarBG.x + offset.x, timeBarBG.y + offset.y, FlxBarFillDirection.LEFT_TO_RIGHT, Std.int(timeBarBG.width - offset.x * 2), Std.int(timeBarBG.height - offset.y * 2), null, null, 0, songLength);
 	timeBar.createGradientBar([FlxColor.TRANSPARENT], [playerColor, opponentColor]);
 	timeBar.antialiasing = Options.antialiasing;
 	timeBar.scrollFactor.set();

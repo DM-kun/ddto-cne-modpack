@@ -33,8 +33,6 @@ function create()
 
 	CoolUtil.playMenuSong(false);
 
-	FlxG.mouse.visible = true;
-
 	var bg:FlxBackdrop = new FlxBackdrop(Paths.image('menus/bg'));
 	bg.antialiasing = Options.antialiasing;
 	bg.velocity.set(-40, -40);

@@ -5,6 +5,9 @@ private var menuPath:String = 'menus/warning/';
 
 function create()
 {
+	var sprite:FlxSprite = new FlxSprite(0, 0, Paths.image('window/cursor'));
+	FlxG.mouse.load(sprite.pixels);
+
 	var bg:FlxSprite = new FlxSprite(0, 0, Paths.image(menuPath + 'bg' + (FlxG.save.data.onBadEnding ? '-evil' : '')));
 	bg.antialiasing = Options.antialiasing;
 	bg.screenCenter();

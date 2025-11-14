@@ -1,0 +1,31 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="senpai-pixel" position="left" defaultAnim="neutral"/>
+	<char name="monika-pixel" position="right" defaultAnim="neutral"/>
+
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		First you steal my things, and then you pull something like that?
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		Who do you think you are?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		...
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		Now, step aside.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		...
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sinister">
+		...ahaha.
+		I don't think I will.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sinister">
+		You on the other hand-
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		What are you-
+	</line>
+	<!-- Command - Play Cutscene - Fakeout -->
+</dialogue>

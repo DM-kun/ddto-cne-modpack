@@ -1,3 +1,4 @@
+var angryBounce:FlxTween;
 var loopedTimer:FlxTimer;
 var bgFade:FlxSprite;
 var finished:Bool = false;
@@ -11,7 +12,7 @@ function postCreate()
 	bgFade.alpha = 0;
 	cutscene.insert(0, bgFade);
 
-	loopedTimer = new FlxTimer().start(0.83, function(tmr:FlxTimer)
+	loopedTimer = new FlxTimer().start(0.4, function(tmr:FlxTimer)
 	{
 		bgFade.alpha += (1 / 5) * 0.7;
 		if(bgFade.alpha > 0.7)
@@ -21,8 +22,12 @@ function postCreate()
 
 function playBubbleAnim(event)
 {
-	curAnim = event.bubble != null ? event.bubble : '';
-	switch(curAnim)
+	if(angryBounce != null) angryBounce.cancel();
+
+	if(curAnim != event.bubble && event.suffix == '' && cutscene.dialogueBox.hasAnimation(event.bubble + '-firstOpen'))
+		event.suffix = '-firstOpen';
+
+	switch(curAnim = event.bubble)
 	{
 		case 'monika':
 			cutscene.dialogueBox.text.color = 0xFF79375D;
@@ -34,26 +39,19 @@ function playBubbleAnim(event)
 			cutscene.dialogueBox.text.color = 0xFF3F2021;
 			cutscene.dialogueBox.text.borderColor = 0xFFD89494;
 	}
-}
 
-function postStartText()
-{
-	cutscene.dialogueBox.text.completeCallback = function() {
-		dialogueEnded = true;
-		if(cutscene.dialogueBox.hasAnimation(curAnim + '-end'))
-		{
-			cutscene.dialogueBox.playAnim(curAnim + '-end');
-		}
-		else if(cutscene.dialogueBox.hasAnimation(curAnim + '-wait'))
-			cutscene.dialogueBox.playAnim(curAnim + '-end');
-	};
+	if(event.bubble == 'week6-angry' && event.suffix == '-firstOpen')
+	{
+		var defaultScale:FlxPoint = FlxPoint.get(cutscene.dialogueBox.scale.x, cutscene.dialogueBox.scale.y);
+		cutscene.dialogueBox.scale.set(defaultScale.x - 0.4, defaultScale.y - 0.4);
+		angryBounce = FlxTween.tween(cutscene.dialogueBox.scale, {x: defaultScale.x, y: defaultScale.y}, 0.4, {ease: FlxEase.bounceOut});
+	}
 }
 
 function close(event)
 {
 	if(finished) return;
 	event.cancelled = true;
-
 	cutscene.canProceed = false;
 
 	cutscene.curMusic?.fadeOut(1, 0);

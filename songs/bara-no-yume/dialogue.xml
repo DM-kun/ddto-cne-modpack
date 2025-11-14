@@ -1,0 +1,41 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="senpai-pixel" position="left" defaultAnim="neutral"/>
+	<char name="monika-pixel" position="middle" defaultAnim="neutral"/>
+	<char name="bf-pixel" position="right" defaultAnim="neutral"/>
+
+	<line char="senpai-pixel" bubble="week6-angry" changeDefAnim="angry" playSound="dialogue/open-angry-pixel">
+		Wait- Is that my microphone?
+		How the hell did you get that?!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		...
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		And what is that WORM doing here?!
+	</line>
+	<line char="bf-pixel" bubble="week6" changeDefAnim="shocked">
+		Bep-
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		Didn't have enough fun making a fool of me last time you showed up?
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		Now you're bringing more of your hideously attractive friends here to mock me once again?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Hey, it's not-
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		You. Give me that back.
+		I have another score to settle.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Huh? No, wait, I was just about to-
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="angry">
+		I said GIVE IT!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		N-No!
+	</line>
+</dialogue>

@@ -1,8 +1,6 @@
 import funkin.backend.system.Flags;
 import funkin.backend.system.framerate.Framerate;
 import funkin.backend.utils.WindowUtils;
-import openfl.ui.Mouse;
-import openfl.ui.MouseCursor;
 
 // to fix the window icon flickering
 public static var switchingMod:Bool = false;
@@ -19,8 +17,7 @@ function preStateSwitch()
 		WindowUtils.setWindow(Flags.TITLE, 'window/iconOG');
 	}
 
-	Mouse.cursor = MouseCursor.ARROW;
-	FlxG.mouse.useSystemCursor = true;
+	FlxG.mouse.useSystemCursor = false;
 	FlxG.mouse.visible = false;
 
 	Framerate.offset.set(0, 0);
@@ -30,9 +27,6 @@ function postStateSwitch() //post is more consistent than pre
 {
 	// window title + icon
 	WindowUtils.setWindow(Flags.TITLE, Flags.MOD_ICON);
-
-	// reset mouse cursor
-	Mouse.cursor = MouseCursor.ARROW;
 
 	// make sure no shaders remain
 	FlxG.game.setFilters([]);

@@ -2,24 +2,37 @@
 <dialoguebox sprite="pixel/default" x="-42" y="-90" antialiasing="false" scale="5.4" updateHitbox="true" textSound="dialogue/pixel" nextSound="dialogue/next-pixel">
 	<text font="pixel.otf" x="200" y="220" width="880" color="#3F2021" size="32" antialiasing="false" borderSize="2" borderStyle="shadow" borderColor="#D89494" shadowOffsetX="2" shadowOffsetY="2"/>
 
-	<charpos name="left" x="-250" y="120" />
-	<charpos name="middle" x="0" y="120" />
+	<charpos name="left" x="-300" y="120" />
+	<charpos name="middle" x="-50" y="120" />
 	<charpos name="right" x="250" y="120" />
 
+	<!-- usually I would keep this as week6, but maybe it's best to also have it with normal... -->
+	<anim name="normal" anim="week6 normal" fps="12" />
+	<anim name="normal-firstOpen" anim="week6 open normal" fps="24" />
+	<anim name="normal-end" anim="week6 end" fps="12" />
+	<anim name="normal-wait" anim="week6 wait" fps="12" loop="true" /> <!-- unused for now -->
+	<anim name="normal-next" anim="week6 click" fps="12" />
+
 	<anim name="week6" anim="week6 normal" fps="12" />
-	<anim name="week6-firstOpen" anim="week6 open normal" fps="12" />
+	<anim name="week6-firstOpen" anim="week6 open normal" fps="24" />
 	<anim name="week6-end" anim="week6 end" fps="12" />
 	<anim name="week6-wait" anim="week6 wait" fps="12" loop="true" />
 	<anim name="week6-next" anim="week6 click" fps="12" />
 
+	<anim name="week6-angry" anim="week6 normal" fps="12" />
+	<anim name="week6-angry-firstOpen" anim="week6 normal" fps="24" />
+	<anim name="week6-angry-end" anim="week6 end" fps="12" />
+	<anim name="week6-angry-wait" anim="week6 wait" fps="12" loop="true" />
+	<anim name="week6-angry-next" anim="week6 click" fps="12" />
+
 	<anim name="monika" anim="monika normal" x="-5" y="-8" fps="12" />
-	<anim name="monika-firstOpen" anim="monika open" x="-5" y="-8" fps="12" />
+	<anim name="monika-firstOpen" anim="monika open" x="-5" y="-8" fps="24" />
 	<anim name="monika-end" anim="monika end" x="-5" y="-8" fps="12" />
 	<anim name="monika-wait" anim="monika wait" x="-5" y="-8" fps="12" loop="true" />
 	<anim name="monika-next" anim="monika click" x="-5" y="-8" fps="12" />
 
 	<anim name="evil" anim="evil normal" fps="12" />
-	<anim name="evil-firstOpen" anim="evil open" fps="12" />
+	<anim name="evil-firstOpen" anim="evil open" fps="24" />
 	<anim name="evil-wait" anim="evil wait" fps="12" loop="true" />
 	<anim name="evil-next" anim="evil click" fps="12" />
 </dialoguebox>
