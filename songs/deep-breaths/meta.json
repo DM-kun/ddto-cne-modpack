@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "yuri",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Deep Breaths",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 115
+}

@@ -54,6 +54,20 @@
 		},
 		{
 			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 17454.5454545455,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -61,10 +75,28 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 26181.8181818182
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				16,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 26181.8181818182,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -117,10 +149,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 61090.9090909091
+		},
+		{
+			"params": [
+				"baka",
+				"rock,0,32"
+			],
+			"time": 61090.9090909091,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -135,6 +179,14 @@
 			],
 			"name": "Camera Movement",
 			"time": 74181.8181818182
+		},
+		{
+			"params": [
+				"baka",
+				"normal,1,32"
+			],
+			"time": 78545.4545454546,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -159,10 +211,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 95999.9999999999
+		},
+		{
+			"params": [
+				"baka",
+				"rock,1,4"
+			],
+			"time": 95999.9999999999,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -236,21 +300,31 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 144000
+		},
+		{
+			"params": [
+				"baka",
+				"rock,0,32"
+			],
+			"time": 144000,
+			"name": "HScript Call"
 		}
 	],
-	"stage": "clubroom",
 	"codenameChart": true,
+	"stage": "clubroom",
 	"scrollSpeed": 2.6,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -812,7 +886,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 136.363636363618,
+					"sLen": 136.363636363611,
 					"time": 36818.1818181818,
 					"type": 0
 				},
@@ -896,7 +970,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 272.72727272725,
+					"sLen": 272.727272727243,
 					"time": 43636.3636363637,
 					"type": 0
 				},
@@ -1034,7 +1108,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 136.363636363618,
+					"sLen": 136.363636363611,
 					"time": 51818.1818181819,
 					"type": 0
 				},
@@ -1328,7 +1402,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 409.090909090941,
+					"sLen": 409.09090909097,
 					"time": 79636.3636363636,
 					"type": 0
 				},
@@ -1400,7 +1474,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 818.181818181853,
+					"sLen": 818.181818181867,
 					"time": 83909.0909090909,
 					"type": 0
 				},
@@ -1412,7 +1486,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 136.363636363661,
+					"sLen": 136.363636363676,
 					"time": 86454.5454545455,
 					"type": 0
 				},
@@ -1838,7 +1912,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 409.090909090941,
+					"sLen": 409.09090909097,
 					"time": 108000,
 					"type": 0
 				},
@@ -2281,23 +2355,23 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"natsuki"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -2469,7 +2543,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 136.363636363632,
+					"sLen": 136.363636363629,
 					"time": 13636.3636363636,
 					"type": 0
 				},
@@ -2697,7 +2771,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 136.363636363625,
+					"sLen": 136.363636363621,
 					"time": 31090.9090909091,
 					"type": 0
 				},
@@ -2961,7 +3035,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 136.363636363618,
+					"sLen": 136.363636363611,
 					"time": 43636.3636363637,
 					"type": 0
 				},
@@ -3099,7 +3173,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 136.363636363618,
+					"sLen": 136.363636363611,
 					"time": 51818.1818181819,
 					"type": 0
 				},
@@ -3429,7 +3503,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 409.090909090941,
+					"sLen": 409.090909090955,
 					"time": 83454.5454545455,
 					"type": 0
 				},
@@ -3711,7 +3785,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 136.363636363603,
+					"sLen": 136.363636363589,
 					"time": 102000,
 					"type": 0
 				},
@@ -3777,7 +3851,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 136.363636363661,
+					"sLen": 136.363636363676,
 					"time": 104454.545454545,
 					"type": 0
 				},
@@ -4382,36 +4456,38 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf-doki"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"gf-doki"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
 	"noteTypes": []

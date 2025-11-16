@@ -33,9 +33,7 @@ function create()
 	}
 
 	if(PlayState.SONG.meta.name.toLowerCase() == 'your-demise')
-	{
 		bigMonika = strumLines.members[0].characters[1];
-	}
 }
 
 function postCreate()

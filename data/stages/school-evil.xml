@@ -28,7 +28,6 @@
 	<sprite name="trees" x="-662" y="6" sprite="evil/weebTrees"
 		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
 
-
 	<girlfriend scroll="1" spacingx="0"/>
 	<dad spacingx="0"/>
 	<ratings x="760" y="540"/>

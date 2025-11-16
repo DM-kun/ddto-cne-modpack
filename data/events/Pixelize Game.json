@@ -1,0 +1,15 @@
+{
+	"params":
+	[
+		{
+			"name": "Strength",
+			"type": "Float(0, 6, 1, 2)",
+			"defaultValue": 2.7
+		},
+		{
+			"name": "Time (Steps)",
+			"type": "Float(0.25, 9999, 1, 2)",
+			"defaultValue": 4
+		}
+	]
+}

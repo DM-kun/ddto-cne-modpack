@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="25" y="115" camx="40" camy="40" color="#9D72D2">
+	<anim name="idle" anim="Yuri Crazy Idle"/>
+	<anim name="singDOWN" anim="Yuri Crazy Down" x="-3" y="-39"/>
+	<anim name="singRIGHT" anim="Yuri Crazy Right" x="-51" y="-2"/>
+	<anim name="singLEFT" anim="Yuri Crazy Left" x="170" y="14"/>
+	<anim name="singUP" anim="Yuri Crazy Up" x="52" y="61"/>
+</character>

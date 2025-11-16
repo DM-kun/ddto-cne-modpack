@@ -1,0 +1,15 @@
+{
+	"params":
+	[
+		{
+			"name": "Sound",
+			"type": "String",
+			"defaultValue": ""
+		},
+		{
+			"name": "Volume",
+			"type": "Float(0.1, 1, 1, 2)",
+			"defaultValue": 1
+		}
+	]
+}

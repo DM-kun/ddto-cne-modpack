@@ -37,24 +37,42 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 36000
 		},
 		{
 			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 36000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 39000
+			"time": 39375
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 45000
+			"time": 45375
 		},
 		{
 			"params": [
@@ -68,7 +86,7 @@
 				0
 			],
 			"name": "Camera Movement",
-			"time": 55500
+			"time": 57750
 		},
 		{
 			"params": [
@@ -79,10 +97,28 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 60000
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				4,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 60000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -129,6 +165,26 @@
 		{
 			"params": [
 				0,
+				"singRIGHT",
+				true,
+				"SING"
+			],
+			"time": 96750,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"singLEFT",
+				true,
+				"SING"
+			],
+			"time": 96750,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
 				"hmmph",
 				true,
 				"LOCK"
@@ -137,13 +193,15 @@
 			"name": "Play Animation"
 		}
 	],
-	"codenameChart": true,
 	"stage": "clubroom",
+	"codenameChart": true,
 	"scrollSpeed": 2.5,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -1286,23 +1344,23 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"natsuki"
+			],
+			"type": 0,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"natsuki"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 3,
@@ -2439,38 +2497,36 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"bf-doki"
+			],
+			"type": 1,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"bf-doki"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [],
+			"characters": [
+				"gf-doki"
+			],
+			"type": 2,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-doki"
-			]
+			"vocalsSuffix": ""
 		}
 	],
 	"noteTypes": []

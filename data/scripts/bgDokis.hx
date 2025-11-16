@@ -1,6 +1,6 @@
 import Xml;
 
-var dokis:FlxTypedGroup<FunkinSprite>;
+public var dokis:FlxTypedGroup<FunkinSprite>;
 
 function create()
 {

@@ -9,7 +9,11 @@
 	<solid name="tmp" x="-5000" y="-5000" width="1" height="1" color="#000000" antialiasing="false" updateHitbox="true"/>
 
 	<girlfriend scroll="1" spacingx="0"/>
+
+	<solid name="darkness" x="-1500" y="-1500" width="5000" height="5000" color="#000000" alpha="0" antialiasing="false" updateHitbox="true"/>
+
 	<dad spacingx="0"/>
+	<ratings />
 	<boyfriend spacingx="0"/>
 
 	<sprite name="desksFG" x="-700" y="-520" sprite="desksFG" scale="1.6" scrollx="1.3" updateHitbox="true"/>

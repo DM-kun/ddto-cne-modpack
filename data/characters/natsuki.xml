@@ -1,7 +1,7 @@
 <!DOCTYPE codename-engine-character>
-<character y="140" color="#FC95D2">
+<character y="175" icon="natsuki" color="#FC95D2">
 	<anim name="idle" anim="Nat Idle"/>
-	<anim name="singLEFT" anim="Nat Sing Note Left" x="-32" y="-21"/>
+	<anim name="singLEFT" anim="Nat Sing Note Left" x="-27" y="-21"/>
 	<anim name="singDOWN" anim="Nat Sing Note DOWN" x="38" y="-20"/>
 	<anim name="singUP" anim="Nat Sing Note Up" x="33" y="4"/>
 	<anim name="singRIGHT" anim="Nat Sing Note Right" x="-45" y="14"/>

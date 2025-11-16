@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-10" y="0" camx="-180" icon="gf" color="#A5004D">
+<character x="-10" camx="-180" icon="gf" color="#A5004D">
 	<anim name="danceLeft" anim="GF Dancing Beat" indices="0..14"/>
 	<anim name="danceRight" anim="GF Dancing Beat" indices="15..29"/>
 	<anim name="cheer" anim="GF countdown" y="9" indices="24..34"/>
@@ -9,4 +9,5 @@
 	<anim name="count-2" anim="GF countdown" y="9" indices="7..15"/>
 	<anim name="count-1" anim="GF countdown" y="9" indices="16..23"/>
 	<anim name="count-go" anim="GF countdown" y="9" indices="24..34"/>
+	<anim name="necksnap" anim="GF NECKSNAP" x="-2" y="-53" loop="true"/>
 </character>

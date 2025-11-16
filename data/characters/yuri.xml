@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character color="#9D72D2">
+<character icon="yuri" color="#9D72D2">
 	<anim name="idle" anim="Yuri Idle0"/>
 	<anim name="idle-alt" anim="Yuri Idle-alt"/>
 	<anim name="singLEFT" anim="Yuri Sing Note Left" x="-4" y="-22"/>

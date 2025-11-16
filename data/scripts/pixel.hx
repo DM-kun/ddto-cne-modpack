@@ -66,6 +66,7 @@ function onNoteCreation(event)
 	type = switch(type)
 	{
 		case 'Alt Anim Note' | 'No Anim Note' | '' | null: 'default';
+		case 'Markov No Anim Note': 'Markov Note';
 		default: event.noteType;
 	};
 

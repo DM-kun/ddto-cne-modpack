@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75" folder="stages/festival/" startCamPosY="500" startCamPosX="600">
+	<use-extension script="bgDokis"/>
+
+	<sprite name="closetFar" x="-700" y="-520" sprite="closetFar" scale="1.6" scrollx="0.9" updateHitbox="true"/>
+
+	<sprite name="clubroom" x="-700" y="-520" sprite="clubroom" scale="1.6" updateHitbox="true"/>
+
+	<sprite name="lightsBG" x="390" y="179" sprite="lightsBG" scale="1.6" updateHitbox="true" type="loop">
+		<anim name="idle" anim="idle" fps="24" loop="true"/>
+	</sprite>
+
+	<sprite name="banner" x="-700" y="-520" sprite="banner" scale="1.6" scrolly="0.9" updateHitbox="true"/>
+
+	<solid name="tmp" x="-5000" y="-5000" width="1" height="1" color="#000000" antialiasing="false" updateHitbox="true"/>
+
+	<girlfriend scroll="1" spacingx="0"/>
+	<dad spacingx="0"/>
+	<ratings />
+	<boyfriend spacingx="0"/>
+
+	<sprite name="desksFG" x="-700" y="-520" sprite="desksFG" scale="1.6" scrollx="1.3" updateHitbox="true"/>
+
+	<sprite name="lightsFG" x="-605" y="565" sprite="lightsFG" scale="1.6" scrollx="1.1" scrolly="0.9" updateHitbox="true" type="loop">
+		<anim name="idle" anim="idle" fps="24" loop="true"/>
+	</sprite>
+</stage>

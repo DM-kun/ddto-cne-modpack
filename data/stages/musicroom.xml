@@ -6,6 +6,7 @@
 
 	<girlfriend spacingx="0" scroll="1"/>
 	<dad spacingx="0"/>
+	<ratings />
 	<boyfriend spacingx="0"/>
 
 	<sprite name="fg" x="-250" y="-100" sprite="fg" scale="1.5" scrollx="1.2" updateHitbox="true"/>

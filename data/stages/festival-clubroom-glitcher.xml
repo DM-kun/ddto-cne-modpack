@@ -1,0 +1,52 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75" folder="stages/" startCamPosY="500" startCamPosX="600">
+	<use-extension script="bgDokis"/>
+
+	<!-- Pixel School -->
+	<sprite name="sky" x="-626" y="-78" sprite="school/weebSky"
+		antialiasing="false" scale="6" scroll="0.2" updateHitbox="true"/>
+
+	<sprite name="backTrees" x="-842" y="-80" sprite="school/weebBackTrees"
+		antialiasing="false" scale="6" scroll="0.5" updateHitbox="true"/>
+
+	<sprite name="school" x="-816" y="-38" sprite="school/weebSchool"
+		antialiasing="false" scale="6" scroll="0.75" updateHitbox="true"/>
+
+	<sprite name="street" x="-662" y="6" sprite="school/weebStreet"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<sprite name="treesFG" x="-500" y="6" sprite="school/weebTreesBack"
+		antialiasing="false" scale="6" scroll="1" updateHitbox="true"/>
+
+	<sprite name="treesBG" x="-806" y="-1050" sprite="school/weebTrees" antialiasing="false" scale="6" scroll="1" updateHitbox="true" type="loop">
+		<anim name="treeLoop" anim="treeLoop" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" fps="12" loop="true"/>
+	</sprite>
+
+	<sprite name="petals" x="-20" y="-40" sprite="school/petals" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop">
+		<anim name="petals" anim="petals" fps="24" loop="true"/>
+	</sprite>
+
+	<!-- Clubroom -->
+	<sprite name="closetFar" x="-700" y="-520" sprite="festival/closetFar" scale="1.6" scrollx="0.9" updateHitbox="true"/>
+
+	<sprite name="clubroom" x="-700" y="-520" sprite="festival/clubroom" scale="1.6" updateHitbox="true"/>
+
+	<sprite name="lightsBG" x="390" y="179" sprite="festival/lightsBG" scale="1.6" updateHitbox="true" type="loop">
+		<anim name="idle" anim="idle" fps="24" loop="true"/>
+	</sprite>
+
+	<sprite name="banner" x="-700" y="-520" sprite="festival/banner" scale="1.6" scrolly="0.9" updateHitbox="true"/>
+
+	<solid name="tmp" x="-5000" y="-5000" width="1" height="1" color="#000000" antialiasing="false" updateHitbox="true"/>
+
+	<girlfriend scroll="1" spacingx="0"/>
+	<dad spacingx="0"/>
+	<ratings />
+	<boyfriend spacingx="0"/>
+
+	<sprite name="desksFG" x="-700" y="-520" sprite="festival/desksFG" scale="1.6" scrollx="1.3" updateHitbox="true"/>
+
+	<sprite name="lightsFG" x="-605" y="565" sprite="festival/lightsFG" scale="1.6" scrollx="1.1" scrolly="0.9" updateHitbox="true" type="loop">
+		<anim name="idle" anim="idle" fps="24" loop="true"/>
+	</sprite>
+</stage>
