@@ -1,0 +1,72 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="monika-pixel" position="right" defaultAnim="neutral"/>
+	<char name="senpai-pixel" position="left" defaultAnim="neutral"/>
+
+	<line char="monika-pixel" bubble="monika" changeDefAnim="think">
+		...
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sinister">
+		Ahaha, I should know better-
+		Trying to interfere with people's love lives again.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="think">
+		I'll leave you be.
+	</line>
+	<line changeMusic="dialogue/pixel" callback="playCutscene"/>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="shocked">
+		So, you weren't the one who stole my mic?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		That blue-haired kid gave it to me when I showed up.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		I don't know where he got it from.
+		I don't even know how I got here, for that matter.
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="shocked">
+		Hmm...
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="shocked">
+		And what exactly happened after our...
+		unintentional duet?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		I... got rid of everyone. Temporarily.
+		It's something I can do, but that's a long story.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		-and that included that kid's girlfriend.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sinister">
+		Ahaha, old habits die hard, as they say.
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="shocked">
+		You got his girl too?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		...
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="neutral">
+		Hah! I bet you really pissed that worm off!
+		I wish I was there to see the look on his hideous baby face.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		He was mad...
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">
+		...
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="shocked">
+		...hey.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		...hm?
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="neutral">
+		Your performance wasn't half bad earlier.
+		Care for another song?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		...!
+	</line>
+</dialogue>

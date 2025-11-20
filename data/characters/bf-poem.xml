@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-60" y="260" flipX="true" camy="-40" isPlayer="true" icon="bf-poem" color="#FFFFFF">
+<character x="-60" y="260" flipX="true" camy="-40" isPlayer="true" icon="bf-poem" color="#FF0000">
 	<anim name="idle" anim="BFPoemIdle" loop="true"/>
 	<anim name="singLEFT" anim="BFPoemLeft" x="8"/>
 	<anim name="singDOWN" anim="BFPoemDown"/>

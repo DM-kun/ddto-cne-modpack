@@ -1,0 +1,42 @@
+<notes sprite="game/notes/default" scale="0.7">
+	<strum id="0"> <!-- LEFT -->
+		<anim name="static" anim="arrowLEFT" fps="24" />
+		<anim name="pressed" anim="left press" fps="24" />
+		<anim name="confirm" anim="left confirm" fps="24" />
+	</strum>
+	<note id="0">
+		<anim name="scroll" anim="purple0" fps="24" />
+		<anim name="hold" anim="purple hold piece" fps="24" />
+		<anim name="holdend" anim="purple hold end" fps="24" />
+	</note>
+	<strum id="1"> <!-- DOWN -->
+		<anim name="static" anim="arrowDOWN" fps="24" />
+		<anim name="pressed" anim="down press" fps="24" />
+		<anim name="confirm" anim="down confirm" fps="24" />
+	</strum>
+	<note id="1">
+		<anim name="scroll" anim="blue0" fps="24" />
+		<anim name="hold" anim="blue hold piece" fps="24" />
+		<anim name="holdend" anim="blue hold end" fps="24" />
+	</note>
+	<strum id="2"> <!-- UP -->
+		<anim name="static" anim="arrowUP" fps="24" />
+		<anim name="pressed" anim="up press" fps="24" />
+		<anim name="confirm" anim="up confirm" fps="24" />
+	</strum>
+	<note id="2">
+		<anim name="scroll" anim="green0" fps="24" />
+		<anim name="hold" anim="green hold piece" fps="24" />
+		<anim name="holdend" anim="green hold end" fps="24" />
+	</note>
+	<strum id="3"> <!-- RIGHT -->
+		<anim name="static" anim="arrowRIGHT" fps="24" />
+		<anim name="pressed" anim="right press" fps="24" />
+		<anim name="confirm" anim="right confirm" fps="24" />
+	</strum>
+	<note id="3">
+		<anim name="scroll" anim="red0" fps="24" />
+		<anim name="hold" anim="red hold piece" fps="24" />
+		<anim name="holdend" anim="red hold end" fps="24" />
+	</note>
+</notes>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character icon="bf-poem" color="#FFFFFF">
+	<anim name="idle" anim="SayoPoemIdle" loop="true"/>
+	<anim name="singDOWN" anim="SayoPoemDown" x="-2" y="20"/>
+	<anim name="singRIGHT" anim="SayoPoemRight" x="35"/>
+	<anim name="singLEFT" anim="SayoPoemLeft" x="40"/>
+	<anim name="singUP" anim="SayoPoemUp" x="10"/>
+	<anim name="singDOWN-loop" anim="SayoPoemDown" x="-2" y="20" loop="true" indices="1..9"/>
+	<anim name="singRIGHT-loop" anim="SayoPoemRight" x="35" loop="true" indices="1..9"/>
+	<anim name="singLEFT-loop" anim="SayoPoemLeft" x="40" loop="true" indices="1..9"/>
+	<anim name="singUP-loop" anim="SayoPoemUp" x="10" loop="true" indices="1..9"/>
+</character>

@@ -6,7 +6,7 @@
 
 	<sprite name="clubroom" x="-700" y="-520" sprite="clubroom" scale="1.6" updateHitbox="true"/>
 
-	<sprite name="lightsBG" x="390" y="179" sprite="lightsBG" scale="1.6" updateHitbox="true" type="loop">
+	<sprite name="lightsBG" x="220" y="115" sprite="lightsBG" scale="1.6" updateHitbox="true" type="loop">
 		<anim name="idle" anim="idle" fps="24" loop="true"/>
 	</sprite>
 
@@ -21,7 +21,7 @@
 
 	<sprite name="desksFG" x="-700" y="-520" sprite="desksFG" scale="1.6" scrollx="1.3" updateHitbox="true"/>
 
-	<sprite name="lightsFG" x="-605" y="565" sprite="lightsFG" scale="1.6" scrollx="1.1" scrolly="0.9" updateHitbox="true" type="loop">
+	<sprite name="lightsFG" x="-1350" y="200" sprite="lightsFG" scale="1.6" scrollx="1.2" scrolly="0.9" updateHitbox="true" type="loop">
 		<anim name="idle" anim="idle" fps="24" loop="true"/>
 	</sprite>
 </stage>

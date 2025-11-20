@@ -1,0 +1,17 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"instSuffix": "-pico",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "pico",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Love n Funkin (Pico Mix)",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"vocalsSuffix": "-pico",
+	"bpm": 128
+}

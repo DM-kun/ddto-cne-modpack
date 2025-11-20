@@ -31,8 +31,8 @@
 	<anim name="monika-wait" anim="monika wait" x="-5" y="-8" fps="12" loop="true" />
 	<anim name="monika-next" anim="monika click" x="-5" y="-8" fps="12" />
 
-	<anim name="evil" anim="evil normal" fps="12" />
-	<anim name="evil-firstOpen" anim="evil open" fps="24" />
-	<anim name="evil-wait" anim="evil wait" fps="12" loop="true" />
-	<anim name="evil-next" anim="evil click" fps="12" />
+	<anim name="evil" anim="evil normal" x="-5" y="-8" fps="12" />
+	<anim name="evil-firstOpen" anim="evil open" x="-5" y="-8" fps="24" />
+	<anim name="evil-wait" anim="evil wait" x="-5" y="-8" fps="12" loop="true" />
+	<anim name="evil-next" anim="evil click" x="-5" y="-8" fps="12" />
 </dialoguebox>

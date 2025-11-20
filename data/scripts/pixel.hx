@@ -65,7 +65,7 @@ function onNoteCreation(event)
 
 	type = switch(type)
 	{
-		case 'Alt Anim Note' | 'No Anim Note' | '' | null: 'default';
+		case 'Pixel Note' | 'Alt Anim Note' | 'No Anim Note' | '' | null: 'default';
 		case 'Markov No Anim Note': 'Markov Note';
 		default: event.noteType;
 	};
@@ -91,7 +91,7 @@ function onNoteCreation(event)
 
 function onPostNoteCreation(event)
 {
-	if(!pixelPlayer) return;
+	if((event.note.strumLine == playerStrums && !pixelPlayer) || (event.note.strumLine == cpuStrums && !pixelOpponent)) return;
 
 	if(event.note.splash == 'default') event.note.splash = 'pixel';
 	else event.note.splash = event.note.splash + '-pixel';
@@ -99,7 +99,7 @@ function onPostNoteCreation(event)
 
 function onPlayerHit(event)
 {
-	if(!pixelPlayer) return;
+	if((event.note.strumLine == playerStrums && !pixelPlayer) || (event.note.strumLine == cpuStrums && !pixelOpponent)) return;
 
 	event.ratingPrefix = 'game/pixelUI/score/';
 	event.ratingScale = daPixelZoom * 0.7;

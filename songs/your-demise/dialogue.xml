@@ -1,0 +1,43 @@
+<dialogue box="pixel" forceBoxDefaultTxtSound="true">
+	<char name="monika-pixel" position="left" defaultAnim="neutral"/>
+	<char name="bf-pixel" position="right" defaultAnim="neutral"/>
+
+	<line char="monika-pixel" bubble="monika" changeDefAnim="sinister">
+		There... No more distractions.
+	</line>
+	<line char="bf-pixel" bubble="evil" changeDefAnim="shocked">
+		SKEE DEP!
+		(Translation) GIRLFRIEND!
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		Let's get back to singing, shall we?
+	</line>
+	<line char="bf-pixel" bubble="evil" changeDefAnim="angry">
+		...
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Hmm?
+	</line>
+	<line char="bf-pixel" bubble="evil" changeDefAnim="angry">
+		*aggressive bee bop noises*
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		Oh... Her.
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="neutral">
+		Hey, let's not worry about her, ok?
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="happy">
+		C'mon, I've got a very special song I've wanted to sing!
+	</line>
+	<line char="bf-pixel" bubble="evil" changeDefAnim="angry">
+		*continuation of angry bee bops*
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="shocked">
+		...
+	</line>
+	<line char="monika-pixel" bubble="monika" changeDefAnim="think">
+		...
+		One more song.
+	</line>
+</dialogue>

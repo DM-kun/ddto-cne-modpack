@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character camx="-180" camy="80" icon="yuri-crazy" color="#9D72D2">
+	<anim name="idle" anim="YuriIdle"/>
+	<anim name="singDOWN" anim="YuriDown" x="56"/>
+	<anim name="singRIGHT" anim="YuriRight" x="-23"/>
+	<anim name="singLEFT" anim="YuriLeft" x="93"/>
+	<anim name="singUP" anim="YuriUp" x="4"/>
+	<anim name="idle-alt" anim="YuriBloodIdle"/>
+	<anim name="singDOWN-alt" anim="YuriBloodDown" x="46"/>
+	<anim name="singRIGHT-alt" anim="YuriBloodRight"/>
+	<anim name="singLEFT-alt" anim="YuriBloodLeft" x="86"/>
+	<anim name="singUP-alt" anim="YuriBloodUp" x="-4"/>
+	<anim name="jumpscare" anim="YuriFirstPersonJumpscare" x="410" y="190"/>
+	<anim name="die" anim="YuriFirstPersonDie" x="66" y="74"/>
+</character>

@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character camx="-200" color="#8CD465" scale="0.9">
+	<anim name="idle" anim="Big Monika Idle"/>
+	<anim name="singDOWN" anim="Big Monika Sing Down" x="1" y="-49"/>
+	<anim name="singRIGHT" anim="Big Monika Sing Right" x="-22" y="1"/>
+	<anim name="singLEFT" anim="Big Monika Sing Left" x="88" y="-14"/>
+	<anim name="singUP" anim="Big Monika Sing Up" x="1" y="11"/>
+	<anim name="ending" anim="Big Monika Last Note0" x="4" y="-1"/>
+	<anim name="end" anim="Big Monika Last Note First" x="242" y="26"/>
+	<anim name="end-shrug" anim="Big Monika Last Note Shrug" x="236" y="17"/>
+</character>

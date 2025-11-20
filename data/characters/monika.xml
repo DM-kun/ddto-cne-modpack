@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character color="#8CD465">
+<character camx="-20" camy="20" scale="0.9" icon="monika" color="#8CD465">
 	<anim name="idle" anim="Monika Returns Idle"/>
-	<anim name="singDOWN" anim="Monika Returns Down" x="-9" y="-58"/>
-	<anim name="singRIGHT" anim="Monika Returns Right" x="-32" y="-13"/>
-	<anim name="singLEFT" anim="Monika Returns Left" x="-21" y="44"/>
-	<anim name="singUP" anim="Monika Returns Up" x="-95" y="16"/>
+	<anim name="singDOWN" anim="Monika Returns Down" x="-10" y="-60"/>
+	<anim name="singRIGHT" anim="Monika Returns Right" x="-32" y="-11"/>
+	<anim name="singLEFT" anim="Monika Returns Left" x="-21" y="43"/>
+	<anim name="singUP" anim="Monika Returns Up" x="-96" y="16"/>
 </character>

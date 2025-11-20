@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character y="200" camy="-60" color="#95B6CA">
+<character y="200" camy="-60" color="#95B6CA" scale="1.1">
 	<anim name="idle" anim="SadSayo Idle"/>
-	<anim name="singDOWN" anim="SadSayo Down" y="-15"/>
-	<anim name="singRIGHT" anim="SadSayo Right" x="-5" y="-10"/>
-	<anim name="singLEFT" anim="SadSayo Left" x="25" y="-5"/>
-	<anim name="singUP" anim="SadSayo Up" x="5"/>
+	<anim name="singDOWN" anim="SadSayo Down" x="-2" y="-17"/>
+	<anim name="singRIGHT" anim="SadSayo Right" x="-6" y="-10"/>
+	<anim name="singLEFT" anim="SadSayo Left" x="26" y="-9"/>
+	<anim name="singUP" anim="SadSayo Up" x="-1" y="-2"/>
 </character>

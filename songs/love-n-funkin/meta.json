@@ -1,0 +1,18 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "gf",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Love n Funkin",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"variants": [
+		"pico"
+	],
+	"bpm": 128
+}

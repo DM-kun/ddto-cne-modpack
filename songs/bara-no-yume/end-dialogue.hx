@@ -7,7 +7,7 @@ var playedFakeout:Bool = false;
 function postCreate()
 {
 	schoolFakeout = new FlxSprite();
-	schoolFakeout.frames = Paths.getSparrowAtlas('game/cutscenes/animatedEvilSchool');
+	schoolFakeout.frames = Paths.getSparrowAtlas('dialogue/cutscenes/animatedEvilSchool');
 	schoolFakeout.animation.addByPrefix('idle', 'background 2', 24);
 	schoolFakeout.animation.play('idle');
 	schoolFakeout.scale.set(6, 6);
@@ -16,6 +16,8 @@ function postCreate()
 	schoolFakeout.antialiasing = false;
 	schoolFakeout.visible = false;
 	add(schoolFakeout);
+
+	FlxG.sound.load(Paths.sound('cutscene/fakeout'));
 
 	monika = new FlxVideoSprite();
 	monika.antialiasing = Options.antialiasing;
@@ -35,11 +37,9 @@ function postCreate()
 	monika.load(Paths.video('monika'));
 }
 
-var stupid = null;
 function close(event)
 {
 	if(playedFakeout) return;
-	stupid = event;
 	event.cancelled = true;
 
 	FlxG.sound.play(Paths.sound('cutscene/fakeout'));

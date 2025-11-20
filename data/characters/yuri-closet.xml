@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character icon="yuri-closet" scale="1.1">
+	<anim name="idle" anim="ClosetYuriIdle"/>
+	<anim name="singDOWN" anim="ClosetYuriDown" x="-1" y="-20"/>
+	<anim name="singRIGHT" anim="ClosetYuriRight"/>
+	<anim name="singLEFT" anim="ClosetYuriLeft" x="7"/>
+	<anim name="singUP" anim="ClosetYuriUp" y="45"/>
+	<anim name="intro" anim="ClosetYuriIntro" x="5" y="17"/>
+	<anim name="outro" anim="ClosetYuriOutro" x="5" y="3"/>
+</character>

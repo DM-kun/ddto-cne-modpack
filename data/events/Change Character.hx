@@ -48,4 +48,10 @@ function onEvent(event)
 	var rightColor:Int = player != null && player.iconColor != null && Options.colorHealthBar ? player.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 	healthBar.createFilledBar(leftColor, rightColor);
 	healthBar.updateBar();
+
+	if(timeBar != null)
+	{
+		timeBar.createGradientBar([FlxColor.TRANSPARENT], [rightColor, leftColor]);
+		timeBar.updateBar();
+	}
 }

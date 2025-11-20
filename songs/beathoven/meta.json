@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "natsuki",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Beathoven (Natsuki Mix)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 168
+}

@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "protag",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Titular (MC Mix)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 110
+}

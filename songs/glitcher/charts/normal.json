@@ -142,6 +142,28 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 49371.4285714286,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 49371.4285714286,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
 				1,
 				true,
 				4,
@@ -221,6 +243,28 @@
 			],
 			"time": 71314.2857142857,
 			"name": "Pixelize Game"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 71314.2857142857,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 71314.2857142857,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -322,21 +366,55 @@
 		},
 		{
 			"params": [
-				1
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 93257.1428571428,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 93257.1428571428,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 98742.857142857
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 104228.571428571
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 109714.285714286
@@ -352,10 +430,10 @@
 		{
 			"params": [
 				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
+				false,
+				2,
+				"sine",
+				"Out"
 			],
 			"name": "Camera Movement",
 			"time": 115200
@@ -379,7 +457,7 @@
 		{
 			"params": [
 				true,
-				0.75,
+				0.85,
 				"camGame",
 				4,
 				"quad",
@@ -389,6 +467,28 @@
 			],
 			"time": 115200,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 115200,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 115200,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -409,7 +509,7 @@
 		{
 			"params": [
 				true,
-				1.05,
+				1.15,
 				"camGame",
 				4,
 				"quad",
@@ -427,6 +527,28 @@
 			],
 			"time": 116571.428571429,
 			"name": "Pixelize Game"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 116571.428571429,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 116571.428571429,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -447,7 +569,7 @@
 		{
 			"params": [
 				true,
-				0.75,
+				0.85,
 				"camGame",
 				4,
 				"quad",
@@ -468,6 +590,28 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 117942.857142857,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 117942.857142857,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
 				2.7,
 				2
 			],
@@ -485,7 +629,7 @@
 		{
 			"params": [
 				true,
-				1.05,
+				1.15,
 				"camGame",
 				4,
 				"quad",
@@ -506,6 +650,28 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 119314.285714286,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 119314.285714286,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
 				2.7,
 				2
 			],
@@ -516,9 +682,9 @@
 			"params": [
 				1,
 				true,
-				4,
+				2,
 				"CLASSIC",
-				"In"
+				"Out"
 			],
 			"name": "Camera Movement",
 			"time": 120685.714285714
@@ -542,7 +708,7 @@
 		{
 			"params": [
 				true,
-				0.75,
+				0.85,
 				"camGame",
 				4,
 				"quad",
@@ -552,6 +718,28 @@
 			],
 			"time": 120685.714285714,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 120685.714285714,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 120685.714285714,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -572,7 +760,7 @@
 		{
 			"params": [
 				true,
-				1.05,
+				1.15,
 				"camGame",
 				4,
 				"quad",
@@ -593,6 +781,28 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 122057.142857143,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 122057.142857143,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
 				2.7,
 				2
 			],
@@ -610,7 +820,7 @@
 		{
 			"params": [
 				true,
-				0.75,
+				0.85,
 				"camGame",
 				4,
 				"quad",
@@ -631,6 +841,28 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 123428.571428571,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 123428.571428571,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
 				2.7,
 				2
 			],
@@ -648,7 +880,7 @@
 		{
 			"params": [
 				true,
-				1.05,
+				1.15,
 				"camGame",
 				4,
 				"quad",
@@ -666,6 +898,28 @@
 			],
 			"time": 124800,
 			"name": "Pixelize Game"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				true
+			],
+			"time": 124800,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				true
+			],
+			"time": 124800,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -715,6 +969,28 @@
 			],
 			"time": 126171.428571428,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0,
+				"default",
+				false
+			],
+			"time": 126171.428571428,
+			"name": "Change Note Skin"
+		},
+		{
+			"params": [
+				true,
+				true,
+				1,
+				"default",
+				false
+			],
+			"time": 126171.428571428,
+			"name": "Change Note Skin"
 		},
 		{
 			"params": [
@@ -1210,7 +1486,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142841,
+					"sLen": 257.142857142811,
 					"time": 27771.4285714286,
 					"type": 0
 				},
@@ -1366,7 +1642,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142891,
+					"sLen": 257.142857142935,
 					"time": 43885.7142857143,
 					"type": 0
 				},
@@ -1660,7 +1936,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 257.142857142891,
+					"sLen": 257.142857142935,
 					"time": 54171.4285714286,
 					"type": 0
 				},
@@ -1732,14 +2008,14 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142877,
+					"sLen": 171.428571428616,
 					"time": 63600,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 63942.8571428571,
+					"sLen": 171.428571428572,
+					"time": 63857.1428571429,
 					"type": 0
 				},
 				{
@@ -1768,13 +2044,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142891,
+					"sLen": 257.142857142906,
 					"time": 64800,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142891,
+					"sLen": 257.142857142906,
 					"time": 64800,
 					"type": 0
 				},
@@ -2249,7 +2525,7 @@
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 93257.1428571428,
+					"time": 93257.1428571429,
 					"type": 0
 				},
 				{
@@ -2291,7 +2567,7 @@
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 94457.1428571428,
+					"time": 94457.1428571429,
 					"type": 0
 				},
 				{
@@ -2333,7 +2609,7 @@
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 95657.1428571428,
+					"time": 95657.1428571429,
 					"type": 0
 				},
 				{
@@ -2375,7 +2651,7 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 96857.1428571428,
+					"time": 96857.1428571429,
 					"type": 0
 				},
 				{
@@ -2417,7 +2693,7 @@
 				{
 					"id": 2,
 					"sLen": 257.142857142855,
-					"time": 98057.1428571428,
+					"time": 98057.1428571429,
 					"type": 0
 				},
 				{
@@ -2488,14 +2764,14 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.14285714287,
+					"sLen": 171.42857142858,
 					"time": 107485.714285714,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 107828.571428571,
+					"sLen": 171.428571428565,
+					"time": 107742.857142857,
 					"type": 0
 				},
 				{
@@ -2548,14 +2824,14 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142855,
-					"time": 109371.428571428,
+					"sLen": 257.142857142899,
+					"time": 109371.428571429,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 257.142857142855,
-					"time": 109371.428571428,
+					"sLen": 257.142857142899,
+					"time": 109371.428571429,
 					"type": 0
 				},
 				{
@@ -2795,7 +3071,7 @@
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 120514.285714285,
+					"time": 120514.285714286,
 					"type": 0
 				},
 				{
@@ -4080,14 +4356,14 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142884,
+					"sLen": 171.42857142858,
 					"time": 69085.7142857143,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 69428.5714285714,
+					"sLen": 171.428571428565,
+					"time": 69342.8571428571,
 					"type": 0
 				},
 				{
@@ -4116,13 +4392,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142884,
+					"sLen": 257.142857142913,
 					"time": 70285.7142857143,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142884,
+					"sLen": 257.142857142913,
 					"time": 70285.7142857143,
 					"type": 0
 				},
@@ -4507,7 +4783,7 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 99257.1428571428,
+					"time": 99257.1428571429,
 					"type": 0
 				},
 				{
@@ -4686,7 +4962,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 257.142857142928,
+					"sLen": 257.142857143044,
 					"time": 110400,
 					"type": 0
 				},
@@ -4728,14 +5004,14 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142855,
-					"time": 112971.428571428,
+					"sLen": 171.428571428609,
+					"time": 112971.428571429,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 113314.285714286,
+					"sLen": 171.428571428565,
+					"time": 113228.571428571,
 					"type": 0
 				},
 				{
@@ -4765,13 +5041,13 @@
 				{
 					"id": 0,
 					"sLen": 257.142857142855,
-					"time": 114171.428571428,
+					"time": 114171.428571429,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 257.142857142855,
-					"time": 114171.428571428,
+					"time": 114171.428571429,
 					"type": 0
 				},
 				{
@@ -4819,7 +5095,7 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 121114.285714285,
+					"time": 121114.285714286,
 					"type": 0
 				},
 				{
@@ -4831,7 +5107,7 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 121371.428571428,
+					"time": 121371.428571429,
 					"type": 0
 				},
 				{
@@ -4873,7 +5149,7 @@
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 122314.285714285,
+					"time": 122314.285714286,
 					"type": 0
 				},
 				{
@@ -4885,7 +5161,7 @@
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 122571.428571428,
+					"time": 122571.428571429,
 					"type": 0
 				},
 				{
@@ -4987,7 +5263,7 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 124971.428571428,
+					"time": 124971.428571429,
 					"type": 0
 				},
 				{
@@ -5005,13 +5281,13 @@
 				{
 					"id": 0,
 					"sLen": 642.857142857145,
-					"time": 125314.285714285,
+					"time": 125314.285714286,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 642.857142857145,
-					"time": 125314.285714285,
+					"time": 125314.285714286,
 					"type": 0
 				},
 				{

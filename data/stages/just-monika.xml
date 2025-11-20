@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.75" folder="stages/clubroom-evil/" startCamPosY="500" startCamPosX="600">
+	<girlfriend scroll="1" spacingx="0"/>
+	<boyfriend spacingx="0"/>
+
+	<sprite name="clubroom" x="-250" y="-167" sprite="bg" scrollx="0.4" scrolly="0.6" updateHitbox="true"/>
+
+	<sprite name="windowlight" x="-250" y="-167" sprite="windowlight" scrollx="0.4" scrolly="0.6" updateHitbox="true"/>
+
+	<sprite name="lights" x="-250" y="-167" sprite="lights" scrollx="0.4" scrolly="0.6" updateHitbox="true"/>
+
+	<sprite name="table" x="-328" y="-115" sprite="lights" updateHitbox="true"/>
+
+	<dad spacingx="0"/>
+	<ratings />
+</stage>

@@ -3,6 +3,8 @@ var normalChars = [];
 var pixelChars = [];
 var isPixel:Bool = true;
 
+private var daPixelZoom:Float = PlayState.daPixelZoom;
+
 function create()
 {
 	bloomShader.range = 0.1;
@@ -15,14 +17,14 @@ function postCreate()
 {
 	camGame.addShader(bloomShader);
 
-	for(strumLine in strumLines.members)
+	for(i => strumLine in strumLines.members)
 	{
 		strumLine.characters[0].color = 0x828282;
 		normalChars.push(strumLine.characters[0]);
 		pixelChars.push(strumLine.characters[1]);
 	}
 
-	switchPixel('0');
+	switchPixel();
 }
 
 function onPlayerHit(event)
@@ -30,73 +32,11 @@ function onPlayerHit(event)
 	if(!isPixel) return;
 
 	event.ratingPrefix = 'game/pixelUI/score/';
-	event.ratingScale = PlayState.daPixelZoom * 0.7;
+	event.ratingScale = daPixelZoom * 0.7;
 	event.ratingAntialiasing = false;
 
-	event.numScale = PlayState.daPixelZoom * 0.7;
+	event.numScale = daPixelZoom * 0.7;
 	event.numAntialiasing = false;
-}
-
-function onStrumCreation(event)
-{
-	if(event.player < 3) return;
-	event.cancel();
-
-	var strum = event.strum;
-	strum.loadGraphic(Paths.image('game/pixelUI/notes/default'), true, 17, 17);
-	var maxCol = Math.floor(strum.graphic.width / 17);
-	var strumID = event.strumID % maxCol;
-
-	strum.animation.add('static', [strumID]);
-	strum.animation.add('pressed', [maxCol + strumID, (maxCol * 2) + strumID], 12, false);
-	strum.animation.add('confirm', [(maxCol * 3) + strumID, (maxCol * 4) + strumID], 12, false);
-
-	var strumScale = strumLines.members[event.player].strumScale;
-	strum.scale.set(PlayState.daPixelZoom * strumScale, PlayState.daPixelZoom * strumScale);
-	strum.updateHitbox();
-	strum.antialiasing = false;
-}
-
-function onNoteCreation(event)
-{
-	if(event.strumLineID < 3) return;
-	event.cancel();
-
-	var note = event.note;
-	var type = event.noteType;
-	var strumID = event.strumID;
-
-	type = switch(type)
-	{
-		case 'Alt Anim Note' | 'No Anim Note' | '' | null: 'default';
-		default: event.noteType;
-	};
-
-	if(event.note.isSustainNote)
-	{
-		note.loadGraphic(Paths.image('game/pixelUI/notes/' + type + 'ENDS'), true, 7, 6);
-		var maxCol = Math.floor(note.graphic.width / 7);
-		note.animation.add('hold', [strumID % maxCol]);
-		note.animation.add('holdend', [maxCol + strumID % maxCol]);
-	}
-	else
-	{
-		note.loadGraphic(Paths.image('game/pixelUI/notes/' + type), true, 17, 17);
-		var maxCol = Math.floor(note.graphic.width / 17);
-		note.animation.add('scroll', [(type != 'default' ? 0 : maxCol) + strumID % maxCol]);
-	}
-	var strumScale = event.note.strumLine.strumScale;
-	note.scale.set(PlayState.daPixelZoom * strumScale, PlayState.daPixelZoom * strumScale);
-	note.updateHitbox();
-	note.antialiasing = false;
-}
-
-function onPostNoteCreation(event)
-{
-	if(event.strumLineID < 3) return;
-
-	if(event.note.splash == 'default') event.note.splash = 'pixel';
-	else event.note.splash = event.note.splash + '-pixel';
 }
 
 function switchPixel()
@@ -108,6 +48,22 @@ function switchPixel()
 
 	for(character in normalChars) character.visible = !isPixel;
 	for(character in pixelChars) character.visible = isPixel;
+
+	var newPlayer = isPixel ? pixelChars[1] : normalChars[1];
+	var newOpponent = isPixel ? pixelChars[0] : normalChars[0];
+	iconP1.setIcon(newPlayer.getIcon());
+	iconP2.setIcon(newOpponent.getIcon());
+
+	var leftColor:Int = newOpponent != null && newOpponent.iconColor != null && Options.colorHealthBar ? newOpponent.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
+	var rightColor:Int = newPlayer != null && newPlayer.iconColor != null && Options.colorHealthBar ? newPlayer.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
+	healthBar.createFilledBar(leftColor, rightColor);
+	healthBar.updateBar();
+
+	if(timeBar != null)
+	{
+		timeBar.createGradientBar([FlxColor.TRANSPARENT], [rightColor, leftColor]);
+		timeBar.updateBar();
+	}
 
 	if(timeTxt != null) timeTxt.font = Paths.font(isPixel ? 'vcr.ttf' : 'Aller_Rg.ttf');
 

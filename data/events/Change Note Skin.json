@@ -1,0 +1,30 @@
+{
+	"params":
+	[
+		{
+			"name": "Change Strums?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "Change Notes?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "StrumLine",
+			"type": "StrumLine",
+			"defaultValue": 0
+		},
+		{
+			"name": "Skin (located in 'images/game/notes/')",
+			"type": "String",
+			"defaultValue": "default"
+		},
+		{
+			"name": "Is Pixel Skin? ('images/game/pixelUI/notes/')",
+			"type": "Bool",
+			"defaultValue": false
+		}
+	]
+}
