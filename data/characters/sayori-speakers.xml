@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-130" y="84" camx="-140" icon="sayori" color="#95DFFA">
+	<anim name="danceLeft" anim="Sayo_Idle_gone" y="-212"/>
+	<anim name="danceRight" anim="Sayo_Idle_gone" y="-212"/>
+	<anim name="danceLeft-alt" anim="Sayo_Idle0" indices="0..14"/>
+	<anim name="danceRight-alt" anim="Sayo_Idle0" indices="15..29"/>
+	<anim name="singRIGHT" anim="Sayo_singRIGHT" y="-5"/>
+	<anim name="singDOWN" anim="Sayo_singDOWN" y="-2"/>
+	<anim name="singUP" anim="Sayo_singUP" y="69"/>
+	<anim name="singLEFT" anim="Sayo_singLEFT" y="9"/>
+	<anim name="appear" anim="Sayo_popout" y="11"/>
+	<anim name="scared" anim="Sayo_scared" y="4"/>
+</character>
