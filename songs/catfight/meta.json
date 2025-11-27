@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "catfight",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Catfight",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
+}

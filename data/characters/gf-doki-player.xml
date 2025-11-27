@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="140" y="240" flipX="true" isPlayer="true" icon="gf" color="#A5004D">
+<character x="140" y="240" flipX="true" isPlayer="true" icon="gf" color="#A5004D" gameOverChar="gf-doki-player-dead">
 	<anim name="danceLeft" anim="GF IDLE" indices="0..14"/>
 	<anim name="danceRight" anim="GF IDLE" indices="15..29"/>
 	<anim name="singDOWN" anim="GF sing DOWN" x="-20" y="-29"/>

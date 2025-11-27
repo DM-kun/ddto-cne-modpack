@@ -1,3 +1,4 @@
+import funkin.game.cutscenes.DialogueCutscene;
 import hxvlc.flixel.FlxVideoSprite;
 
 var monika:FlxVideoSprite;
@@ -45,7 +46,7 @@ function close(event)
 	FlxG.sound.play(Paths.sound('cutscene/fakeout'));
 	schoolFakeout.visible = true;
 
-	new FlxTimer().start(1.8, function(_) {
+	new FlxTimer().start(1.5, function(_) {
 		monika.visible = true;
 		monika.play();
 	});
@@ -54,6 +55,5 @@ function close(event)
 function finishFakeout()
 {
 	playedFakeout = true;
-	// for some reason just close(); doesn't work...
-	FlxG.state.subState.close();
+	DialogueCutscene.cutscene.close();
 }

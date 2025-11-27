@@ -7,9 +7,9 @@ function postCreate()
 {
 	if(!pixelPlayer) return;
 
-	gameOverSong = 'pixel/gameOver';
-	lossSFX = 'pixel/gameOverSFX';
-	retrySFX = 'pixel/gameOverEnd';
+	gameOverSong = 'gameOver/pixel';
+	lossSFX = 'gameOver/start-pixel';
+	retrySFX = 'gameOver/end-pixel';
 }
 
 function onCountdown(event)
@@ -23,7 +23,7 @@ function onCountdown(event)
 		case 0: null;
 		case 1: 'game/pixelUI/ready';
 		case 2: 'game/pixelUI/set';
-		case 3: 'game/pixelUI/go' + (PlayState.SONG.meta.name.toLowerCase() == 'your-demise' ? '-demise' : '');
+		case 3: 'game/pixelUI/go' + (StringTools.endsWith(curStage, 'evil') ? '-demise' : '');
 	};
 }
 

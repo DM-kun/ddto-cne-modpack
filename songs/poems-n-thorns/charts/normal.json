@@ -50,19 +50,23 @@
 		},
 		{
 			"params": [
-				false,
-				false,
-				0
-			],
-			"name": "Alt Animation Toggle",
-			"time": 22666.6666666667
-		},
-		{
-			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 23111.1111111111
+		},
+		{
+			"params": [
+				false,
+				false,
+				0
+			],
+			"time": 23111.1111111111,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
@@ -341,12 +345,48 @@
 		},
 		{
 			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 122666.666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 123555.555555556,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				true,
 				false,
 				0
 			],
 			"name": "Alt Animation Toggle",
 			"time": 124444.444444445
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 124444.444444445,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 125333.333333333,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -359,12 +399,48 @@
 		},
 		{
 			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 126222.222222222,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 127111.111111111,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				true,
 				false,
 				0
 			],
 			"name": "Alt Animation Toggle",
 			"time": 128000
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 128000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 128888.888888889,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -377,12 +453,48 @@
 		},
 		{
 			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 129777.777777778,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 130666.666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				true,
 				false,
 				0
 			],
 			"name": "Alt Animation Toggle",
 			"time": 131555.555555556
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 131555.555555556,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 132444.444444444,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -395,6 +507,24 @@
 		},
 		{
 			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 133333.333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 134222.222222222,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				true,
 				false,
 				0
@@ -404,21 +534,52 @@
 		},
 		{
 			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 135111.111111111,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 136000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				false,
 				false,
 				0
 			],
 			"name": "Alt Animation Toggle",
 			"time": 136444.444444444
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 136888.888888889,
+			"name": "Camera Movement"
 		}
 	],
-	"codenameChart": true,
 	"stage": "school",
+	"codenameChart": true,
 	"scrollSpeed": 2.4,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -2312,7 +2473,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 555.555555555591,
+					"sLen": 555.555555555606,
 					"time": 115555.555555556,
 					"type": 0
 				},
@@ -2360,7 +2521,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 773.148131999973,
+					"sLen": 773.148131999958,
 					"time": 120888.891,
 					"type": 0
 				},
@@ -2761,23 +2922,23 @@
 					"type": 1
 				}
 			],
+			"characters": [
+				"duet-sm"
+			],
+			"type": 0,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"duet-sm"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -4478,38 +4639,36 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"bf-pixel"
+			],
+			"type": 1,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"bf-pixel"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [],
+			"characters": [
+				"gf-pixel"
+			],
+			"type": 2,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-pixel"
-			]
+			"vocalsSuffix": ""
 		}
 	],
 	"noteTypes": [

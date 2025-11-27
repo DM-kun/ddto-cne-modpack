@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "pen",
+	"coopAllowed": true,
+	"color": "#9271FD",
+	"stepsPerBeat": 4,
+	"displayName": "Wilted",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 112
+}

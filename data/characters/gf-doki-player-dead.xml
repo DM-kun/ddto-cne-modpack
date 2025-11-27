@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="140" y="240" flipX="true" camx="40" camy="80" isPlayer="true" icon="gf" color="#A5004D">
+	<anim name="firstDeath" anim="GF Dies"/>
+	<anim name="deathLoop" anim="GF dead Loop" x="19" y="9"/>
+	<anim name="deathConfirm" anim="GF dead Confirm" x="98" y="61"/>
+</character>

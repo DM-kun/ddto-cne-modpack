@@ -15,8 +15,21 @@ function postCreate()
 	for(strumLine in strumLines.members)
 	{
 		for(character in strumLine.characters)
-			character.color = 0x828282;
+			character.color = 0xFF828282;
 	}
+}
+
+function onPostCountdown(event)
+{
+	if(event.sprite == null) return;
+	event.sprite.color = 0xFFC9C9C9;
+}
+
+function onPostNoteHit()
+{
+	comboGroup.forEachAlive(function(spr) {
+		spr.color = 0xFFC9C9C9;
+	});
 }
 
 function destroy()

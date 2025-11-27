@@ -1,4 +1,19 @@
 {
+	"meta": {
+		"customValues": {},
+		"color": "#D471FD",
+		"opponentModeAllowed": true,
+		"difficulties": [
+			"normal"
+		],
+		"icon": "duet-sm",
+		"coopAllowed": true,
+		"stepsPerBeat": 4,
+		"displayName": "Bara no Yume",
+		"needsVoices": true,
+		"beatsPerMeasure": 4,
+		"bpm": 160
+	},
 	"events": [
 		{
 			"params": [
@@ -676,15 +691,11 @@
 			"time": 169500
 		}
 	],
-	"codenameChart": true,
 	"stage": "school",
-	"scrollSpeed": 2.6,
-	"chartVersion": "1.6.0",
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -3675,21 +3686,25 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"duet-sm"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -5828,32 +5843,32 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"bf-pixel"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"type": 2,
+			"visible": false,
 			"characters": [
 				"gf-pixel"
-			],
-			"visible": false,
-			"type": 2
+			]
 		}
 	],
+	"scrollSpeed": 2.6,
+	"chartVersion": "1.6.0",
 	"noteTypes": [
 		"Alt Anim Note"
 	]

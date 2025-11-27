@@ -60,8 +60,9 @@ function stageEvent(justMonika:String)
 		FlxTween.tween(redStatic, {alpha: 0}, 0.2);
 	}
 
-	sky.visible = backTrees.visible = school.visible = street.visible = treesFG.visible = treesBG.visible = petals.visible = (justMonika != '1');
-	evilSky.visible = evilBackTrees.visible = evilSchool.visible = evilStreet.visible = evilTrees.visible = (justMonika == '1');
+	for(obj in [sky, backTrees, school, street, treesFG, treesBG, petals]) obj.visible = (justMonika != '1');
+	for(obj in [evilSky, evilBackTrees, evilSchool, evilStreet, evilTrees]) obj.visible = (justMonika == '1');
+
 	bgGirls.visible = switch(PlayState.SONG.meta.name.toLowerCase())
 	{
 		case 'bara-no-yume' | 'poems-n-thorns': (justMonika != '1');

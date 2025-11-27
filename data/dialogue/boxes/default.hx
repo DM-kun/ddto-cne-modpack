@@ -1,18 +1,24 @@
-var bgFade:FlxSprite;
-var finished:Bool = false;
+var bgImage:FlxSprite;
 
 function postCreate()
 {
-	bgFade = new FlxSprite().makeSolid(FlxG.width + 100, FlxG.height + 100, 0xFFCEF4FF);
-	bgFade.antialiasing = false;
-	bgFade.screenCenter();
-	bgFade.scrollFactor.set();
-	bgFade.alpha = 0;
-	cutscene.insert(0, bgFade);
-
-	FlxTween.tween(bgFade, {alpha: 0.4}, 0.8);
+	bgImage = new FlxSprite().makeSolid(FlxG.width + 100, FlxG.height + 100, 0xFFB3DFD8);
+	bgImage.antialiasing = false;
+	bgImage.screenCenter();
+	bgImage.scrollFactor.set();
+	bgImage.alpha = 0;
+	cutscene.insert(0, bgImage);
 }
 
+var first:Bool = false;
+function playBubbleAnim()
+{
+	if(first) return;
+	first = true;
+	FlxTween.tween(bgImage, {alpha: 0.4}, 0.8);
+}
+
+var finished:Bool = false;
 function close(event)
 {
 	if(finished) return;
@@ -23,8 +29,8 @@ function close(event)
 	for(c in cutscene.charMap) c.visible = false;
 	FlxTween.tween(cutscene.dialogueBox, {alpha: 0, "text.alpha": 0}, 1);
 
-	FlxTween.cancelTweensOf(bgFade);
-	FlxTween.tween(bgFade, {alpha: 0}, 0.8, {onComplete: function(_) {
+	FlxTween.cancelTweensOf(bgImage);
+	FlxTween.tween(bgImage, {alpha: 0}, 0.8, {onComplete: function(_) {
 		finished = true;
 		cutscene.close();
 	}});

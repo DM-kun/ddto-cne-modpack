@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="200.5" y="334" scale="6" camx="-80" camy="60" antialiasing="false" flipX="true" isPlayer="true" icon="senpai-pixel" color="#FFAA6F" gameOverChar="senpai-pixel-dead" interval="2">
+<character x="200.5" y="334" scale="6" camx="-140" camy="60" antialiasing="false" flipX="true" isPlayer="true" icon="senpai-pixel" color="#FFAA6F" gameOverChar="senpai-pixel-dead" interval="2">
 	<anim name="danceLeft" anim="Senpai Idle1 instance 1"/>
 	<anim name="danceRight" anim="Senpai Idle2 instance 1"/>
 	<anim name="singLEFT" anim="SENPAI LEFT NOTE instance 1" x="5"/>

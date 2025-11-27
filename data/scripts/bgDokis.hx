@@ -31,9 +31,16 @@ function postCreate()
 		{
 			if(character == null || !character.visible) continue;
 			dokis.forEachAlive(function(spr:FunkinSprite) {
-				spr.visible = !StringTools.startsWith(character.curCharacter, spr.name);
+				if(StringTools.startsWith(character.curCharacter, spr.name))
+					spr.visible = false;
 			});
 		}
+	}
+
+	if(!StringTools.startsWith(curStage, 'festival'))
+	{
+		dokis.members[1].visible = false;
+		dokis.members[2].visible = false;
 	}
 
 	switch(strumLines.members[0].characters[0].curCharacter.toLowerCase())

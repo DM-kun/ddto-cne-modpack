@@ -47,7 +47,10 @@
 		...
 	</line>
 	<line char="senpai-pixel" bubble="week6" changeDefAnim="neutral">
-		Hah! I bet you really pissed that worm off!
+		Hah!
+		I bet you really pissed that worm off!
+	</line>
+	<line char="senpai-pixel" bubble="week6" changeDefAnim="neutral">
 		I wish I was there to see the look on his hideous baby face.
 	</line>
 	<line char="monika-pixel" bubble="monika" changeDefAnim="sad">

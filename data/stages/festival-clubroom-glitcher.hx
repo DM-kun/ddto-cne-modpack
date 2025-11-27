@@ -1,3 +1,5 @@
+import funkin.backend.system.Flags;
+
 var bloomShader:CustomShader = new CustomShader('bloom');
 var normalChars = [];
 var pixelChars = [];
@@ -19,12 +21,18 @@ function postCreate()
 
 	for(i => strumLine in strumLines.members)
 	{
-		strumLine.characters[0].color = 0x828282;
+		strumLine.characters[0].color = 0xFF828282;
 		normalChars.push(strumLine.characters[0]);
 		pixelChars.push(strumLine.characters[1]);
 	}
 
 	switchPixel();
+}
+
+function onPostCountdown(event)
+{
+	if(event.sprite == null) return;
+	event.sprite.color = isPixel ? 0xFFFFFFFF : 0xFFC9C9C9;
 }
 
 function onPlayerHit(event)
@@ -39,12 +47,19 @@ function onPlayerHit(event)
 	event.numAntialiasing = false;
 }
 
+function onPostNoteHit()
+{
+	comboGroup.forEachAlive(function(spr) {
+		spr.color = isPixel ? 0xFFFFFFFF : 0xFFC9C9C9;
+	});
+}
+
 function switchPixel()
 {
 	isPixel = !isPixel;
 
-	sky.visible = backTrees.visible = school.visible = street.visible = treesFG.visible = treesBG.visible = petals.visible = isPixel;
-	closetFar.visible = clubroom.visible = lightsBG.visible = banner.visible = desksFG.visible = lightsFG.visible = dokis.visible = !isPixel;
+	for(obj in [sky, backTrees, school, street, treesFG, treesBG, petals]) obj.visible = isPixel;
+	for(obj in [closetFar, clubroom, lightsBG, banner, desksFG, lightsFG, dokis]) obj.visible = !isPixel;
 
 	for(character in normalChars) character.visible = !isPixel;
 	for(character in pixelChars) character.visible = isPixel;
@@ -68,6 +83,10 @@ function switchPixel()
 	if(timeTxt != null) timeTxt.font = Paths.font(isPixel ? 'vcr.ttf' : 'Aller_Rg.ttf');
 
 	bloomShader.threshhold = isPixel ? 1 : 0.8;
+
+	gameOverSong = isPixel ? 'gameOver/pixel' : Flags.DEFAULT_GAMEOVER_MUSIC;
+	lossSFX = isPixel ? 'gameOver/start-pixel' : Flags.DEFAULT_GAMEOVERSFX_SOUND;
+	retrySFX = isPixel ? 'gameOver/end-pixel' : Flags.DEFAULT_GAMEOVEREND_SOUND;
 }
 
 function destroy()

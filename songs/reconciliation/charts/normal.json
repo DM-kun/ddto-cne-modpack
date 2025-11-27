@@ -2,6 +2,14 @@
 	"events": [
 		{
 			"params": [
+				2,
+				2
+			],
+			"time": 0,
+			"name": "Set Character Speed"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -9,10 +17,28 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 8727.27272727273
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				8,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 8727.27272727273,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -37,10 +63,36 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 17454.5454545455
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				4,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 17454.5454545455,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				2,
+				1
+			],
+			"time": 17454.5454545455,
+			"name": "Set Character Speed"
 		},
 		{
 			"params": [
@@ -79,10 +131,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 69818.1818181818
+		},
+		{
+			"params": [
+				2,
+				2
+			],
+			"time": 69818.1818181818,
+			"name": "Set Character Speed"
 		},
 		{
 			"params": [
@@ -93,51 +157,145 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 87272.7272727272
 		},
 		{
 			"params": [
+				2,
+				1
+			],
+			"time": 87272.7272727272,
+			"name": "Set Character Speed"
+		},
+		{
+			"params": [
+				0,
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 91636.3636363636,
+			"name": "Center Camera"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 95727.2727272727,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 100363.636363636,
+			"name": "Center Camera"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 104454.545454545
+		},
+		{
+			"params": [
+				0,
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 109090.909090909,
+			"name": "Center Camera"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 91636.3636363636
+			"time": 113181.818181818
 		},
 		{
 			"params": [
-				0
+				0,
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
-			"name": "Camera Movement",
-			"time": 100363.636363636
+			"time": 117818.181818182,
+			"name": "Center Camera"
 		},
 		{
 			"params": [
-				1
+				2,
+				2
 			],
-			"name": "Camera Movement",
-			"time": 109090.909090909
+			"time": 122181.818181818,
+			"name": "Set Character Speed"
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
-			"name": "Camera Movement",
-			"time": 117818.181818182
+			"time": 122181.818181818,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 126545.454545454
+		},
+		{
+			"params": [
+				false,
+				-16777216,
+				20,
+				"camGame"
+			],
+			"time": 128727.272727273,
+			"name": "Camera Fade"
 		}
 	],
 	"codenameChart": true,
 	"stage": "clubroom",
-	"scrollSpeed": 2.5,
 	"chartVersion": "1.6.0",
+	"scrollSpeed": 2.5,
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -817,7 +975,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 136.363636363618,
+					"sLen": 136.363636363589,
 					"time": 70636.3636363636,
 					"type": 0
 				},
@@ -985,7 +1143,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 409.090909090897,
+					"sLen": 409.090909090868,
 					"time": 77454.5454545455,
 					"type": 0
 				},
@@ -1219,7 +1377,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 272.727272727294,
+					"sLen": 272.727272727323,
 					"time": 101454.545454545,
 					"type": 0
 				},
@@ -1237,13 +1395,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 272.727272727265,
+					"sLen": 272.727272727236,
 					"time": 102545.454545455,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 272.727272727294,
+					"sLen": 272.727272727323,
 					"time": 102954.545454545,
 					"type": 0
 				},
@@ -1369,7 +1527,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 409.090909090926,
+					"sLen": 409.09090909097,
 					"time": 108000,
 					"type": 0
 				},
@@ -1620,7 +1778,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 136.36363636364,
+					"sLen": 136.363636363647,
 					"time": 27000,
 					"type": 0
 				},
@@ -1746,7 +1904,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 136.363636363632,
+					"sLen": 136.363636363621,
 					"time": 31090.9090909091,
 					"type": 0
 				},
@@ -1794,7 +1952,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 409.090909090904,
+					"sLen": 409.09090909089,
 					"time": 43636.3636363637,
 					"type": 0
 				},
@@ -2046,7 +2204,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 136.363636363625,
+					"sLen": 136.363636363611,
 					"time": 62181.8181818182,
 					"type": 0
 				},
@@ -2202,7 +2360,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 136.363636363647,
+					"sLen": 136.363636363676,
 					"time": 79636.3636363636,
 					"type": 0
 				},
@@ -2598,7 +2756,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 272.727272727294,
+					"sLen": 272.727272727323,
 					"time": 101454.545454545,
 					"type": 0
 				},
@@ -2616,13 +2774,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 272.727272727265,
+					"sLen": 272.727272727236,
 					"time": 102545.454545455,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 272.727272727294,
+					"sLen": 272.727272727323,
 					"time": 102954.545454545,
 					"type": 0
 				},
@@ -2900,20 +3058,20 @@
 		{
 			"keyCount": 4,
 			"notes": [],
-			"visible": false,
+			"position": "girlfriend",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf-doki"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-doki"
-			]
+			"strumLinePos": 0.25
 		}
 	],
 	"noteTypes": []

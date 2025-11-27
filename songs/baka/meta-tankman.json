@@ -12,6 +12,6 @@
 	"displayName": "Baka (Tankman Mix)",
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
-	"vocalsSuffix": "-tankman",
-	"bpm": 110
+	"bpm": 110,
+	"vocalsSuffix": "-tankman"
 }

@@ -124,6 +124,14 @@
 		},
 		{
 			"params": [
+				"baka",
+				"tank,0,32"
+			],
+			"time": 61090.9090909091,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -159,10 +167,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 78545.4545454545
+		},
+		{
+			"params": [
+				"baka",
+				"normal,1,32"
+			],
+			"time": 78545.4545454545,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -201,10 +221,22 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 95999.9999999999
+		},
+		{
+			"params": [
+				"baka",
+				"tank,1,8"
+			],
+			"time": 95999.9999999999,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -354,14 +386,13 @@
 			"time": 235636.363636363
 		}
 	],
-	"codenameChart": true,
 	"stage": "clubroom",
+	"codenameChart": true,
 	"scrollSpeed": 2.7,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -1079,7 +1110,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 272.727272727243,
+					"sLen": 272.727272727236,
 					"time": 43636.3636363637,
 					"type": 0
 				},
@@ -2728,15 +2759,15 @@
 					"type": 0
 				}
 			],
-			"visible": true,
-			"type": 0,
+			"position": "dad",
 			"characters": [
 				"natsuki"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -3454,7 +3485,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 409.09090909089,
+					"sLen": 409.090909090883,
 					"time": 43636.3636363637,
 					"type": 0
 				},
@@ -5115,29 +5146,30 @@
 					"type": 0
 				}
 			],
-			"visible": true,
-			"type": 1,
+			"position": "boyfriend",
 			"characters": [
 				"tankman-doki"
-			]
+			],
+			"type": 1,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"speakers"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
 	"noteTypes": [

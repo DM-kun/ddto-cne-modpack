@@ -1,0 +1,58 @@
+{
+	"stage": "clubroom",
+	"events": [],
+	"scrollSpeed": 1,
+	"codenameChart": true,
+	"strumLines": [
+		{
+			"notes": [],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "dad",
+			"scrollSpeed": 1,
+			"strumScale": 1,
+			"strumLinePos": 0.25,
+			"type": 0,
+			"characters": [
+				"monika"
+			]
+		},
+		{
+			"notes": [],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "boyfriend",
+			"scrollSpeed": 1,
+			"strumScale": 1,
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"bf-doki"
+			]
+		},
+		{
+			"notes": [],
+			"visible": false,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"scrollSpeed": 1,
+			"strumScale": 1,
+			"strumLinePos": 0.5,
+			"type": 2,
+			"characters": [
+				"gf-doki"
+			]
+		}
+	],
+	"meta": null,
+	"noteTypes": []
+}

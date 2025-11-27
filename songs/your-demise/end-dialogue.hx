@@ -39,6 +39,8 @@ function playCutscene()
 	cutscene.animation.play('idle', true);
 	cutscene.visible = true;
 
+	dialogueBox.visible = false;
+
 	new FlxTimer().start(5, function(_) {
 		extra.color = FlxColor.BLACK;
 		FlxTween.tween(extra, {alpha: 1}, 4, {onComplete: function(_) {
@@ -46,6 +48,7 @@ function playCutscene()
 			cutscene.visible = false;
 			FlxTween.tween(extra, {alpha: 0}, 4, {onComplete: function(_) {
 				canProceed = true;
+				dialogueBox.visible = true;
 				next(true);
 			}});
 		}});

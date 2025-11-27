@@ -269,62 +269,71 @@
 		},
 		{
 			"params": [
-				0
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 75357.1428571429,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 75714.2857142857
 		},
 		{
 			"params": [
+				true,
+				0.75,
+				"camGame",
+				4,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 75714.2857142857,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 85714.2857142858
+			"time": 86428.5714285714
 		},
 		{
 			"params": [
 				0,
+				1,
 				true,
 				4,
 				"CLASSIC",
 				"In"
 			],
-			"time": 98571.4285714286,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 100000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 101428.571428571,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 102857.142857143,
-			"name": "Camera Movement"
+			"time": 98035.7142857143,
+			"name": "Center Camera"
 		}
 	],
-	"stage": "festival-clubroom",
 	"codenameChart": true,
+	"stage": "festival-clubroom",
 	"scrollSpeed": 2.7,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -2038,20 +2047,20 @@
 				},
 				{
 					"id": 2,
-					"sLen": 714.285700000037,
+					"sLen": 714.285700000051,
 					"time": 102857.141,
 					"type": 0
 				}
 			],
-			"position": "dad",
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"natsuki"
-			],
-			"type": 0,
-			"visible": true
+			]
 		},
 		{
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -3789,35 +3798,34 @@
 				},
 				{
 					"id": 1,
-					"sLen": 714.285700000037,
+					"sLen": 714.285700000051,
 					"time": 102857.141,
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf-doki"
-			],
-			"type": 1,
-			"visible": true
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"gf-doki"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
 	"noteTypes": []

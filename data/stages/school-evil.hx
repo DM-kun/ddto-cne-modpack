@@ -51,6 +51,9 @@ function postCreate()
 	redStatic.cameras = [camOther];
 	redStatic.alpha = 0;
 	add(redStatic);
+
+	if(PlayState.SONG.meta.name.toLowerCase() == 'dual-demise')
+		stageEvent('1');
 }
 
 function update(elapsed:Float)
@@ -93,8 +96,9 @@ function stageEvent(param:String)
 					timeBar.updateBar();
 				}
 			}
-			sky.visible = backTrees.visible = school.visible = street.visible = trees.visible = !justMonika;
-			finaleSky.visible = finaleBG.visible = finaleFloor.visible = justMonika;
+
+			for(obj in [sky, backTrees, school, street, trees]) obj.visible = !justMonika;
+			for(obj in [finaleSky, finaleBG, finaleFloor]) obj.visible = justMonika;
 			petals.visible = false;
 	}
 }

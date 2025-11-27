@@ -1,0 +1,3 @@
+stagnant
+markov
+home

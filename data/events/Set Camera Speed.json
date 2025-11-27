@@ -1,0 +1,10 @@
+{
+	"params":
+	[
+		{
+			"name": "New Speed",
+			"type": "Float(0.25, 10, 1, 2)",
+			"defaultValue": 1
+		}
+	]
+}

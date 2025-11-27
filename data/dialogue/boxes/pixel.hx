@@ -1,25 +1,18 @@
-var angryBounce:FlxTween;
 var loopedTimer:FlxTimer;
-var bgFade:FlxSprite;
-var finished:Bool = false;
-var curAnim:String = "";
+var bgImage:FlxSprite;
 
 function postCreate()
 {
-	bgFade = new FlxSprite().makeSolid(FlxG.width + 100, FlxG.height + 100, 0xFFB3DFD8);
-	bgFade.screenCenter();
-	bgFade.scrollFactor.set();
-	bgFade.alpha = 0;
-	cutscene.insert(0, bgFade);
-
-	loopedTimer = new FlxTimer().start(0.4, function(tmr:FlxTimer)
-	{
-		bgFade.alpha += (1 / 5) * 0.7;
-		if(bgFade.alpha > 0.7)
-			bgFade.alpha = 0.7;
-	}, 5);
+	bgImage = new FlxSprite().makeSolid(FlxG.width + 100, FlxG.height + 100, 0xFFB3DFD8);
+	bgImage.screenCenter();
+	bgImage.scrollFactor.set();
+	bgImage.alpha = 0;
+	cutscene.insert(0, bgImage);
 }
 
+var first:Bool = false;
+var angryBounce:FlxTween;
+var curAnim:String = "";
 function playBubbleAnim(event)
 {
 	if(angryBounce != null) angryBounce.cancel();
@@ -46,8 +39,18 @@ function playBubbleAnim(event)
 		cutscene.dialogueBox.scale.set(defaultScale.x - 0.4, defaultScale.y - 0.4);
 		angryBounce = FlxTween.tween(cutscene.dialogueBox.scale, {x: defaultScale.x, y: defaultScale.y}, 0.4, {ease: FlxEase.bounceOut});
 	}
+
+	if(first) return;
+	first = true;
+	loopedTimer = new FlxTimer().start(0.4, function(tmr:FlxTimer)
+	{
+		bgImage.alpha += (1 / 5) * 0.7;
+		if(bgImage.alpha > 0.7)
+			bgImage.alpha = 0.7;
+	}, 5);
 }
 
+var finished:Bool = false;
 function close(event)
 {
 	if(finished) return;
@@ -64,7 +67,7 @@ function close(event)
 		{
 			cutscene.dialogueBox.alpha -= 1 / 5;
 			cutscene.dialogueBox.text.alpha -= 1 / 5;
-			bgFade.alpha -= (1 / 5) * 0.7;
+			bgImage.alpha -= (1 / 5) * 0.7;
 		}
 		else
 		{
