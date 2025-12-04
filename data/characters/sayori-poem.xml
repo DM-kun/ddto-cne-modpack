@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character icon="sayori-poem" color="#FF0000">
+<character y="60" icon="sayori-poem" color="#FF0000">
 	<anim name="idle" anim="SayoPoemIdle" loop="true"/>
 	<anim name="singDOWN" anim="SayoPoemDown" x="-2" y="20"/>
 	<anim name="singRIGHT" anim="SayoPoemRight" x="35"/>

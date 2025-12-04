@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="natsuki" y="175" camx="-100" isPlayer="true" icon="natsuki" color="#FC95D2">
+<character sprite="natsuki" y="175" camx="-100" icon="natsuki" color="#FC95D2">
 	<anim name="idle" anim="Nat Idle"/>
 	<anim name="singLEFT" anim="Nat Sing Note Left" x="-27" y="-21"/>
 	<anim name="singDOWN" anim="Nat Sing Note DOWN" x="38" y="-20"/>

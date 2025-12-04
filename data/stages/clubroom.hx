@@ -31,7 +31,7 @@ function postCreate()
 		bakaDoodles.updateHitbox();
 		bakaDoodles.screenCenter();
 		bakaDoodles.alpha = 0;
-		add(bakaDoodles);
+		insert(0, bakaDoodles);
 	}
 
 	if(PlayState.SONG.meta.name.toLowerCase() == 'deep-breaths')

@@ -1,5 +1,6 @@
 import flixel.addons.display.FlxBackdrop;
 import openfl.display.BlendMode;
+import FramerateTools;
 
 var forever:Bool = false;
 
@@ -20,7 +21,7 @@ function postCreate()
 	space.velocity.set(-7, 0);
 	space.scale.set(0.7, 0.7);
 	space.updateHitbox();
-	insert(members.indexOf(clubroom) - 3, space);
+	insert(0, space);
 
 	clouds = new FlxBackdrop(Paths.image('stages/clubroom-evil/clouds'));
 	clouds.antialiasing = Options.antialiasing;
@@ -28,7 +29,7 @@ function postCreate()
 	clouds.velocity.set(-13, 0);
 	clouds.scale.set(0.7, 0.7);
 	clouds.updateHitbox();
-	insert(members.indexOf(clubroom) - 2, clouds);
+	insert(1, clouds);
 
 	mask = new FlxBackdrop(Paths.image('stages/clubroom-evil/mask'));
 	mask.antialiasing = Options.antialiasing;
@@ -36,7 +37,7 @@ function postCreate()
 	mask.velocity.set(-13, 0);
 	mask.scale.set(0.7, 0.7);
 	mask.updateHitbox();
-	insert(members.indexOf(clubroom) - 1, mask);
+	insert(2, mask);
 
 	scroll = new FlxBackdrop(Paths.image('menus/bg'));
 	scroll.antialiasing = Options.antialiasing;
@@ -51,6 +52,17 @@ function postCreate()
 	popup.antialiasing = Options.antialiasing;
 	popup.visible = false;
 	insert(members.indexOf(dad) + 1, popup);
+}
+
+var floatShit:Float = 0;
+var floatShit2:Float = 0.1;
+function update()
+{
+	floatShit += 0.007 / FramerateTools.timeMultiplier();
+	floatShit2 += 0.007 / FramerateTools.timeMultiplier();
+	mask.alpha += Math.sin(floatShit) / FramerateTools.timeMultiplier() / 5;
+	windowlight.alpha += Math.sin(floatShit2) / FramerateTools.timeMultiplier() / 5;
+	lights.alpha += Math.sin(floatShit2) / FramerateTools.timeMultiplier() / 5;
 }
 
 function together()
