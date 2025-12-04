@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-130" y="84" camx="-140" icon="sayori" color="#95DFFA">
+<character x="-130" y="84" camx="-146" camy="-40" icon="sayori" color="#95DFFA">
 	<anim name="danceLeft" anim="Sayo_Idle_gone" y="-212"/>
 	<anim name="danceRight" anim="Sayo_Idle_gone" y="-212"/>
 	<anim name="danceLeft-alt" anim="Sayo_Idle0" indices="0..14"/>

@@ -1,26 +1,45 @@
 {
-	"meta": {
-		"customValues": {},
-		"color": "#9271FD",
-		"opponentModeAllowed": false,
-		"difficulties": [
-			"normal"
-		],
-		"icon": "yuri-closet",
-		"coopAllowed": false,
-		"stepsPerBeat": 4,
-		"displayName": "Markov",
-		"needsVoices": true,
-		"beatsPerMeasure": 4,
-		"bpm": 146
-	},
 	"events": [
+		{
+			"params": [
+				0,
+				0
+			],
+			"time": 0,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				0,
+				"jumpscare",
+				true,
+				"SING"
+			],
+			"time": 44589.0410958904,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				1
+			],
+			"time": 44589.0410958904,
+			"name": "Change Character"
+		},
 		{
 			"params": [
 				200
 			],
 			"name": "BPM Change",
 			"time": 46027.397260274
+		},
+		{
+			"params": [
+				0,
+				2
+			],
+			"time": 46027.397260274,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -87,10 +106,50 @@
 		},
 		{
 			"params": [
-				0
+				false,
+				-16777216,
+				16,
+				"camGame"
 			],
-			"name": "Camera Movement",
-			"time": 85627.397260274
+			"time": 84427.397260274,
+			"name": "Camera Fade"
+		},
+		{
+			"params": [
+				0,
+				1
+			],
+			"time": 86227.397260274,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 86227.397260274,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				-16777216,
+				0.25,
+				"camGame"
+			],
+			"time": 86827.397260274,
+			"name": "Camera Fade"
+		},
+		{
+			"params": [
+				0,
+				2
+			],
+			"time": 125227.397260274,
+			"name": "Change Character"
 		},
 		{
 			"params": [
@@ -220,6 +279,14 @@
 		},
 		{
 			"params": [
+				0,
+				1
+			],
+			"time": 182527.397260274,
+			"name": "Change Character"
+		},
+		{
+			"params": [
 				false,
 				-16777216,
 				0.25,
@@ -240,17 +307,40 @@
 		},
 		{
 			"params": [
+				true,
+				true,
+				0
+			],
+			"time": 224808.647260274,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				0,
+				"die",
+				true,
+				"LOCK"
+			],
+			"time": 227227.397260274,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
 			"time": 262027.397260274
 		}
 	],
-	"stage": "clubroom",
 	"codenameChart": true,
+	"stage": "clubroom",
+	"chartVersion": "1.6.0",
+	"scrollSpeed": 2.5,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -5452,30 +5542,26 @@
 					"id": 2,
 					"sLen": 1130.13698630137,
 					"time": 227227.397260274,
-					"type": 0
+					"type": 1
 				}
 			],
+			"characters": [
+				"yuri-closet",
+				"yuri-close",
+				"yuri-crazy"
+			],
+			"type": 0,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"yuri-closet",
-				"yuri-close",
-				"yuri-crazy"
-			]
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -5539,7 +5625,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 308.219178082185,
+					"sLen": 308.219178082174,
 					"time": 26301.3698630137,
 					"type": 0
 				},
@@ -10608,42 +10694,49 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf-sad"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
+			"notes": [
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 0,
+					"type": 0
+				}
+			],
 			"position": "girlfriend",
-			"notes": [],
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"gf-doki"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
-	"scrollSpeed": 2.5,
-	"chartVersion": "1.6.0",
 	"noteTypes": [
-		"Alt Anim Note",
+		"No Anim Note",
 		"Markov Note"
 	]
 }

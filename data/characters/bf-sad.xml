@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-10" y="370" flipX="true" isPlayer="true" color="#527291">
+<character x="-10" y="370" camy="-40" flipX="true" isPlayer="true" color="#527291">
 	<anim name="idle" anim="BF idle dance"/>
 	<anim name="singDOWN" anim="BF NOTE DOWN0" y="-24"/>
 	<anim name="singRIGHT" anim="BF NOTE RIGHT0" y="-1"/>

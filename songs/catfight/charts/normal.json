@@ -126,10 +126,36 @@
 		},
 		{
 			"params": [
+				true,
+				0.9,
+				"camGame",
+				32,
+				"sine",
+				"In",
+				"direct",
+				false
+			],
+			"time": 60800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				157
 			],
 			"name": "BPM Change",
 			"time": 62368.6274509804
+		},
+		{
+			"params": [
+				true,
+				3.1,
+				4,
+				"linear",
+				"In",
+				false
+			],
+			"time": 63515.124266267,
+			"name": "Scroll Speed Change"
 		},
 		{
 			"params": [
@@ -267,6 +293,20 @@
 		},
 		{
 			"params": [
+				true,
+				1,
+				"camGame",
+				32,
+				"sine",
+				"In",
+				"direct",
+				false
+			],
+			"time": 108897.289871363,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				167
 			],
 			"name": "BPM Change",
@@ -277,10 +317,31 @@
 				2,
 				"appear",
 				true,
-				"SING"
+				"NONE"
+			],
+			"time": 110369.682509399,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				false,
+				true,
+				2
+			],
+			"time": 110369.682509399,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				true,
+				3.2,
+				4,
+				"linear",
+				"In",
+				false
 			],
 			"time": 111447.526820777,
-			"name": "Play Animation"
+			"name": "Scroll Speed Change"
 		},
 		{
 			"params": [
@@ -309,12 +370,17 @@
 		},
 		{
 			"params": [
-				false,
 				true,
-				2
+				1.6,
+				"camGame",
+				4,
+				"sine",
+				"In",
+				"direct",
+				false
 			],
 			"time": 111806.808257902,
-			"name": "Alt Animation Toggle"
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -337,6 +403,20 @@
 			],
 			"time": 113218.572963785,
 			"name": "Play Animation"
+		},
+		{
+			"params": [
+				true,
+				1.05,
+				"camGame",
+				4,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 113218.572963785,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -430,6 +510,18 @@
 		},
 		{
 			"params": [
+				true,
+				3.25,
+				4,
+				"linear",
+				"In",
+				false
+			],
+			"time": 148159.749434373,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				180
 			],
 			"name": "BPM Change",
@@ -452,6 +544,20 @@
 			],
 			"time": 148512.690610843,
 			"name": "Set Camera Speed"
+		},
+		{
+			"params": [
+				true,
+				1.1,
+				"camGame",
+				4,
+				"sine",
+				"In",
+				"direct",
+				false
+			],
+			"time": 148512.690610843,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -539,6 +645,18 @@
 		},
 		{
 			"params": [
+				true,
+				3.3,
+				4,
+				"linear",
+				"In",
+				false
+			],
+			"time": 157846.023944177,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				190
 			],
 			"name": "BPM Change",
@@ -561,6 +679,20 @@
 			],
 			"time": 159179.35727751,
 			"name": "Set Camera Speed"
+		},
+		{
+			"params": [
+				true,
+				1.15,
+				"camGame",
+				4,
+				"sine",
+				"In",
+				"direct",
+				false
+			],
+			"time": 159179.35727751,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -595,7 +727,23 @@
 		},
 		{
 			"params": [
-				0
+				true,
+				3.35,
+				4,
+				"linear",
+				"In",
+				false
+			],
+			"time": 168968.830961721,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 169284.620435405
@@ -606,6 +754,20 @@
 			],
 			"name": "BPM Change",
 			"time": 169284.620435405
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"sine",
+				"In",
+				"direct",
+				false
+			],
+			"time": 169284.620435405,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -625,15 +787,31 @@
 			],
 			"time": 178884.620435405,
 			"name": "Center Camera"
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				12,
+				"sine",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 178884.620435405,
+			"name": "Camera Zoom"
 		}
 	],
-	"codenameChart": true,
 	"stage": "clubroom",
+	"codenameChart": true,
 	"scrollSpeed": 3,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -1921,7 +2099,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 98.0392156862363,
+					"sLen": 98.039215686229,
 					"time": 61584.3137254902,
 					"type": 0
 				},
@@ -1939,13 +2117,13 @@
 				},
 				{
 					"id": 1,
-					"sLen": 98.0392156862363,
+					"sLen": 98.039215686229,
 					"time": 61976.4705882353,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 98.0392156863018,
+					"sLen": 98.039215686309,
 					"time": 62172.5490196078,
 					"type": 0
 				},
@@ -1981,7 +2159,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 95.5414012738474,
+					"sLen": 95.5414012738402,
 					"time": 63132.9586611715,
 					"type": 0
 				},
@@ -1993,7 +2171,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 95.5414012738474,
+					"sLen": 95.5414012738402,
 					"time": 63515.124266267,
 					"type": 0
 				},
@@ -3481,7 +3659,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 264.705882352879,
+					"sLen": 264.70588235285,
 					"time": 117277.396493196,
 					"type": 0
 				},
@@ -3661,7 +3839,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88.2352941175923,
+					"sLen": 88.2352941175777,
 					"time": 120277.396493196,
 					"type": 0
 				},
@@ -3907,19 +4085,19 @@
 				},
 				{
 					"id": 3,
-					"sLen": 88.2352941175923,
+					"sLen": 88.2352941175777,
 					"time": 128395.04355202,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 88.2352941177087,
+					"sLen": 88.2352941177378,
 					"time": 128571.514140255,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 88.2352941175923,
+					"sLen": 88.2352941175777,
 					"time": 128747.984728491,
 					"type": 0
 				},
@@ -6120,20 +6298,18 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"yuri"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
@@ -8966,7 +9142,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88.2352941175923,
+					"sLen": 88.2352941175777,
 					"time": 120277.396493196,
 					"type": 0
 				},
@@ -11623,23 +11799,25 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
 			"visible": true,
-			"type": 1,
-			"characters": [
-				"natsuki"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"natsuki-player"
+			]
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -11696,20 +11874,18 @@
 					"type": 1
 				}
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": false,
-			"type": 2,
 			"characters": [
 				"sayori-speakers"
 			],
+			"type": 2,
+			"visible": false,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		}
 	],
 	"noteTypes": [

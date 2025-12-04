@@ -69,8 +69,8 @@ function switchPixel()
 	iconP1.setIcon(newPlayer.getIcon());
 	iconP2.setIcon(newOpponent.getIcon());
 
-	var leftColor:Int = newOpponent != null && newOpponent.iconColor != null && Options.colorHealthBar ? newOpponent.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
-	var rightColor:Int = newPlayer != null && newPlayer.iconColor != null && Options.colorHealthBar ? newPlayer.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
+	var leftColor:Int = newOpponent != null && newOpponent.iconColor != null && Options.colorHealthBar ? newOpponent.iconColor : (PlayState.opponentMode ? 0xFF66FF33 : 0xFFFF0000);
+	var rightColor:Int = newPlayer != null && newPlayer.iconColor != null && Options.colorHealthBar ? newPlayer.iconColor : (PlayState.opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 	healthBar.createFilledBar(leftColor, rightColor);
 	healthBar.updateBar();
 

@@ -8,8 +8,6 @@ var wiggleBack:WiggleEffect;
 var wiggleSchool:WiggleEffect;
 var wiggleOther:WiggleEffect;
 
-var bigMonika = null;
-
 function create()
 {
 	finaleSky = new FlxBackdrop(Paths.image('stages/school/evil/finaleSky'));
@@ -31,9 +29,6 @@ function create()
 		street.shader = wiggleOther.shader;
 		trees.shader = wiggleOther.shader;
 	}
-
-	if(PlayState.SONG.meta.name.toLowerCase() == 'your-demise')
-		bigMonika = strumLines.members[0].characters[1];
 }
 
 function postCreate()
@@ -76,29 +71,8 @@ function stageEvent(param:String)
 				FlxTween.tween(redStatic, {alpha: 0}, 0.2);
 			}
 
-			var justMonika:Bool = param == "1";
-			if(PlayState.SONG.meta.name.toLowerCase() == 'your-demise')
-			{
-				dad.visible = !justMonika;
-				bigMonika.visible = justMonika;
-
-				iconP2.setIcon(justMonika ? bigMonika.getIcon() : dad.getIcon());
-
-				var oppChar = justMonika ? bigMonika : dad;
-				var playerColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
-				var opponentColor:Int = oppChar != null && oppChar.iconColor != null && Options.colorHealthBar ? oppChar.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
-				healthBar.createFilledBar(opponentColor, playerColor);
-				healthBar.updateBar();
-
-				if(timeBar != null)
-				{
-					timeBar.createGradientBar([FlxColor.TRANSPARENT], [playerColor, opponentColor]);
-					timeBar.updateBar();
-				}
-			}
-
-			for(obj in [sky, backTrees, school, street, trees]) obj.visible = !justMonika;
-			for(obj in [finaleSky, finaleBG, finaleFloor]) obj.visible = justMonika;
+			for(obj in [sky, backTrees, school, street, trees]) obj.visible = (param != "1");
+			for(obj in [finaleSky, finaleBG, finaleFloor]) obj.visible = (param == "1");
 			petals.visible = false;
 	}
 }

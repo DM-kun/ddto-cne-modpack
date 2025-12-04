@@ -35,7 +35,7 @@
 		<anim name="idle" anim="idle" fps="24" loop="true"/>
 	</sprite>
 
-	<sprite name="banner" x="-700" y="-520" sprite="festival/banner" scale="1.6" scrolly="0.9" updateHitbox="true"/>
+	<sprite name="banner" x="-700" y="-520" sprite="festival/banner" scale="1.6" scrollx="1.1" scrolly="0.9" updateHitbox="true"/>
 
 	<solid name="tmp" x="-5000" y="-5000" width="1" height="1" color="#000000" antialiasing="false" updateHitbox="true"/>
 

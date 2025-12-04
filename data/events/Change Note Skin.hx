@@ -1,26 +1,60 @@
 import funkin.backend.system.Flags;
+import flixel.util.FlxSort;
 
-private var daPixelZoom:Float = PlayState.daPixelZoom;
+private var skinEvents = [];
 
-// Made by Demi-kun (yes, I am crediting myself here, since this took me a while to finalize)
+// Made by Demi-kun
+// Please credit if used since this took me a while to finalize!
+
+function postCreate()
+{
+	for(event in events)
+	{
+		if(event.name != 'Change Note Skin') continue;
+		skinEvents.push(event);
+	}
+
+	skinEvents.sort(function(p1, p2) {
+		return FlxSort.byValues(-1, p1.time, p2.time);
+	});
+
+	for(event in skinEvents)
+	{
+		var strumID:Int = event.params[2];
+		var skin:String = event.params[3];
+		if(skin == null || skin == '') skin = 'default';
+
+		var endTime:Float = -1;
+		for(nextEvent in skinEvents)
+		{
+			if(nextEvent.time <= event.time || nextEvent.params[2] != strumID) continue;
+			endTime = nextEvent.time;
+			break;
+		}
+
+		if(event.params[4])
+		{
+			if(event.time <= 10 && event.params[0]) changePixelStrumSkin(strumID, skin);
+			if(event.params[1]) changePixelNoteSkin(strumID, skin, event.time, endTime);
+		}
+		else
+		{
+			if(event.time <= 10 && event.params[0]) changeStrumSkin(strumID, skin);
+			if(event.params[1]) changeNoteSkin(strumID, skin, event.time, endTime);
+		}
+	}
+}
 
 function onEvent(event)
 {
 	if(event.event.name.toLowerCase() != 'change note skin') return;
+	if(!event.event.params[0]) return;
 
 	var skin:String = event.event.params[3];
 	if(skin == null || skin == '') skin = 'default';
 
-	if(event.event.params[4])
-	{
-		if(event.event.params[0]) changePixelStrumSkin(event.event.params[2], skin);
-		if(event.event.params[1]) changePixelNoteSkin(event.event.params[2], skin);
-	}
-	else
-	{
-		if(event.event.params[0]) changeStrumSkin(event.event.params[2], skin);
-		if(event.event.params[1]) changeNoteSkin(event.event.params[2], skin);
-	}
+	if(event.event.params[4]) changePixelStrumSkin(event.event.params[2], skin);
+	else changeStrumSkin(event.event.params[2], skin);
 }
 
 function changeStrumSkin(strumID:Int, skin:String)
@@ -65,7 +99,7 @@ function changePixelStrumSkin(strumID:Int, skin:String)
 		strum.animation.add('confirm', [(maxCol * 3) + strumID, (maxCol * 4) + strumID], 12, false);
 
 		strum.antialiasing = false;
-		strum.scale.set(daPixelZoom * strum.strumLine.strumScale, daPixelZoom * strum.strumLine.strumScale);
+		strum.scale.set(PlayState.daPixelZoom * strum.strumLine.strumScale, PlayState.daPixelZoom * strum.strumLine.strumScale);
 		strum.updateHitbox();
 
 		strum.playAnim(prevAnim);
@@ -73,41 +107,34 @@ function changePixelStrumSkin(strumID:Int, skin:String)
 	}
 }
 
-function changeNoteSkin(strumID:Int, skin:String)
+function changeNoteSkin(strumID:Int, skin:String, startTime:Float, endTime:Float)
 {
 	for(note in strumLines.members[strumID].notes)
 	{
+		if(note.strumTime < startTime) continue;
+		if(endTime != -1 && note.strumTime > endTime) continue;
+
 		final prevAnim:String = (note.animation.name != null ? note.animation.name : 'scroll');
 		final newSkin:String = switch(note.noteType)
 		{
 			case 'Pixel Note' | 'Alt Anim Note' | 'No Anim Note' | '' | null: skin;
 			case 'Markov No Anim Note': 'Markov Note';
-			default: (Assets.exists(Paths.image('game/pixelUI/notes/' + note.noteType)) ? note.noteType : null);
+			default: (Assets.exists(Paths.image('game/notes/' + note.noteType)) ? note.noteType : null);
 		};
 		if(newSkin == null) continue;
 
 		note.frames = Paths.getFrames('game/notes/' + newSkin);
 
-		switch(note.strumID % 4)
+		for(i => col in ['purple', 'blue', 'green', 'red'])
 		{
-			case 0:
-				note.animation.addByPrefix('scroll', 'purple0');
-				note.animation.addByPrefix('hold', 'purple hold piece');
+			if(i != note.strumID % 4) continue;
+
+			note.animation.addByPrefix('scroll', col + '0');
+			note.animation.addByPrefix('hold', col + ' hold piece');
+			note.animation.addByPrefix('holdend', col + ' hold end');
+
+			if(col == 'purple' && note.animation.exists('holdend') != true)
 				note.animation.addByPrefix('holdend', 'pruple end hold');
-				if(note.animation.exists('holdend') != true) // null or false
-					note.animation.addByPrefix('holdend', 'purple hold end');
-			case 1:
-				note.animation.addByPrefix('scroll', 'blue0');
-				note.animation.addByPrefix('hold', 'blue hold piece');
-				note.animation.addByPrefix('holdend', 'blue hold end');
-			case 2:
-				note.animation.addByPrefix('scroll', 'green0');
-				note.animation.addByPrefix('hold', 'green hold piece');
-				note.animation.addByPrefix('holdend', 'green hold end');
-			case 3:
-				note.animation.addByPrefix('scroll', 'red0');
-				note.animation.addByPrefix('hold', 'red hold piece');
-				note.animation.addByPrefix('holdend', 'red hold end');
 		}
 
 		var noteScale:Float = note.strumLine.strumScale * Flags.DEFAULT_NOTE_SCALE;
@@ -123,10 +150,13 @@ function changeNoteSkin(strumID:Int, skin:String)
 	}
 }
 
-function changePixelNoteSkin(strumID:Int, skin:String)
+function changePixelNoteSkin(strumID:Int, skin:String, startTime:Float, endTime:Float)
 {
 	for(note in strumLines.members[strumID].notes)
 	{
+		if(note.strumTime < startTime) continue;
+		if(endTime != -1 && note.strumTime > endTime) continue;
+
 		final prevAnim:String = (note.animation.name != null ? note.animation.name : 'scroll');
 		final newSkin:String = switch(note.noteType)
 		{
@@ -150,7 +180,7 @@ function changePixelNoteSkin(strumID:Int, skin:String)
 			note.animation.add('scroll', [maxCol + note.strumID % maxCol]);
 		}
 
-		var noteScale:Float = daPixelZoom * note.strumLine.strumScale;
+		var noteScale:Float = PlayState.daPixelZoom * note.strumLine.strumScale;
 		note.scale.set(noteScale, noteScale);
 		note.antialiasing = false;
 		note.updateHitbox();

@@ -1,36 +1,17 @@
-function onNoteHit(e)
+// using this over v-slice sustains due to some character anims in this mod
+function onPostNoteHit(e)
 {
-	if(e.note.isSustainNote)
+	if(e.animCancelled) return;
+
+	var paused:Bool = (e.note.nextNote != null && e.note.nextNote.isSustainNote);
+
+	for(character in e.characters)
 	{
-		e.preventAnim();
+		if(character == null) continue;
 
-		for(i in 0...e.characters.length)
-		{
-			e.characters[i].lastAnimContext = 'LOCK';
-			if(e.note.nextNote == null || !e.note.nextNote.isSustainNote)
-			{
-				e.characters[i].lastHit = Conductor.songPosition + 30;
-				e.characters[i].lastAnimContext = 'SING';
-			}
-		}
+		if(character.animateAtlas == null) character.animation.curAnim.paused = paused;
+		else character.animateAtlas.anim.isPlaying = paused;
 	}
-}
 
-function onPlayerMiss(e)
-{
-	if(e.note?.isSustainNote)
-	{
-		for(i in 0...e.characters.length)
-		{
-			e.characters[i].lastAnimContext = 'LOCK';
-			if(e.note.nextNote == null || !e.note.nextNote.isSustainNote)
-				e.characters[i].lastAnimContext = 'MISS';
-		}
-
-		e.preventAnim();
-		e.preventVocalsUnmute();
-		e.preventMissSound();
-
-		e.healthGain = e.misses = e.score = e.accuracy = 0;
-	}
+	e.note.strumLine.members[e.note.strumID].animation.curAnim.paused = paused;
 }

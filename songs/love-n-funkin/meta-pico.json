@@ -9,7 +9,7 @@
 	"icon": "pico",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
-	"displayName": "Love n Funkin (Pico Mix)",
+	"displayName": "Love n' Funkin' (Pico Mix)",
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
 	"vocalsSuffix": "-pico",

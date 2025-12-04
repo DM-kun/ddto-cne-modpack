@@ -13,11 +13,16 @@ function postCreate()
 	{
 		board.loadGraphic(Paths.image('stages/musicroom/board-lnf'));
 
-		for(character in strumLines.members[0].characters)
-		{
-			character.x += 380;
-			character.y -= 40;
-		}
+		dad.x += 400;
+		dad.y -= 40;
+
+		strumLines.members[3].characters[0].x += 240;
+		strumLines.members[3].characters[0].y -= 20;
+
+		// strumLines.members[4].characters[0].x += 100;
+
+		strumLines.members[5].characters[0].x -= 120;
+		strumLines.members[5].characters[0].y += 20;
 
 		// var poemSprite:String = (PlayState.variation != null ? PlayState.variation : '') + 'handoatlas';
 		// poemVideo = new FlxAnimate(0, 0, Paths.getPath('images/stages/musicroom/notepad/' + poemSprite));

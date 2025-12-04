@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "Time (Steps)",
-			"type": "Float(0.25, 9999, 1, 2)",
+			"type": "Float(0.01, 9999, 1, 2)",
 			"defaultValue": 4
 		},
 		{

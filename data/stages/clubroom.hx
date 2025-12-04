@@ -15,7 +15,6 @@ var bakaDoodles:FlxSprite;
 function postCreate()
 {
 	lights.blend = BlendMode.SCREEN;
-	darkness.alpha = 0;
 
 	if(PlayState.SONG.meta.name.toLowerCase() == 'baka' || PlayState.SONG.meta.name.toLowerCase() == 'hot-air-balloon' || PlayState.SONG.meta.name.toLowerCase() == 'home')
 	{
