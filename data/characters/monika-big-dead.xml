@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character>
+<character x="213" y="-235" scale="0.9" camx="-250" camy="120" icon="monika-big" color="#8CD465">
+	<anim name="firstDeath" anim="Big Monika Retry Start"/>
+	<anim name="deathLoop" anim="Big Monika Retry Loop" y="-36"/>
+	<anim name="deathConfirm" anim="Big Monika Retry End" x="111" y="-32"/>
+	<anim name="crash" anim="Big Monika ZAMN SCARY" x="484" y="140"/>
+</character>

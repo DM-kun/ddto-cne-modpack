@@ -8,6 +8,7 @@ var sparkleBG:FlxBackdrop;
 var sparkleFG:FlxBackdrop;
 var overlay:FlxSprite;
 var crazyYuri = null;
+var obsessed:Bool = false;
 
 var curBaka:String = 'normal';
 var bakaDoodles:FlxSprite;
@@ -92,10 +93,13 @@ function postCreate()
 	}
 
 	if(PlayState.SONG.meta.name.toLowerCase() == 'obsession')
-	{
 		crazyYuri = strumLines.members[0].characters[1];
-		crazyYuri.visible = false;
-	}
+}
+
+function onPlayerMiss(event)
+{
+	if(!obsessed) return;
+	event.gfSad = false;
 }
 
 function sayonara(happy:String)
@@ -163,13 +167,8 @@ function obsession(yuri:String)
 		}
 		else
 		{
-			if(crazyYuri != null)
-			{
-				dad.visible = false;
-				crazyYuri.visible = true;
-				boyfriend.x = crazyYuri.x + 250;
-			}
-			else boyfriend.x = dad.x + 250;
+			obsessed = true;
+			boyfriend.x = (crazyYuri != null ? crazyYuri.x : dad.x) + 250;
 			desksFG.visible = false;
 			darkness.alpha = 0.8;
 			vignette.alpha = 0.6;

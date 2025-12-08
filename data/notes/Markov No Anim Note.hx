@@ -12,6 +12,8 @@ function onPlayerHit(event)
 	event.preventAnim();
 	if(PlayState.opponentMode) return;
 	event.cancel();
+	if(event.note.strumLine != null && event.note != null)
+		event.note.strumLine.deleteNote(event.note);
 	health -= 100;
 	gameOver();
 }
@@ -26,4 +28,6 @@ function onPlayerMiss(event)
 {
 	if(event.noteType != 'Markov No Anim Note' || PlayState.opponentMode) return;
 	event.cancel();
+	if(event.note.strumLine != null && event.note != null)
+		event.note.strumLine.deleteNote(event.note);
 }

@@ -332,15 +332,13 @@
 			"time": 262027.397260274
 		}
 	],
-	"codenameChart": true,
 	"stage": "clubroom",
+	"codenameChart": true,
 	"chartVersion": "1.6.0",
 	"scrollSpeed": 2.5,
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -5545,23 +5543,27 @@
 					"type": 1
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"yuri-closet",
 				"yuri-close",
 				"yuri-crazy"
 			],
-			"type": 0,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -10694,45 +10696,36 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"bf-sad"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"notes": [
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 0,
-					"type": 0
-				}
-			],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"gf-doki"
 			],
+			"type": 2,
+			"visible": false,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		}
 	],
 	"noteTypes": [

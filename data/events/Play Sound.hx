@@ -1,3 +1,12 @@
+function postCreate()
+{
+	for(event in events)
+	{
+		if(event.name != 'Play Sound') continue;
+		FlxG.sound.load(Paths.sound(event.params[0]));
+	}
+}
+
 function onEvent(event)
 {
 	if(event.event.name.toLowerCase() != 'play sound') return;

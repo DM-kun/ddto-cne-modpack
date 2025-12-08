@@ -138,7 +138,15 @@
 				0
 			],
 			"name": "Camera Movement",
-			"time": 98181.8181818181
+			"time": 99272.7272727273
+		},
+		{
+			"params": [
+				"oneMore",
+				""
+			],
+			"time": 99545.4545454546,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1094,7 +1102,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 545.454545454537,
+					"sLen": 545.454545454515,
 					"time": 62181.8181818182,
 					"type": 0
 				},
@@ -2012,7 +2020,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 409.090909090926,
+					"sLen": 409.09090909097,
 					"time": 108000,
 					"type": 0
 				},
@@ -2635,20 +2643,20 @@
 					"type": 0
 				}
 			],
-			"visible": true,
+			"position": "dad",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
+			"characters": [
+				"protag"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"protag"
-			]
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
@@ -2806,7 +2814,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 272.727272727274,
+					"sLen": 272.727272727278,
 					"time": 13500,
 					"type": 0
 				},
@@ -5184,20 +5192,20 @@
 		{
 			"keyCount": 4,
 			"notes": [],
-			"visible": false,
+			"position": "girlfriend",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf-doki"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-doki"
-			]
+			"strumLinePos": 0.25
 		}
 	],
 	"noteTypes": []

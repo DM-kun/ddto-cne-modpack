@@ -1,6 +1,5 @@
 <!DOCTYPE codename-engine-character>
 <character y="350" flipX="true" camx="110" camy="40" isPlayer="true" icon="bf" color="#30B0D1">
-	<anim name="idle" anim="BF idle dance"/>
 	<anim name="firstDeath" anim="DokiGameOverIntro" x="-45" y="130"/>
 	<anim name="deathLoop" anim="DokiGameOverLoop" x="-45" y="130"/>
 	<anim name="deathConfirm" anim="DokiGameOverConfirm" x="-49" y="132"/>

@@ -48,6 +48,20 @@ function postCreate()
 	timeTxt.screenCenter(FlxAxes.X);
 	timeTxt.alpha = 0;
 	insert(members.indexOf(timeBar) + 1, timeTxt);
+
+	comboGroup.setPosition(FlxG.width * 0.75, FlxG.height * 0.75);
+	comboGroup.cameras = [camHUD];
+	for(spr in comboGroup.group.members)
+	{
+		if(spr == null) continue;
+		spr.cameras = [camHUD];
+	}
+}
+
+function onPostCountdown(event)
+{
+	if(event.sprite == null) return;
+	event.sprite.cameras = [camHUD];
 }
 
 function onSongStart()
@@ -59,6 +73,16 @@ function postUpdate()
 {
 	timeBar.value = FlxMath.roundDecimal(FlxMath.bound(Conductor.songPosition / 1000, 0, songLength), 3);
 	timeTxt.text = displayName + ' - ' + FlxStringUtil.formatTime(Conductor.songPosition / 1000) + ' / ' + FlxStringUtil.formatTime(songLength) + '';
+}
+
+function onPostNoteHit()
+{
+	comboGroup.cameras = [camHUD];
+	for(spr in comboGroup.group.members)
+	{
+		if(spr == null) continue;
+		spr.cameras = [camHUD];
+	}
 }
 
 public function tweenTimeBar(to:Float, duration:Float)

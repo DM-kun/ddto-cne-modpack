@@ -29,12 +29,6 @@ function postCreate()
 	switchPixel();
 }
 
-function onPostCountdown(event)
-{
-	if(event.sprite == null) return;
-	event.sprite.color = isPixel ? 0xFFFFFFFF : 0xFFC9C9C9;
-}
-
 function onPlayerHit(event)
 {
 	if(!isPixel) return;
@@ -45,13 +39,6 @@ function onPlayerHit(event)
 
 	event.numScale = daPixelZoom * 0.7;
 	event.numAntialiasing = false;
-}
-
-function onPostNoteHit()
-{
-	comboGroup.forEachAlive(function(spr) {
-		spr.color = isPixel ? 0xFFFFFFFF : 0xFFC9C9C9;
-	});
 }
 
 function switchPixel()
